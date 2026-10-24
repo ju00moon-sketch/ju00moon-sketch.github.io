@@ -5,11 +5,11 @@ const motionImages = [...document.querySelectorAll('[data-animation]')];
 let mode = 'paused';
 let generation = 0;
 
-function pauseMotion(message = '정지 화면입니다. 재생하면 각자 원래 주기로 움직입니다.') {
+function pauseMotion(message = '정지 화면입니다. 재생하면 각 자료의 본래 시간대로 움직입니다.') {
   generation += 1;
   mode = 'paused';
   motionImages.forEach(image => { image.src = image.dataset.still; });
-  motionButton.textContent = '걷기 재생';
+  motionButton.textContent = '비교 재생';
   motionButton.setAttribute('aria-pressed', 'false');
   motionPair.setAttribute('aria-busy', 'false');
   motionState.textContent = message;
@@ -35,7 +35,7 @@ async function playMotion() {
   mode = 'playing';
   motionButton.textContent = '재생 정지';
   motionPair.setAttribute('aria-busy', 'false');
-  motionState.textContent = '각자 원래 주기로 재생 중입니다. 도트 1.6초 · 기존 3D 약 1.033초, AnimGen 미적용.';
+  motionState.textContent = '본래 시간대로 반복 재생 중입니다. 재연결 검수 5.5초 · 도트 1.6초 · 기존 3D 약 1.033초. 새 기록은 오류 분석 중이며 완성된 걷기 루프가 아닙니다.';
 }
 
 motionButton.addEventListener('click', () => {

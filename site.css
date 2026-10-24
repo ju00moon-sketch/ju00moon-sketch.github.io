@@ -41,10 +41,10 @@ p { margin: 0 0 16px; }
 .notice { color: var(--accent); }
 .playback-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 20px; margin: 24px 0; }
 .playback-controls p { flex: 1 1 280px; margin: 0; color: var(--muted); }
-.comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start; }
+.comparison { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: start; }
 figure { min-width: 0; margin: 0; }
 .candidate { padding: 20px 16px 12px; border: 1px solid var(--border); background: var(--surface); }
-.candidate figcaption { min-height: 74px; }
+.candidate figcaption { min-height: 104px; }
 .candidate figcaption p { color: var(--muted); font-size: 14px; }
 .preview { min-height: 180px; display: flex; justify-content: center; }
 .preview img { display: block; width: 352px; max-width: 100%; height: auto; align-self: flex-start; }
