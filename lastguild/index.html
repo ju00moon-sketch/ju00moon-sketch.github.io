@@ -8,8 +8,8 @@
 <meta name="description" content="최후의 길드의 실제 게임 화면, 릴리 아트 비교, 역할별 개발 현황을 확인합니다.">
 <meta name="theme-color" content="#131820">
 <link rel="icon" href="data:,">
-<link rel="stylesheet" href="../site.css?v=20261025-r04">
-<script src="../site.js?v=20261025-r04" defer></script>
+<link rel="stylesheet" href="../site.css?v=20261025-r05">
+<script src="../site.js?v=20261025-r05" defer></script>
 <title>최후의 길드 | 작업현황</title>
 </head>
 <body id="top">
@@ -23,6 +23,7 @@
 <a href="#art">아트 비교</a>
 <a href="#animgen">AnimGen 실제 결과</a>
 <a href="#lily-ratio">원화 비율 릴리</a>
+<a href="#cast">영웅 SD 후보</a>
 <a href="#game">실제 게임 화면</a>
 <a href="#progress">역할별 현황</a>
 <a href="#remaining">남은 작업</a>
@@ -76,7 +77,7 @@
 <section id="lily-ratio" aria-labelledby="lily-ratio-title">
 <div class="section-heading">
 <h2 id="lily-ratio-title">릴리 원화 비율 3D 후보</h2>
-<p class="notice">별도 비SD 후보 1개 · 실제 모델 촬영 · 리깅·동작 검증 전</p>
+<p class="notice">별도 비SD 후보 1개 · 실제 모델 촬영 · 스킨 계산 확인, 반출·동작 미완료</p>
 </div>
 <p>승인 원화의 은발·파란 눈·갑옷·검·방패를 기준으로 Meshy에서 생성한 모델입니다. 2,110,258삼각형 원본과 기본색 8K·금속/거칠기 4K·노멀 4K 이미지를 줄이지 않고 불러와 촬영했습니다. 아래는 정지 외형 비교이며 게임 전환이나 최종 채택이 아닙니다.</p>
 <div class="game-shots model-shots">
@@ -111,8 +112,114 @@
 <details class="review-notes">
 <summary>비교 조건과 아직 확인하지 않은 것</summary>
 <p>24° 카메라와 220.5px 표시 키는 시험 조건입니다. 기존 SD는 몸 메시의 걷기 중앙값, 새 후보는 무기를 포함한 정지 메시 전체를 기준으로 맞췄으므로 자세·맞춤 정의가 완전히 같지는 않습니다. 생성 원본과 재질도 달라 체형만 바꾼 통제 비교가 아니며, 물리적 키나 게임 스프라이트 해상도를 확정한 것이 아닙니다.</p>
-<p>새 후보에는 아직 리그와 동작이 없습니다. 대기·걷기·전환·손과 장비·바닥·전 프레임 변형, 모바일 성능은 미검증이며 기존 SD·도트 본편·저장은 유지합니다. 원본 3D 파일과 내부 자료는 공개하지 않습니다.</p>
+<p>생성 원본에는 리그와 동작이 없습니다. 별도 사본의 자동 가중치 계산과 원본 대응은 확인했지만, cm 단위 반출 때 노멀 보존 검사에 걸려 FBX를 완료 처리하지 않았습니다. 대기·걷기·전환·손과 장비·바닥·전 프레임 변형, 모바일 성능은 미검증이며 기존 SD·도트 본편·저장은 유지합니다. 원본 3D 파일과 내부 자료는 공개하지 않습니다.</p>
 </details>
+</section>
+<section id="cast" aria-labelledby="cast-title">
+<div class="section-heading">
+<h2 id="cast-title">다른 영웅들의 SD 3D 후보</h2>
+<p class="notice">16명 외형 후보 · 원본 GLB 보존 · 뼈대와 동작 없음</p>
+</div>
+<p>실제로 생성한 3D 모델의 사진입니다. 앞선 13명은 뷰어 화면의 모델 부분만 잘랐고, 루네아·아델라·베르카는 MCP 생성 결과의 제공자 렌더입니다. 입력 그림을 완성 모델처럼 붙인 자료가 아닙니다. 사진을 누르면 크게 볼 수 있습니다.</p>
+<div class="game-shots cast-shots">
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-freya-r01.png" aria-label="프레야 3D 후보 크게 보기"><img src="../media/20261025/cast-freya-r01.png" width="609" height="626" alt="금발과 붉은 눈, 검정 갑주와 주황 천, 대형 외날 도끼를 갖춘 프레야의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>프레야</h3><p>도끼 자루와 손·몸의 붙음 여부를 추가 확인해야 합니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-elisis-r01.png" aria-label="엘리시스 3D 생성 원본 크게 보기"><img src="../media/20261025/cast-elisis-r01.png" width="572" height="637" alt="붉은 포니테일과 검정 갑주, 긴 창을 든 엘리시스 생성 원본. 눈색은 보완 대상입니다." loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>엘리시스</h3><p>사진은 생성 원본입니다. 원화와 다른 보라 홍채를 별도 사본에서 보완했으며 실제 모델 촬영 확인 전입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-violet-r01.png" aria-label="바이올렛 3D 후보 크게 보기"><img src="../media/20261025/cast-violet-r01.png" width="590" height="632" alt="긴 검보라 머리와 라벤더색 드레스, 보라 구슬 지팡이를 든 바이올렛의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>바이올렛</h3><p>머리 위 어두운 띠와 꽃 장식의 형태를 확인 중입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-seriel-r01.png" aria-label="세리엘 3D 후보 크게 보기"><img src="../media/20261025/cast-seriel-r01.png" width="442" height="651" alt="금발과 초록 눈, 흰 의상과 모자, 성서와 지팡이를 갖춘 세리엘의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>세리엘</h3><p>성서와 지팡이를 유지한 앞모습입니다. 뒤와 관절 변형은 미검증입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-rose-r01.png" aria-label="로즈 3D 후보 크게 보기"><img src="../media/20261025/cast-rose-r01.png" width="539" height="645" alt="단발머리와 보라 망토, 검정 의상, 곡선 단검 한 자루를 든 로즈의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>로즈</h3><p>단검 한 자루와 망토를 확인한 앞모습입니다. 조명 아래 색 차이를 구분해 보고 있습니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-ember-r01.png" aria-label="엠버 3D 후보 크게 보기"><img src="../media/20261025/cast-ember-r01.png" width="505" height="655" alt="고글과 주황 계열 단발, 갈색 의상과 작은 병, 플라스크를 든 엠버의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>엠버</h3><p>허리·가슴의 텍스처 경계와 머리색의 광원 차이를 확인 중입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-eileen-r01.png" aria-label="에일린 3D 후보 크게 보기"><img src="../media/20261025/cast-eileen-r01.png" width="551" height="652" alt="진주빛 은발과 금색 장식 의상, 모래시계 지팡이를 든 에일린의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>에일린</h3><p>시곗바늘 머리핀의 형태 손실과 지팡이·옷자락의 겹침을 확인 중입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-rena-r01.png" aria-label="레나 3D 후보 크게 보기"><img src="../media/20261025/cast-rena-r01.png" width="519" height="662" alt="갈색 포니테일과 초록 리본·망토, 장궁을 든 레나의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>레나</h3><p>앞머리의 얼굴 가림과 활 아래 끝·부츠의 접촉을 확인 중입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-chloe-r01.png" aria-label="클로에 3D 후보 크게 보기"><img src="../media/20261025/cast-chloe-r01.png" width="546" height="655" alt="분홍 포니테일과 차콜 재킷, 목재 개머리판 장총을 든 클로에의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>클로에</h3><p>장총과 허리·허벅지가 붙어 있는지 추가 확인해야 합니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-kaya-r01.png" aria-label="카야 3D 후보 크게 보기"><img src="../media/20261025/cast-kaya-r01.png" width="448" height="667" alt="포니테일과 초록 눈, 검정 반바지, 양손 붕대와 너클 보호구를 갖춘 카야의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>카야</h3><p>붕대와 너클 보호구를 확인한 앞모습입니다. 주먹·턱의 겹침은 미확인입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-saphira-r01.png" aria-label="사피라 3D 후보 크게 보기"><img src="../media/20261025/cast-saphira-r01.png" width="606" height="643" alt="긴 남색 머리와 청록 의상, 양손에 차크람 두 개를 든 사피라의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>사피라</h3><p>차크람 두 개의 고리를 확인했습니다. 머리카락과 장비의 실제 분리는 미확인입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-aris-r01.png" aria-label="아리스 3D 후보 크게 보기"><img src="../media/20261025/cast-aris-r01.png" width="436" height="639" alt="은보라 단발과 남색 의상, 펼친 마도서 한 권을 든 아리스의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>아리스</h3><p>왼눈과 목선 경계, 책 모서리·허리의 접촉을 확인 중입니다. 백랑 제작은 포함하지 않았습니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-dahlia-r01.png" aria-label="달리아 3D 후보 크게 보기"><img src="../media/20261025/cast-dahlia-r01.png" width="490" height="662" alt="검정 단발과 붉은 눈, 긴 검정 의상과 큰 낫을 든 달리아의 실제 3D 후보" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>달리아</h3><p>앞머리의 붉은 포인트와 몸 뒤를 지나는 낫 자루의 연속성을 확인 중입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-runea-r01.png" aria-label="루네아 3D 후보 크게 보기"><img src="../media/20261025/cast-runea-r01.png" width="512" height="512" alt="긴 분홍 머리와 별 장식, 남색 별무늬 드레스와 대형 활을 갖춘 루네아의 실제 3D 생성 결과" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>루네아</h3><p>최신 사용자 참조를 적용한 후보입니다. 활·머리카락·옷의 겹침과 얼굴 아래 밝은 표현을 확인 중입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-adela-r01.png" aria-label="아델라 3D 후보 크게 보기"><img src="../media/20261025/cast-adela-r01.png" width="512" height="512" alt="짙은 청록 머리와 금빛 눈, 뿔과 검정 갑주, 넓은 대검을 갖춘 아델라의 실제 3D 생성 결과" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>아델라</h3><p>칼날을 짚는 손의 접촉과 검 중앙의 청록 표현을 실제 기본색·광원에서 구분해 볼 예정입니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/cast-berka-r01.png" aria-label="베르카 외형 후보 크게 보기"><img src="../media/20261025/cast-berka-r01.png" width="512" height="512" alt="회금색 단발과 삼각 머리핀, 자주색 상의와 검정 갑주, 큰 망치를 갖춘 베르카의 실제 3D 생성 결과" loading="lazy"></a>
+<p class="image-loading" hidden>사진 불러오는 중…</p>
+<p class="image-error" hidden>사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>베르카 · 외형만</h3><p>망치와 부츠 사이 틈을 둔 후보입니다. 균열색 표현은 검수 중이며 게임 편입·스킬·성능은 미확정입니다.</p></figcaption>
+</figure>
+</div>
+<p class="caption">모델별 사진의 카메라·광원·화면 크기는 같지 않습니다. 생성 원본의 기본색은 8K, 금속/거칠기와 노멀은 각각 4K이며 원본 모델을 줄이지 않았습니다. 정지 외형 확보와 전 방향·변형·애니메이션 검수, 본 전장 반입은 별개입니다.</p>
 </section>
 <section id="game" aria-labelledby="game-title">
 <div class="section-heading"><h2 id="game-title">실제 Godot 게임 화면</h2><p class="notice">2026.10.22 실행본 · 전장과 배경은 기능 검증용 표현입니다.</p></div>
@@ -149,7 +256,7 @@
 <div><dt>UI 전담</dt><dd>초상·HP·스킬·미니맵·각성/효과·영토 패널과 가로/세로 표시를 구현했습니다. 기능 UI와 최종 도트 아트·모바일 실기기 품질은 구분합니다.</dd></div>
 <div><dt>게임디자인·UX</dt><dd>전투와 치료·자원·성장·보스·영토 정책을 대조했습니다. 시험 수치를 최종 균형으로 확정하지 않으며 체인·큰 연출 등의 후속 경계를 유지합니다.</dd></div>
 <div><dt>레벨디자인</dt><dd>연결된 1~10층, 5층 공격 예고·10층 장치, 영토·외곽 자료를 구성했습니다. 실제 10층 연속 진행을 확인했고 최종 배경·재미·균형 검증은 남아 있습니다.</dd></div>
-<div><dt>아트</dt><dd>릴리 도트·기존 3D·실제 AnimGen 기록을 보존하고, 좌표 수정본을 다시 촬영했습니다. 원화 비율 비SD 후보는 실제 정지 촬영 24장과 비교판 2장을 만들었습니다. 다른 13명의 SD 후보 원본도 내려받아 복사 지문과 형상·텍스처 수치를 대조했습니다. 뒷면·리깅·정체성 검수와 남은 세 입력 정리는 진행 중이며 최종 채택·본편 반입은 별도입니다.</dd></div>
+<div><dt>아트</dt><dd>릴리 도트·기존 3D·실제 AnimGen 기록과 좌표 수정 촬영을 보존했습니다. 원화 비율 후보의 정지 촬영 24장·비교판 2장과 다른 16명 SD 후보의 원본을 확보했습니다. 세 명은 MCP 생성·회수까지 확인했고, 엘리시스 홍채색은 별도 사본에서 보완했습니다. 실제 모델 표시·뒷면·리깅·동작·최종 품질은 계속 검수하며 정지 후보를 완성된 게임용 아트로 보고하지 않습니다.</dd></div>
 <div><dt>콘텐츠</dt><dd>튜토리얼·합류·회복·운영·화면 문구 26절 163키를 반영했습니다. 승인된 이야기와 영웅 정체성을 유지하고 미정 내용을 임의 확정하지 않습니다.</dd></div>
 <div><dt>2D 연출</dt><dd>기존 자료를 보존합니다. 큰 각성기·심상영역 연출은 후속 범위이며, 정지 시안이나 현재 걷기 비교를 연출 애니메이션 완성으로 보지 않습니다.</dd></div>
 <div><dt>QA 1차</dt><dd>기능·UI·각성·보스·정비·영토 소비 경계를 시험했습니다. 이번 비교 자료의 실제 프레임·주기·원본 대응도 독립 대조하며 모델 최종 품질 통과와 구분합니다.</dd></div>

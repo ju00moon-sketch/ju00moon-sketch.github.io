@@ -59,6 +59,9 @@ ul { margin: 12px 0 0; padding-left: 24px; }
 li { margin-bottom: 10px; }
 .game-shots { display: grid; gap: 32px; margin-top: 24px; }
 .model-shots { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+.cast-shots { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 24px; align-items: start; }
+.cast-shots .screenshot-link img { aspect-ratio: 1; object-fit: contain; background: var(--surface); }
+.image-loading { margin: 8px 0; color: var(--muted); font-size: 14px; }
 .screenshot-link { display: block; }
 .screenshot-link img { display: block; width: 100%; height: auto; border: 1px solid var(--border); }
 .game-shots figcaption { margin-top: 14px; max-width: 880px; }
@@ -74,6 +77,9 @@ dd { margin: 0; }
 footer { padding-top: 28px; color: var(--muted); font-size: 14px; }
 footer p { margin-bottom: 10px; }
 footer a { display: inline-flex; align-items: center; min-height: 44px; }
+@media (min-width: 681px) and (max-width: 900px) {
+  .cast-shots { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 @media (max-width: 680px) {
   .wrap { padding: 20px 16px 24px; }
   h1 span { margin-left: 8px; }
@@ -85,6 +91,7 @@ footer a { display: inline-flex; align-items: center; min-height: 44px; }
   .playback-controls p { flex-basis: 140px; font-size: 14px; }
   .comparison { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .model-shots { grid-template-columns: minmax(0, 1fr); }
+  .cast-shots { grid-template-columns: minmax(0, 1fr); }
   .candidate { padding: 18px 12px 10px; }
   .candidate figcaption { min-height: 0; }
   .roles > div { grid-template-columns: minmax(0, 1fr); gap: 6px; padding: 16px 0; }

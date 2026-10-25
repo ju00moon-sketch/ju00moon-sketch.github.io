@@ -49,8 +49,17 @@ document.addEventListener('visibilitychange', () => {
 });
 
 document.querySelectorAll('figure img').forEach(image => {
-  const message = image.closest('figure').querySelector('.image-error');
-  image.addEventListener('error', () => { message.hidden = false; });
-  image.addEventListener('load', () => { message.hidden = true; });
+  const figure = image.closest('figure');
+  const message = figure.querySelector('.image-error');
+  const loading = figure.querySelector('.image-loading');
+  image.addEventListener('error', () => {
+    message.hidden = false;
+    if (loading) loading.hidden = true;
+  });
+  image.addEventListener('load', () => {
+    message.hidden = true;
+    if (loading) loading.hidden = true;
+  });
+  if (loading) loading.hidden = image.complete;
   if (image.complete && !image.naturalWidth) message.hidden = false;
 });
