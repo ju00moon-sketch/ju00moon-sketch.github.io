@@ -58,6 +58,7 @@ summary { width: fit-content; max-width: 100%; min-height: 44px; padding: 8px 4p
 ul { margin: 12px 0 0; padding-left: 24px; }
 li { margin-bottom: 10px; }
 .game-shots { display: grid; gap: 32px; margin-top: 24px; }
+.model-shots { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
 .screenshot-link { display: block; }
 .screenshot-link img { display: block; width: 100%; height: auto; border: 1px solid var(--border); }
 .game-shots figcaption { margin-top: 14px; max-width: 880px; }
@@ -83,6 +84,7 @@ footer a { display: inline-flex; align-items: center; min-height: 44px; }
   .playback-controls { margin: 16px 0; gap: 12px; }
   .playback-controls p { flex-basis: 140px; font-size: 14px; }
   .comparison { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .model-shots { grid-template-columns: minmax(0, 1fr); }
   .candidate { padding: 18px 12px 10px; }
   .candidate figcaption { min-height: 0; }
   .roles > div { grid-template-columns: minmax(0, 1fr); gap: 6px; padding: 16px 0; }
