@@ -61,7 +61,7 @@ li { margin-bottom: 10px; }
 .model-shots { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
 .cast-shots { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 24px; align-items: start; }
 .cast-shots .screenshot-link img { aspect-ratio: 1; object-fit: contain; background: var(--surface); }
-.cast-shots .screenshot-link img.glb-render { background: #464854; }
+.screenshot-link img.glb-render { background: #464854; }
 .cast-shots .model-lighting-link { display: inline-flex; align-items: center; min-height: 44px; }
 .image-loading { margin: 8px 0; color: var(--muted); font-size: 14px; }
 .screenshot-link { display: block; }

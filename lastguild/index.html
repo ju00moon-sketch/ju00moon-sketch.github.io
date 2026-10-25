@@ -8,7 +8,7 @@
 <meta name="description" content="최후의 길드의 실제 게임 화면, 릴리 아트 비교, 역할별 개발 현황을 확인합니다.">
 <meta name="theme-color" content="#131820">
 <link rel="icon" href="data:,">
-<link rel="stylesheet" href="../site.css?v=20261025-r06">
+<link rel="stylesheet" href="../site.css?v=20261025-r07">
 <script src="../site.js?v=20261025-r05" defer></script>
 <title>최후의 길드 | 작업현황</title>
 </head>
@@ -109,10 +109,24 @@
 <figcaption><h3>SD와 표시 크기 비교</h3><p>왼쪽은 기존 SD 대기, 가운데는 새 후보 기본색, 오른쪽은 새 후보 PBR입니다. 같은 표시 키 목표에서는 원화 비율의 얼굴이 더 작게 읽힙니다. <a href="../media/20261025/lily-proportions-x2.png">2배 비교판 크게 보기</a></p></figcaption>
 </figure>
 </div>
+<h3 id="lily-joints">관절만 움직여 본 결과 · 품질 미통과</h3>
+<p>새 스킨에서 팔꿈치·손목·무릎·목 6사례를 정면과 옆면으로 촬영했습니다. 아래는 같은 카메라의 실제 진단 사진이며 대기·걷기 애니메이션이나 AnimGen 적용 결과가 아닙니다.</p>
+<div class="game-shots model-shots">
+<figure>
+<a class="screenshot-link" href="../media/20261025/lily-original-ratio-rig-rest-side.png" aria-label="새 릴리 스킨의 기준 자세 옆면 크게 보기"><img class="glb-render" src="../media/20261025/lily-original-ratio-rig-rest-side.png" width="1536" height="1536" alt="새 릴리 스킨의 실제 기준 자세 옆면. 등 뒤 긴 머리와 남색 천의 형태가 보입니다." loading="lazy"></a>
+<p class="image-error" hidden>기준 자세 사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>기준 자세 · 옆면</h3><p>변형 전 비교 기준입니다. 뒤머리의 얼룩 같은 표면 표현은 생성 원본부터 남아 있습니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261025/lily-original-ratio-rig-elbow-r-side.png" aria-label="릴리 오른 팔꿈치 20도 진단 옆면 크게 보기"><img class="glb-render" src="../media/20261025/lily-original-ratio-rig-elbow-r-side.png" width="1536" height="1536" alt="오른 팔꿈치만 20도 움직인 실제 진단. 검뿐 아니라 등 뒤 머리와 천도 함께 변형됩니다." loading="lazy"></a>
+<p class="image-error" hidden>관절 진단 사진을 불러오지 못했습니다. 사진 링크에서 원본을 확인해 주세요.</p>
+<figcaption><h3>오른 팔꿈치 20° · 옆면</h3><p>팔꿈치만 조작했는데 긴 머리와 등 뒤 천이 함께 당겨집니다. 가중치는 더 손봐야 하고 부위 분리 필요성은 추가 확인 대상입니다. 반출 파일이 만들어졌다는 이유로 동작 품질을 통과시키지 않았습니다.</p></figcaption>
+</figure>
+</div>
 <details class="review-notes">
 <summary>비교 조건과 아직 확인하지 않은 것</summary>
 <p>24° 카메라와 220.5px 표시 키는 시험 조건입니다. 기존 SD는 몸 메시의 걷기 중앙값, 새 후보는 무기를 포함한 정지 메시 전체를 기준으로 맞췄으므로 자세·맞춤 정의가 완전히 같지는 않습니다. 생성 원본과 재질도 달라 체형만 바꾼 통제 비교가 아니며, 물리적 키나 게임 스프라이트 해상도를 확정한 것이 아닙니다.</p>
-<p>생성 원본에는 리그와 동작이 없습니다. 별도 사본의 가중치·원형·노멀 보존은 실제 확인했지만, FBX의 본 배율 검사에서 멈춰 반출 경로를 수정 중입니다. 대기·걷기·전환·손과 장비·바닥·전 프레임 변형, 모바일 성능은 미검증이며 기존 SD·도트 본편·저장은 유지합니다. 원본 3D 파일과 내부 자료는 공개하지 않습니다.</p>
+<p>생성 원본에는 리그와 동작이 없습니다. 별도 사본의 스킨과 FBX 반출은 원형·UV·노멀·텍스처·가중치 보존 검사를 통과했지만, 관절 진단에서 추가 변형 문제가 확인됐습니다. 실제 대기·걷기·전환·손과 장비·바닥·전 프레임 변형, 모바일 성능은 미검증이며 기존 SD·도트 본편·저장은 유지합니다. 원본 3D 파일과 내부 자료는 공개하지 않습니다.</p>
 </details>
 </section>
 <section id="cast" aria-labelledby="cast-title">
