@@ -16,9 +16,10 @@
 <a class="skip-link" href="#art">작업물로 건너뛰기</a>
 <div class="wrap">
 <header>
-<p class="date"><time datetime="2026-10-26">2026.10.26 갱신</time> · 게임 화면 <time datetime="2026-10-22">10.22</time>·<time datetime="2026-10-25">10.25</time></p>
+<p class="date"><time datetime="2026-10-27">2026.10.27 갱신</time> · 게임 화면 <time datetime="2026-10-22">10.22</time>·<time datetime="2026-10-25">10.25</time></p>
 <h1>최후의 길드 <span>작업현황</span></h1>
 <p class="intro">Godot 도트 게임 재구축 · 모바일 우선, PC 후속</p>
+<p class="notice"><time datetime="2026-10-27">2026.10.27 안내</time> · 신규 3D 작업은 중단하고 도트 제작을 진행 중입니다. 아래 3D 절은 과거 시험 결과를 보존한 자료입니다.</p>
 <nav aria-label="홈페이지 내용">
 <a href="#lily-sheet-dot">새 시트 릴리 도트</a>
 <a href="#art">아트 비교</a>
@@ -37,13 +38,13 @@
 <h2 id="lily-sheet-dot-title">새 캐릭터 시트 기반 릴리 도트</h2>
 <p class="notice">정면 정지 후보 1장 · 사용자 미채택 · 게임 미반입</p>
 </div>
-<p>새 캐릭터 시트 네 장에서 전신 비율·장비·얼굴과 머리·의상을 참조해 PixelLab에서 다시 생성했습니다. 작은 머리와 긴 다리, 오른손 검과 왼팔 방패를 유지한 후보입니다. 아래는 생성 원본이며 Aseprite에서 화소를 다시 찍거나 덧그리지 않았습니다.</p>
+<p>새 캐릭터 시트 네 장에서 전신 비율·장비·얼굴과 머리·의상을 참조해 PixelLab에서 다시 생성했습니다. 작은 머리와 긴 다리, 오른손 검과 왼팔 방패를 유지한 후보입니다. 첫 두 그림은 생성 원본과 기존 도트 비교이며, 그 아래에 별도 사본의 국소 가공 결과를 구분했습니다. 생성 원본의 화소는 보존했습니다.</p>
 <div class="game-shots model-shots">
 <figure>
 <a class="screenshot-link" href="../media/20261027/lily-sheet-dot-south-3x.png" aria-label="새 캐릭터 시트 릴리 도트 최근접 3배 크게 보기"><img class="pixel-art" src="../media/20261027/lily-sheet-dot-south-3x.png" width="768" height="768" alt="은발과 파란 눈, 은색 갑옷과 남색·흰색 비대칭 치마를 갖춘 새 릴리 정면 도트 후보. 화면 왼쪽 손에 검, 오른쪽 팔에 남색 방패가 있습니다." loading="lazy"></a>
 <p class="image-loading" role="status" hidden>새 도트 후보를 불러오는 중입니다.</p>
 <p class="image-error" hidden>새 도트 후보를 불러오지 못했습니다. 아래 원래 크기 파일을 확인해 주세요.</p>
-<figcaption><h3>새 정면 후보 · 최근접 3배</h3><p>원래 크기는 256×256입니다. 확대본은 새 세부 정보를 만든 것이 아니라 같은 화소를 3배로 표시합니다. 사용색 64색, 반투명 화소와 캔버스 경계에 닿는 화소는 0개입니다.</p></figcaption>
+<figcaption><h3>생성 원본 · 최근접 3배</h3><p>원래 크기는 256×256입니다. 확대본은 새 세부 정보를 만든 것이 아니라 같은 화소를 3배로 표시합니다. 사용색 64색, 반투명 화소와 캔버스 경계에 닿는 화소는 0개입니다.</p></figcaption>
 <div class="downloads"><a href="../media/20261027/lily-sheet-dot-south.png">원래 크기 256×256 PNG</a></div>
 </figure>
 <figure>
@@ -53,7 +54,38 @@
 <figcaption><h3>왼쪽 기존 · 오른쪽 새 후보</h3><p>각각의 원래 화소와 배율을 유지했습니다. 새 후보의 전체 실루엣 높이는 227px입니다. 취향과 게임 화면에서의 가독성은 사용자가 판단할 항목이며 자동 채택하지 않습니다.</p></figcaption>
 </figure>
 </div>
-<p class="caption">실제 PixelLab 생성 1회 뒤 Aseprite MCP에서 편집 사본을 만들고 색·명도·실루엣을 확인했습니다. 시트 원본·기존 도트·이전 3D 시험본은 보존했습니다. 걷기·다른 방향은 생성하지 않았으며 게임 시점·발 기준점·독립 QA는 미검증입니다. 게임에는 반입하지 않았습니다.</p>
+<p class="caption">실제 PixelLab 생성 1회 뒤 Aseprite MCP에서 편집 사본을 만들고 색·명도·실루엣을 확인했습니다. 시트 원본·기존 도트·이전 3D 시험본은 보존했습니다.</p>
+<h3 id="lily-sheet-dot-processed">Aseprite 가공 후보 · 24화소 국소 수정</h3>
+<p>손가락 판 18화소의 색을 기존 갑옷 색으로 정리하고, 칼날 옆 5화소와 앞발 옆 1화소의 잔여 조각을 제거했습니다. 손가락 판 18 + 잔여 6 = 총 24화소만 수정했습니다. 256×256·정면 정지 1장·64색을 유지하며 추가색은 0개입니다. 사용자 미채택·게임 미반입 상태입니다.</p>
+<div class="game-shots model-shots">
+<figure>
+<a class="screenshot-link" href="../media/20261027/lily-sheet-dot-processed.png" aria-label="릴리 가공 후보 256×256 PNG 크게 보기"><img class="pixel-art" src="../media/20261027/lily-sheet-dot-processed.png" width="256" height="256" alt="손가락 판과 검·앞발 주변 잔여 화소만 정리한 릴리 정면 정지 가공 후보. 얼굴과 방패, 전체 비율과 위치는 유지했습니다." loading="lazy"></a>
+<p class="image-loading" role="status" hidden>가공 후보를 불러오는 중입니다.</p>
+<p class="image-error" hidden>가공 후보를 불러오지 못했습니다. <a href="../media/20261027/lily-sheet-dot-processed-compare-3x.png">전후 비교 파일</a>에서 확인해 주세요.</p>
+<figcaption><h4>가공 후보 · 256×256</h4><p>원본과 같은 칸과 위치를 유지했습니다. 단일 정지 후보이며 전체 방향이나 움직임의 품질을 통과한 결과는 아닙니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261027/lily-sheet-dot-processed-compare-3x.png" aria-label="생성 원본 왼쪽과 가공본 오른쪽의 3배 전후 비교 크게 보기"><img class="pixel-art" src="../media/20261027/lily-sheet-dot-processed-compare-3x.png" width="1552" height="768" alt="최근접 3배 전후 비교. 왼쪽은 새 시트 생성 원본이고 오른쪽은 24화소만 수정한 가공본입니다." loading="lazy"></a>
+<p class="image-loading" role="status" hidden>가공 전후 비교판을 불러오는 중입니다.</p>
+<p class="image-error" hidden>가공 전후 비교판을 불러오지 못했습니다. <a href="../media/20261027/lily-sheet-dot-processed.png">가공 후보 PNG</a>에서 확인해 주세요.</p>
+<figcaption><h4>왼쪽 생성 원본 · 오른쪽 가공본</h4><p>같은 배율로 비교한 실제 전후 이미지입니다. 얼굴·방패·전체 위치와 비율은 변경하지 않았습니다.</p></figcaption>
+</figure>
+</div>
+<div class="game-shots model-shots">
+<figure>
+<a class="screenshot-link" href="../media/20261027/lily-sheet-dot-processed-grip-8x.png" aria-label="검 파지의 원본 왼쪽과 가공본 오른쪽 8배 확대 보기"><img class="pixel-art" src="../media/20261027/lily-sheet-dot-processed-grip-8x.png" width="560" height="384" alt="검을 쥔 손의 8배 전후 확대. 왼쪽 원본에서 섞여 보이던 손가락 판의 색을 오른쪽 가공본에서 기존 갑옷의 세 단계 색으로 정리했습니다." loading="lazy"></a>
+<p class="image-loading" role="status" hidden>검 파지 확대를 불러오는 중입니다.</p>
+<p class="image-error" hidden>검 파지 확대를 불러오지 못했습니다. <a href="../media/20261027/lily-sheet-dot-processed-compare-3x.png">전체 전후 비교 파일</a>에서 확인해 주세요.</p>
+<figcaption><h4>파지 확대 · 손가락 판 18화소</h4><p>왼쪽 생성 원본, 오른쪽 가공본입니다. 손가락 판의 색만 정리했으며 검의 파지 자세를 새로 그리거나 새 색을 추가하지 않았습니다.</p></figcaption>
+</figure>
+<figure>
+<a class="screenshot-link" href="../media/20261027/lily-sheet-dot-processed-feet-changes-12x.png" aria-label="앞발 잔여 화소의 원본 왼쪽과 가공본 오른쪽 12배 확대 보기"><img class="pixel-art" src="../media/20261027/lily-sheet-dot-processed-feet-changes-12x.png" width="736" height="252" alt="앞발 주변의 12배 전후 확대. 왼쪽 빨간 테두리는 제거 전 잔여 화소, 오른쪽 초록 테두리는 제거 후 같은 위치를 표시합니다." loading="lazy"></a>
+<p class="image-loading" role="status" hidden>발 수정 위치 확대를 불러오는 중입니다.</p>
+<p class="image-error" hidden>발 수정 위치 확대를 불러오지 못했습니다. <a href="../media/20261027/lily-sheet-dot-processed.png">가공 후보 PNG</a>에서 확인해 주세요.</p>
+<figcaption><h4>발 확대 · 잔여 1화소 제거</h4><p>빨강·초록 테두리는 검수용 위치 표시이며 캐릭터에 추가한 색이 아닙니다. 발 위치와 캔버스는 유지했고 게임 피벗으로 확정하지 않았습니다.</p></figcaption>
+</figure>
+</div>
+<p class="caption">Godot 반입·모바일 실기기·걷기·다른 방향·게임 피벗·사용자 최종 채택은 미검증입니다. 원본과 가공 후보 모두 게임에 반입하지 않았습니다. 기존 3D 자료는 과거 시험 기록으로 보존합니다.</p>
 </section>
 <section id="art" aria-labelledby="art-title">
 <div class="section-heading">
