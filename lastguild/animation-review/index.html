@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>애니메이션 검수 | 최후의 길드</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="review.css">
+  <script type="module" src="review.js"></script>
+</head>
+<body>
+<a class="skip" href="#workspace">검수 영역으로</a>
+<header class="topbar">
+  <div><a href="../#lily-ratio">최후의 길드</a><h1>애니메이션 검수</h1></div>
+  <div class="file-controls"><span id="save-status" role="status">자료를 불러오는 중입니다.</span><button id="export" disabled>검수안 파일 저장</button><button id="import" disabled>파일 불러오기</button><input id="file" type="file" accept="application/json,.json" hidden></div>
+</header>
+<p id="alert" class="alert" role="alert" hidden></p>
+<p id="loading" class="loading">실제 촬영한 동작과 프레임을 불러오고 있습니다.</p>
+<div id="app" class="app" hidden>
+  <aside class="clip-sidebar" aria-label="동작 목록">
+    <h2>검수할 동작</h2><label for="search">동작 검색</label><input id="search" type="search" placeholder="이름 또는 동작">
+    <p id="clip-count" class="muted"></p><nav id="clips" aria-label="동작 선택"></nav>
+    <p class="scope">선택과 메모는 이 브라우저에 임시 저장됩니다. 전달·백업하려면 검수안 파일을 저장해 주세요. 원본 동작은 바뀌지 않습니다.</p>
+  </aside>
+  <main id="workspace" tabindex="-1">
+    <div class="clip-heading"><h2 id="clip-title"></h2><p id="clip-facts"></p><p id="clip-status" class="warning"></p></div>
+    <div class="work-columns">
+      <section class="previews" aria-label="원본과 검수안 비교">
+        <figure><figcaption><strong>전체 원본</strong><span id="original-count"></span></figcaption><div class="stage"><canvas id="original" width="768" height="768" aria-label="전체 원본의 현재 프레임"></canvas><p class="stage-error" id="original-error" hidden></p></div><p id="original-frame" class="frame-caption"></p></figure>
+        <figure><figcaption><strong>검수안</strong><span id="edited-count"></span></figcaption><div class="stage"><canvas id="edited" width="768" height="768" aria-label="선택한 프레임의 현재 재생"></canvas><p class="stage-error" id="edited-error" hidden></p></div><p id="edited-frame" class="frame-caption"></p></figure>
+        <p class="scope">같은 배율·같은 재생 시계로 비교합니다. 짧은 쪽은 마지막 프레임에서 멈춥니다. 프레임 이미지는 실제 촬영본이며 원본 3D 모델을 바꾸지 않습니다.</p>
+      </section>
+      <section class="editor" aria-label="프레임 선택과 검토">
+        <div class="transport">
+          <div class="button-row"><button id="play" class="primary">비교 재생</button><button id="previous" aria-label="이전 원본 프레임">이전</button><button id="next" aria-label="다음 원본 프레임">다음</button><button id="toggle-current">현재 프레임 제외</button><button id="retry-images" hidden>이미지 다시 불러오기</button></div>
+          <label for="seek">비교 재생 위치 <output id="time"></output></label><input id="seek" type="range" min="0" max="5.5" step="0.001" value="0">
+          <div class="field-row"><label>비교 화면 확대<select id="zoom"><option value="1">1배 · 전체</option><option value="1.5" selected>1.5배</option><option value="2">2배</option><option value="3">3배 · 세부</option></select></label><span class="scope">두 화면에 같은 확대 배율을 적용합니다.</span></div>
+          <div class="field-row"><label>배속<select id="speed"><option value="0.25">0.25배</option><option value="0.5">0.5배</option><option value="0.75">0.75배</option><option value="1" selected>1배</option><option value="1.5">1.5배</option><option value="2">2배</option><option value="4">4배</option></select></label><label>제외한 프레임의 시간<select id="timing"><option value="compress">제외한 구간만큼 줄이기</option><option value="preserve">원본 구간의 시간 유지</option></select></label><label class="check"><input id="loop" type="checkbox">반복 재생</label></div>
+        </div>
+        <div class="selection-controls">
+          <div class="button-row"><button id="keep-all">전부 남김</button><button id="remove-all">전부 제외</button><button id="invert">선택 반전</button><button id="undo" disabled>실행 취소</button></div>
+          <div class="field-row"><label>구간 시작<input id="range-start" type="number" min="0" value="0" step="1"></label><label>구간 끝<input id="range-end" type="number" min="0" value="0" step="1"></label><button id="keep-range">구간 남김</button><button id="remove-range">구간 제외</button></div>
+          <div class="field-row"><label>간격<input id="interval" type="number" min="1" max="331" value="2" step="1"></label><button id="keep-interval">구간에서 간격마다 남김</button><label>유지 틱<input id="hold" type="number" min="1" max="3600" value="1" step="1"></label><button id="apply-hold">남긴 구간에 적용</button><button id="reset-hold">구간 유지 시간 초기화</button></div>
+          <p id="timing-help" class="scope"></p><p class="scope">그림을 누르면 해당 원본 프레임을 봅니다. Shift+클릭은 구간 선택, 체크는 남김·제외입니다. Space는 재생·정지, 좌우 방향키는 한 프레임 이동입니다.</p>
+        </div>
+        <p id="selection-status" role="status" class="muted"></p>
+        <div id="frames" class="frames" aria-label="전체 프레임"></div>
+        <div class="review-notes"><label class="check"><input id="complete" type="checkbox">이 동작 검토 완료</label><label for="note">수정할 부분과 채택 의견</label><textarea id="note" rows="4" maxlength="8000" placeholder="예: 120~135번에서 머리카락이 팔을 따라갑니다."></textarea><p class="scope">검토 완료는 내 검수안의 표시입니다. 원본의 결함 해결이나 게임 반입 승인을 자동으로 뜻하지 않습니다.</p></div>
+      </section>
+    </div>
+  </main>
+</div>
+<noscript><p class="alert">프레임 검수에는 JavaScript가 필요합니다. 기존 홈페이지에서 정지 검수 사진을 보실 수 있습니다.</p></noscript>
+</body>
+</html>

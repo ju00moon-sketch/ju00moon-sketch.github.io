@@ -1,0 +1,6011 @@
+{
+  "schema": 1,
+  "clips": [
+    {
+      "id": "lily-r06-before",
+      "revision": "81f2cf3a3deb0ab7193636366236382e0b4f7d675f4edbdd223671087d6b801f",
+      "title": "릴리 수정 전 · 이동·회전·정지",
+      "character": "릴리",
+      "fps": 60,
+      "first": 0,
+      "last": 330,
+      "duration": 5.5,
+      "width": 768,
+      "height": 768,
+      "status": "모델 품질 미통과",
+      "notes": "원화 비율 r06의 실제 Take02 331표본입니다. 팔 움직임에 머리카락과 옷이 끌리는 수정 전 기준 자료이며 완성 걷기 루프가 아닙니다.",
+      "frames": [
+        {
+          "frame": 0,
+          "time": 0,
+          "image": "media/lily-r06-before/frames/f0000.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0000.png"
+        },
+        {
+          "frame": 1,
+          "time": 0.016666666666666666,
+          "image": "media/lily-r06-before/frames/f0001.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0001.png"
+        },
+        {
+          "frame": 2,
+          "time": 0.03333333333333333,
+          "image": "media/lily-r06-before/frames/f0002.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0002.png"
+        },
+        {
+          "frame": 3,
+          "time": 0.05,
+          "image": "media/lily-r06-before/frames/f0003.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0003.png"
+        },
+        {
+          "frame": 4,
+          "time": 0.06666666666666667,
+          "image": "media/lily-r06-before/frames/f0004.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0004.png"
+        },
+        {
+          "frame": 5,
+          "time": 0.08333333333333333,
+          "image": "media/lily-r06-before/frames/f0005.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0005.png"
+        },
+        {
+          "frame": 6,
+          "time": 0.1,
+          "image": "media/lily-r06-before/frames/f0006.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0006.png"
+        },
+        {
+          "frame": 7,
+          "time": 0.11666666666666667,
+          "image": "media/lily-r06-before/frames/f0007.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0007.png"
+        },
+        {
+          "frame": 8,
+          "time": 0.13333333333333333,
+          "image": "media/lily-r06-before/frames/f0008.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0008.png"
+        },
+        {
+          "frame": 9,
+          "time": 0.15,
+          "image": "media/lily-r06-before/frames/f0009.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0009.png"
+        },
+        {
+          "frame": 10,
+          "time": 0.16666666666666666,
+          "image": "media/lily-r06-before/frames/f0010.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0010.png"
+        },
+        {
+          "frame": 11,
+          "time": 0.18333333333333332,
+          "image": "media/lily-r06-before/frames/f0011.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0011.png"
+        },
+        {
+          "frame": 12,
+          "time": 0.2,
+          "image": "media/lily-r06-before/frames/f0012.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0012.png"
+        },
+        {
+          "frame": 13,
+          "time": 0.21666666666666667,
+          "image": "media/lily-r06-before/frames/f0013.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0013.png"
+        },
+        {
+          "frame": 14,
+          "time": 0.23333333333333334,
+          "image": "media/lily-r06-before/frames/f0014.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0014.png"
+        },
+        {
+          "frame": 15,
+          "time": 0.25,
+          "image": "media/lily-r06-before/frames/f0015.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0015.png"
+        },
+        {
+          "frame": 16,
+          "time": 0.26666666666666666,
+          "image": "media/lily-r06-before/frames/f0016.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0016.png"
+        },
+        {
+          "frame": 17,
+          "time": 0.2833333333333333,
+          "image": "media/lily-r06-before/frames/f0017.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0017.png"
+        },
+        {
+          "frame": 18,
+          "time": 0.3,
+          "image": "media/lily-r06-before/frames/f0018.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0018.png"
+        },
+        {
+          "frame": 19,
+          "time": 0.31666666666666665,
+          "image": "media/lily-r06-before/frames/f0019.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0019.png"
+        },
+        {
+          "frame": 20,
+          "time": 0.3333333333333333,
+          "image": "media/lily-r06-before/frames/f0020.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0020.png"
+        },
+        {
+          "frame": 21,
+          "time": 0.35,
+          "image": "media/lily-r06-before/frames/f0021.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0021.png"
+        },
+        {
+          "frame": 22,
+          "time": 0.36666666666666664,
+          "image": "media/lily-r06-before/frames/f0022.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0022.png"
+        },
+        {
+          "frame": 23,
+          "time": 0.38333333333333336,
+          "image": "media/lily-r06-before/frames/f0023.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0023.png"
+        },
+        {
+          "frame": 24,
+          "time": 0.4,
+          "image": "media/lily-r06-before/frames/f0024.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0024.png"
+        },
+        {
+          "frame": 25,
+          "time": 0.4166666666666667,
+          "image": "media/lily-r06-before/frames/f0025.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0025.png"
+        },
+        {
+          "frame": 26,
+          "time": 0.43333333333333335,
+          "image": "media/lily-r06-before/frames/f0026.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0026.png"
+        },
+        {
+          "frame": 27,
+          "time": 0.45,
+          "image": "media/lily-r06-before/frames/f0027.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0027.png"
+        },
+        {
+          "frame": 28,
+          "time": 0.4666666666666667,
+          "image": "media/lily-r06-before/frames/f0028.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0028.png"
+        },
+        {
+          "frame": 29,
+          "time": 0.48333333333333334,
+          "image": "media/lily-r06-before/frames/f0029.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0029.png"
+        },
+        {
+          "frame": 30,
+          "time": 0.5,
+          "image": "media/lily-r06-before/frames/f0030.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0030.png"
+        },
+        {
+          "frame": 31,
+          "time": 0.5166666666666667,
+          "image": "media/lily-r06-before/frames/f0031.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0031.png"
+        },
+        {
+          "frame": 32,
+          "time": 0.5333333333333333,
+          "image": "media/lily-r06-before/frames/f0032.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0032.png"
+        },
+        {
+          "frame": 33,
+          "time": 0.55,
+          "image": "media/lily-r06-before/frames/f0033.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0033.png"
+        },
+        {
+          "frame": 34,
+          "time": 0.5666666666666667,
+          "image": "media/lily-r06-before/frames/f0034.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0034.png"
+        },
+        {
+          "frame": 35,
+          "time": 0.5833333333333334,
+          "image": "media/lily-r06-before/frames/f0035.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0035.png"
+        },
+        {
+          "frame": 36,
+          "time": 0.6,
+          "image": "media/lily-r06-before/frames/f0036.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0036.png"
+        },
+        {
+          "frame": 37,
+          "time": 0.6166666666666667,
+          "image": "media/lily-r06-before/frames/f0037.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0037.png"
+        },
+        {
+          "frame": 38,
+          "time": 0.6333333333333333,
+          "image": "media/lily-r06-before/frames/f0038.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0038.png"
+        },
+        {
+          "frame": 39,
+          "time": 0.65,
+          "image": "media/lily-r06-before/frames/f0039.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0039.png"
+        },
+        {
+          "frame": 40,
+          "time": 0.6666666666666666,
+          "image": "media/lily-r06-before/frames/f0040.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0040.png"
+        },
+        {
+          "frame": 41,
+          "time": 0.6833333333333333,
+          "image": "media/lily-r06-before/frames/f0041.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0041.png"
+        },
+        {
+          "frame": 42,
+          "time": 0.7,
+          "image": "media/lily-r06-before/frames/f0042.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0042.png"
+        },
+        {
+          "frame": 43,
+          "time": 0.7166666666666667,
+          "image": "media/lily-r06-before/frames/f0043.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0043.png"
+        },
+        {
+          "frame": 44,
+          "time": 0.7333333333333333,
+          "image": "media/lily-r06-before/frames/f0044.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0044.png"
+        },
+        {
+          "frame": 45,
+          "time": 0.75,
+          "image": "media/lily-r06-before/frames/f0045.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0045.png"
+        },
+        {
+          "frame": 46,
+          "time": 0.7666666666666667,
+          "image": "media/lily-r06-before/frames/f0046.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0046.png"
+        },
+        {
+          "frame": 47,
+          "time": 0.7833333333333333,
+          "image": "media/lily-r06-before/frames/f0047.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0047.png"
+        },
+        {
+          "frame": 48,
+          "time": 0.8,
+          "image": "media/lily-r06-before/frames/f0048.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0048.png"
+        },
+        {
+          "frame": 49,
+          "time": 0.8166666666666667,
+          "image": "media/lily-r06-before/frames/f0049.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0049.png"
+        },
+        {
+          "frame": 50,
+          "time": 0.8333333333333334,
+          "image": "media/lily-r06-before/frames/f0050.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0050.png"
+        },
+        {
+          "frame": 51,
+          "time": 0.85,
+          "image": "media/lily-r06-before/frames/f0051.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0051.png"
+        },
+        {
+          "frame": 52,
+          "time": 0.8666666666666667,
+          "image": "media/lily-r06-before/frames/f0052.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0052.png"
+        },
+        {
+          "frame": 53,
+          "time": 0.8833333333333333,
+          "image": "media/lily-r06-before/frames/f0053.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0053.png"
+        },
+        {
+          "frame": 54,
+          "time": 0.9,
+          "image": "media/lily-r06-before/frames/f0054.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0054.png"
+        },
+        {
+          "frame": 55,
+          "time": 0.9166666666666666,
+          "image": "media/lily-r06-before/frames/f0055.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0055.png"
+        },
+        {
+          "frame": 56,
+          "time": 0.9333333333333333,
+          "image": "media/lily-r06-before/frames/f0056.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0056.png"
+        },
+        {
+          "frame": 57,
+          "time": 0.95,
+          "image": "media/lily-r06-before/frames/f0057.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0057.png"
+        },
+        {
+          "frame": 58,
+          "time": 0.9666666666666667,
+          "image": "media/lily-r06-before/frames/f0058.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0058.png"
+        },
+        {
+          "frame": 59,
+          "time": 0.9833333333333333,
+          "image": "media/lily-r06-before/frames/f0059.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0059.png"
+        },
+        {
+          "frame": 60,
+          "time": 1,
+          "image": "media/lily-r06-before/frames/f0060.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0060.png"
+        },
+        {
+          "frame": 61,
+          "time": 1.0166666666666666,
+          "image": "media/lily-r06-before/frames/f0061.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0061.png"
+        },
+        {
+          "frame": 62,
+          "time": 1.0333333333333334,
+          "image": "media/lily-r06-before/frames/f0062.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0062.png"
+        },
+        {
+          "frame": 63,
+          "time": 1.05,
+          "image": "media/lily-r06-before/frames/f0063.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0063.png"
+        },
+        {
+          "frame": 64,
+          "time": 1.0666666666666667,
+          "image": "media/lily-r06-before/frames/f0064.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0064.png"
+        },
+        {
+          "frame": 65,
+          "time": 1.0833333333333333,
+          "image": "media/lily-r06-before/frames/f0065.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0065.png"
+        },
+        {
+          "frame": 66,
+          "time": 1.1,
+          "image": "media/lily-r06-before/frames/f0066.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0066.png"
+        },
+        {
+          "frame": 67,
+          "time": 1.1166666666666667,
+          "image": "media/lily-r06-before/frames/f0067.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0067.png"
+        },
+        {
+          "frame": 68,
+          "time": 1.1333333333333333,
+          "image": "media/lily-r06-before/frames/f0068.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0068.png"
+        },
+        {
+          "frame": 69,
+          "time": 1.15,
+          "image": "media/lily-r06-before/frames/f0069.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0069.png"
+        },
+        {
+          "frame": 70,
+          "time": 1.1666666666666667,
+          "image": "media/lily-r06-before/frames/f0070.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0070.png"
+        },
+        {
+          "frame": 71,
+          "time": 1.1833333333333333,
+          "image": "media/lily-r06-before/frames/f0071.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0071.png"
+        },
+        {
+          "frame": 72,
+          "time": 1.2,
+          "image": "media/lily-r06-before/frames/f0072.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0072.png"
+        },
+        {
+          "frame": 73,
+          "time": 1.2166666666666666,
+          "image": "media/lily-r06-before/frames/f0073.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0073.png"
+        },
+        {
+          "frame": 74,
+          "time": 1.2333333333333334,
+          "image": "media/lily-r06-before/frames/f0074.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0074.png"
+        },
+        {
+          "frame": 75,
+          "time": 1.25,
+          "image": "media/lily-r06-before/frames/f0075.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0075.png"
+        },
+        {
+          "frame": 76,
+          "time": 1.2666666666666666,
+          "image": "media/lily-r06-before/frames/f0076.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0076.png"
+        },
+        {
+          "frame": 77,
+          "time": 1.2833333333333334,
+          "image": "media/lily-r06-before/frames/f0077.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0077.png"
+        },
+        {
+          "frame": 78,
+          "time": 1.3,
+          "image": "media/lily-r06-before/frames/f0078.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0078.png"
+        },
+        {
+          "frame": 79,
+          "time": 1.3166666666666667,
+          "image": "media/lily-r06-before/frames/f0079.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0079.png"
+        },
+        {
+          "frame": 80,
+          "time": 1.3333333333333333,
+          "image": "media/lily-r06-before/frames/f0080.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0080.png"
+        },
+        {
+          "frame": 81,
+          "time": 1.35,
+          "image": "media/lily-r06-before/frames/f0081.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0081.png"
+        },
+        {
+          "frame": 82,
+          "time": 1.3666666666666667,
+          "image": "media/lily-r06-before/frames/f0082.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0082.png"
+        },
+        {
+          "frame": 83,
+          "time": 1.3833333333333333,
+          "image": "media/lily-r06-before/frames/f0083.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0083.png"
+        },
+        {
+          "frame": 84,
+          "time": 1.4,
+          "image": "media/lily-r06-before/frames/f0084.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0084.png"
+        },
+        {
+          "frame": 85,
+          "time": 1.4166666666666667,
+          "image": "media/lily-r06-before/frames/f0085.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0085.png"
+        },
+        {
+          "frame": 86,
+          "time": 1.4333333333333333,
+          "image": "media/lily-r06-before/frames/f0086.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0086.png"
+        },
+        {
+          "frame": 87,
+          "time": 1.45,
+          "image": "media/lily-r06-before/frames/f0087.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0087.png"
+        },
+        {
+          "frame": 88,
+          "time": 1.4666666666666666,
+          "image": "media/lily-r06-before/frames/f0088.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0088.png"
+        },
+        {
+          "frame": 89,
+          "time": 1.4833333333333334,
+          "image": "media/lily-r06-before/frames/f0089.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0089.png"
+        },
+        {
+          "frame": 90,
+          "time": 1.5,
+          "image": "media/lily-r06-before/frames/f0090.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0090.png"
+        },
+        {
+          "frame": 91,
+          "time": 1.5166666666666666,
+          "image": "media/lily-r06-before/frames/f0091.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0091.png"
+        },
+        {
+          "frame": 92,
+          "time": 1.5333333333333334,
+          "image": "media/lily-r06-before/frames/f0092.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0092.png"
+        },
+        {
+          "frame": 93,
+          "time": 1.55,
+          "image": "media/lily-r06-before/frames/f0093.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0093.png"
+        },
+        {
+          "frame": 94,
+          "time": 1.5666666666666667,
+          "image": "media/lily-r06-before/frames/f0094.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0094.png"
+        },
+        {
+          "frame": 95,
+          "time": 1.5833333333333333,
+          "image": "media/lily-r06-before/frames/f0095.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0095.png"
+        },
+        {
+          "frame": 96,
+          "time": 1.6,
+          "image": "media/lily-r06-before/frames/f0096.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0096.png"
+        },
+        {
+          "frame": 97,
+          "time": 1.6166666666666667,
+          "image": "media/lily-r06-before/frames/f0097.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0097.png"
+        },
+        {
+          "frame": 98,
+          "time": 1.6333333333333333,
+          "image": "media/lily-r06-before/frames/f0098.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0098.png"
+        },
+        {
+          "frame": 99,
+          "time": 1.65,
+          "image": "media/lily-r06-before/frames/f0099.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0099.png"
+        },
+        {
+          "frame": 100,
+          "time": 1.6666666666666667,
+          "image": "media/lily-r06-before/frames/f0100.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0100.png"
+        },
+        {
+          "frame": 101,
+          "time": 1.6833333333333333,
+          "image": "media/lily-r06-before/frames/f0101.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0101.png"
+        },
+        {
+          "frame": 102,
+          "time": 1.7,
+          "image": "media/lily-r06-before/frames/f0102.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0102.png"
+        },
+        {
+          "frame": 103,
+          "time": 1.7166666666666666,
+          "image": "media/lily-r06-before/frames/f0103.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0103.png"
+        },
+        {
+          "frame": 104,
+          "time": 1.7333333333333334,
+          "image": "media/lily-r06-before/frames/f0104.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0104.png"
+        },
+        {
+          "frame": 105,
+          "time": 1.75,
+          "image": "media/lily-r06-before/frames/f0105.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0105.png"
+        },
+        {
+          "frame": 106,
+          "time": 1.7666666666666666,
+          "image": "media/lily-r06-before/frames/f0106.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0106.png"
+        },
+        {
+          "frame": 107,
+          "time": 1.7833333333333334,
+          "image": "media/lily-r06-before/frames/f0107.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0107.png"
+        },
+        {
+          "frame": 108,
+          "time": 1.8,
+          "image": "media/lily-r06-before/frames/f0108.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0108.png"
+        },
+        {
+          "frame": 109,
+          "time": 1.8166666666666667,
+          "image": "media/lily-r06-before/frames/f0109.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0109.png"
+        },
+        {
+          "frame": 110,
+          "time": 1.8333333333333333,
+          "image": "media/lily-r06-before/frames/f0110.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0110.png"
+        },
+        {
+          "frame": 111,
+          "time": 1.85,
+          "image": "media/lily-r06-before/frames/f0111.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0111.png"
+        },
+        {
+          "frame": 112,
+          "time": 1.8666666666666667,
+          "image": "media/lily-r06-before/frames/f0112.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0112.png"
+        },
+        {
+          "frame": 113,
+          "time": 1.8833333333333333,
+          "image": "media/lily-r06-before/frames/f0113.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0113.png"
+        },
+        {
+          "frame": 114,
+          "time": 1.9,
+          "image": "media/lily-r06-before/frames/f0114.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0114.png"
+        },
+        {
+          "frame": 115,
+          "time": 1.9166666666666667,
+          "image": "media/lily-r06-before/frames/f0115.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0115.png"
+        },
+        {
+          "frame": 116,
+          "time": 1.9333333333333333,
+          "image": "media/lily-r06-before/frames/f0116.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0116.png"
+        },
+        {
+          "frame": 117,
+          "time": 1.95,
+          "image": "media/lily-r06-before/frames/f0117.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0117.png"
+        },
+        {
+          "frame": 118,
+          "time": 1.9666666666666666,
+          "image": "media/lily-r06-before/frames/f0118.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0118.png"
+        },
+        {
+          "frame": 119,
+          "time": 1.9833333333333334,
+          "image": "media/lily-r06-before/frames/f0119.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0119.png"
+        },
+        {
+          "frame": 120,
+          "time": 2,
+          "image": "media/lily-r06-before/frames/f0120.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0120.png"
+        },
+        {
+          "frame": 121,
+          "time": 2.0166666666666666,
+          "image": "media/lily-r06-before/frames/f0121.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0121.png"
+        },
+        {
+          "frame": 122,
+          "time": 2.033333333333333,
+          "image": "media/lily-r06-before/frames/f0122.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0122.png"
+        },
+        {
+          "frame": 123,
+          "time": 2.05,
+          "image": "media/lily-r06-before/frames/f0123.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0123.png"
+        },
+        {
+          "frame": 124,
+          "time": 2.066666666666667,
+          "image": "media/lily-r06-before/frames/f0124.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0124.png"
+        },
+        {
+          "frame": 125,
+          "time": 2.0833333333333335,
+          "image": "media/lily-r06-before/frames/f0125.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0125.png"
+        },
+        {
+          "frame": 126,
+          "time": 2.1,
+          "image": "media/lily-r06-before/frames/f0126.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0126.png"
+        },
+        {
+          "frame": 127,
+          "time": 2.1166666666666667,
+          "image": "media/lily-r06-before/frames/f0127.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0127.png"
+        },
+        {
+          "frame": 128,
+          "time": 2.1333333333333333,
+          "image": "media/lily-r06-before/frames/f0128.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0128.png"
+        },
+        {
+          "frame": 129,
+          "time": 2.15,
+          "image": "media/lily-r06-before/frames/f0129.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0129.png"
+        },
+        {
+          "frame": 130,
+          "time": 2.1666666666666665,
+          "image": "media/lily-r06-before/frames/f0130.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0130.png"
+        },
+        {
+          "frame": 131,
+          "time": 2.183333333333333,
+          "image": "media/lily-r06-before/frames/f0131.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0131.png"
+        },
+        {
+          "frame": 132,
+          "time": 2.2,
+          "image": "media/lily-r06-before/frames/f0132.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0132.png"
+        },
+        {
+          "frame": 133,
+          "time": 2.216666666666667,
+          "image": "media/lily-r06-before/frames/f0133.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0133.png"
+        },
+        {
+          "frame": 134,
+          "time": 2.2333333333333334,
+          "image": "media/lily-r06-before/frames/f0134.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0134.png"
+        },
+        {
+          "frame": 135,
+          "time": 2.25,
+          "image": "media/lily-r06-before/frames/f0135.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0135.png"
+        },
+        {
+          "frame": 136,
+          "time": 2.2666666666666666,
+          "image": "media/lily-r06-before/frames/f0136.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0136.png"
+        },
+        {
+          "frame": 137,
+          "time": 2.283333333333333,
+          "image": "media/lily-r06-before/frames/f0137.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0137.png"
+        },
+        {
+          "frame": 138,
+          "time": 2.3,
+          "image": "media/lily-r06-before/frames/f0138.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0138.png"
+        },
+        {
+          "frame": 139,
+          "time": 2.316666666666667,
+          "image": "media/lily-r06-before/frames/f0139.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0139.png"
+        },
+        {
+          "frame": 140,
+          "time": 2.3333333333333335,
+          "image": "media/lily-r06-before/frames/f0140.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0140.png"
+        },
+        {
+          "frame": 141,
+          "time": 2.35,
+          "image": "media/lily-r06-before/frames/f0141.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0141.png"
+        },
+        {
+          "frame": 142,
+          "time": 2.3666666666666667,
+          "image": "media/lily-r06-before/frames/f0142.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0142.png"
+        },
+        {
+          "frame": 143,
+          "time": 2.3833333333333333,
+          "image": "media/lily-r06-before/frames/f0143.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0143.png"
+        },
+        {
+          "frame": 144,
+          "time": 2.4,
+          "image": "media/lily-r06-before/frames/f0144.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0144.png"
+        },
+        {
+          "frame": 145,
+          "time": 2.4166666666666665,
+          "image": "media/lily-r06-before/frames/f0145.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0145.png"
+        },
+        {
+          "frame": 146,
+          "time": 2.433333333333333,
+          "image": "media/lily-r06-before/frames/f0146.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0146.png"
+        },
+        {
+          "frame": 147,
+          "time": 2.45,
+          "image": "media/lily-r06-before/frames/f0147.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0147.png"
+        },
+        {
+          "frame": 148,
+          "time": 2.466666666666667,
+          "image": "media/lily-r06-before/frames/f0148.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0148.png"
+        },
+        {
+          "frame": 149,
+          "time": 2.4833333333333334,
+          "image": "media/lily-r06-before/frames/f0149.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0149.png"
+        },
+        {
+          "frame": 150,
+          "time": 2.5,
+          "image": "media/lily-r06-before/frames/f0150.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0150.png"
+        },
+        {
+          "frame": 151,
+          "time": 2.5166666666666666,
+          "image": "media/lily-r06-before/frames/f0151.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0151.png"
+        },
+        {
+          "frame": 152,
+          "time": 2.533333333333333,
+          "image": "media/lily-r06-before/frames/f0152.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0152.png"
+        },
+        {
+          "frame": 153,
+          "time": 2.55,
+          "image": "media/lily-r06-before/frames/f0153.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0153.png"
+        },
+        {
+          "frame": 154,
+          "time": 2.566666666666667,
+          "image": "media/lily-r06-before/frames/f0154.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0154.png"
+        },
+        {
+          "frame": 155,
+          "time": 2.5833333333333335,
+          "image": "media/lily-r06-before/frames/f0155.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0155.png"
+        },
+        {
+          "frame": 156,
+          "time": 2.6,
+          "image": "media/lily-r06-before/frames/f0156.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0156.png"
+        },
+        {
+          "frame": 157,
+          "time": 2.6166666666666667,
+          "image": "media/lily-r06-before/frames/f0157.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0157.png"
+        },
+        {
+          "frame": 158,
+          "time": 2.6333333333333333,
+          "image": "media/lily-r06-before/frames/f0158.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0158.png"
+        },
+        {
+          "frame": 159,
+          "time": 2.65,
+          "image": "media/lily-r06-before/frames/f0159.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0159.png"
+        },
+        {
+          "frame": 160,
+          "time": 2.6666666666666665,
+          "image": "media/lily-r06-before/frames/f0160.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0160.png"
+        },
+        {
+          "frame": 161,
+          "time": 2.683333333333333,
+          "image": "media/lily-r06-before/frames/f0161.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0161.png"
+        },
+        {
+          "frame": 162,
+          "time": 2.7,
+          "image": "media/lily-r06-before/frames/f0162.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0162.png"
+        },
+        {
+          "frame": 163,
+          "time": 2.716666666666667,
+          "image": "media/lily-r06-before/frames/f0163.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0163.png"
+        },
+        {
+          "frame": 164,
+          "time": 2.7333333333333334,
+          "image": "media/lily-r06-before/frames/f0164.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0164.png"
+        },
+        {
+          "frame": 165,
+          "time": 2.75,
+          "image": "media/lily-r06-before/frames/f0165.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0165.png"
+        },
+        {
+          "frame": 166,
+          "time": 2.7666666666666666,
+          "image": "media/lily-r06-before/frames/f0166.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0166.png"
+        },
+        {
+          "frame": 167,
+          "time": 2.783333333333333,
+          "image": "media/lily-r06-before/frames/f0167.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0167.png"
+        },
+        {
+          "frame": 168,
+          "time": 2.8,
+          "image": "media/lily-r06-before/frames/f0168.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0168.png"
+        },
+        {
+          "frame": 169,
+          "time": 2.816666666666667,
+          "image": "media/lily-r06-before/frames/f0169.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0169.png"
+        },
+        {
+          "frame": 170,
+          "time": 2.8333333333333335,
+          "image": "media/lily-r06-before/frames/f0170.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0170.png"
+        },
+        {
+          "frame": 171,
+          "time": 2.85,
+          "image": "media/lily-r06-before/frames/f0171.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0171.png"
+        },
+        {
+          "frame": 172,
+          "time": 2.8666666666666667,
+          "image": "media/lily-r06-before/frames/f0172.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0172.png"
+        },
+        {
+          "frame": 173,
+          "time": 2.8833333333333333,
+          "image": "media/lily-r06-before/frames/f0173.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0173.png"
+        },
+        {
+          "frame": 174,
+          "time": 2.9,
+          "image": "media/lily-r06-before/frames/f0174.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0174.png"
+        },
+        {
+          "frame": 175,
+          "time": 2.9166666666666665,
+          "image": "media/lily-r06-before/frames/f0175.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0175.png"
+        },
+        {
+          "frame": 176,
+          "time": 2.933333333333333,
+          "image": "media/lily-r06-before/frames/f0176.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0176.png"
+        },
+        {
+          "frame": 177,
+          "time": 2.95,
+          "image": "media/lily-r06-before/frames/f0177.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0177.png"
+        },
+        {
+          "frame": 178,
+          "time": 2.966666666666667,
+          "image": "media/lily-r06-before/frames/f0178.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0178.png"
+        },
+        {
+          "frame": 179,
+          "time": 2.9833333333333334,
+          "image": "media/lily-r06-before/frames/f0179.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0179.png"
+        },
+        {
+          "frame": 180,
+          "time": 3,
+          "image": "media/lily-r06-before/frames/f0180.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0180.png"
+        },
+        {
+          "frame": 181,
+          "time": 3.0166666666666666,
+          "image": "media/lily-r06-before/frames/f0181.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0181.png"
+        },
+        {
+          "frame": 182,
+          "time": 3.033333333333333,
+          "image": "media/lily-r06-before/frames/f0182.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0182.png"
+        },
+        {
+          "frame": 183,
+          "time": 3.05,
+          "image": "media/lily-r06-before/frames/f0183.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0183.png"
+        },
+        {
+          "frame": 184,
+          "time": 3.066666666666667,
+          "image": "media/lily-r06-before/frames/f0184.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0184.png"
+        },
+        {
+          "frame": 185,
+          "time": 3.0833333333333335,
+          "image": "media/lily-r06-before/frames/f0185.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0185.png"
+        },
+        {
+          "frame": 186,
+          "time": 3.1,
+          "image": "media/lily-r06-before/frames/f0186.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0186.png"
+        },
+        {
+          "frame": 187,
+          "time": 3.1166666666666667,
+          "image": "media/lily-r06-before/frames/f0187.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0187.png"
+        },
+        {
+          "frame": 188,
+          "time": 3.1333333333333333,
+          "image": "media/lily-r06-before/frames/f0188.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0188.png"
+        },
+        {
+          "frame": 189,
+          "time": 3.15,
+          "image": "media/lily-r06-before/frames/f0189.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0189.png"
+        },
+        {
+          "frame": 190,
+          "time": 3.1666666666666665,
+          "image": "media/lily-r06-before/frames/f0190.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0190.png"
+        },
+        {
+          "frame": 191,
+          "time": 3.183333333333333,
+          "image": "media/lily-r06-before/frames/f0191.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0191.png"
+        },
+        {
+          "frame": 192,
+          "time": 3.2,
+          "image": "media/lily-r06-before/frames/f0192.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0192.png"
+        },
+        {
+          "frame": 193,
+          "time": 3.216666666666667,
+          "image": "media/lily-r06-before/frames/f0193.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0193.png"
+        },
+        {
+          "frame": 194,
+          "time": 3.2333333333333334,
+          "image": "media/lily-r06-before/frames/f0194.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0194.png"
+        },
+        {
+          "frame": 195,
+          "time": 3.25,
+          "image": "media/lily-r06-before/frames/f0195.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0195.png"
+        },
+        {
+          "frame": 196,
+          "time": 3.2666666666666666,
+          "image": "media/lily-r06-before/frames/f0196.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0196.png"
+        },
+        {
+          "frame": 197,
+          "time": 3.283333333333333,
+          "image": "media/lily-r06-before/frames/f0197.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0197.png"
+        },
+        {
+          "frame": 198,
+          "time": 3.3,
+          "image": "media/lily-r06-before/frames/f0198.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0198.png"
+        },
+        {
+          "frame": 199,
+          "time": 3.316666666666667,
+          "image": "media/lily-r06-before/frames/f0199.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0199.png"
+        },
+        {
+          "frame": 200,
+          "time": 3.3333333333333335,
+          "image": "media/lily-r06-before/frames/f0200.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0200.png"
+        },
+        {
+          "frame": 201,
+          "time": 3.35,
+          "image": "media/lily-r06-before/frames/f0201.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0201.png"
+        },
+        {
+          "frame": 202,
+          "time": 3.3666666666666667,
+          "image": "media/lily-r06-before/frames/f0202.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0202.png"
+        },
+        {
+          "frame": 203,
+          "time": 3.3833333333333333,
+          "image": "media/lily-r06-before/frames/f0203.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0203.png"
+        },
+        {
+          "frame": 204,
+          "time": 3.4,
+          "image": "media/lily-r06-before/frames/f0204.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0204.png"
+        },
+        {
+          "frame": 205,
+          "time": 3.4166666666666665,
+          "image": "media/lily-r06-before/frames/f0205.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0205.png"
+        },
+        {
+          "frame": 206,
+          "time": 3.433333333333333,
+          "image": "media/lily-r06-before/frames/f0206.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0206.png"
+        },
+        {
+          "frame": 207,
+          "time": 3.45,
+          "image": "media/lily-r06-before/frames/f0207.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0207.png"
+        },
+        {
+          "frame": 208,
+          "time": 3.466666666666667,
+          "image": "media/lily-r06-before/frames/f0208.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0208.png"
+        },
+        {
+          "frame": 209,
+          "time": 3.4833333333333334,
+          "image": "media/lily-r06-before/frames/f0209.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0209.png"
+        },
+        {
+          "frame": 210,
+          "time": 3.5,
+          "image": "media/lily-r06-before/frames/f0210.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0210.png"
+        },
+        {
+          "frame": 211,
+          "time": 3.5166666666666666,
+          "image": "media/lily-r06-before/frames/f0211.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0211.png"
+        },
+        {
+          "frame": 212,
+          "time": 3.533333333333333,
+          "image": "media/lily-r06-before/frames/f0212.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0212.png"
+        },
+        {
+          "frame": 213,
+          "time": 3.55,
+          "image": "media/lily-r06-before/frames/f0213.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0213.png"
+        },
+        {
+          "frame": 214,
+          "time": 3.566666666666667,
+          "image": "media/lily-r06-before/frames/f0214.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0214.png"
+        },
+        {
+          "frame": 215,
+          "time": 3.5833333333333335,
+          "image": "media/lily-r06-before/frames/f0215.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0215.png"
+        },
+        {
+          "frame": 216,
+          "time": 3.6,
+          "image": "media/lily-r06-before/frames/f0216.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0216.png"
+        },
+        {
+          "frame": 217,
+          "time": 3.6166666666666667,
+          "image": "media/lily-r06-before/frames/f0217.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0217.png"
+        },
+        {
+          "frame": 218,
+          "time": 3.6333333333333333,
+          "image": "media/lily-r06-before/frames/f0218.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0218.png"
+        },
+        {
+          "frame": 219,
+          "time": 3.65,
+          "image": "media/lily-r06-before/frames/f0219.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0219.png"
+        },
+        {
+          "frame": 220,
+          "time": 3.6666666666666665,
+          "image": "media/lily-r06-before/frames/f0220.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0220.png"
+        },
+        {
+          "frame": 221,
+          "time": 3.683333333333333,
+          "image": "media/lily-r06-before/frames/f0221.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0221.png"
+        },
+        {
+          "frame": 222,
+          "time": 3.7,
+          "image": "media/lily-r06-before/frames/f0222.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0222.png"
+        },
+        {
+          "frame": 223,
+          "time": 3.716666666666667,
+          "image": "media/lily-r06-before/frames/f0223.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0223.png"
+        },
+        {
+          "frame": 224,
+          "time": 3.7333333333333334,
+          "image": "media/lily-r06-before/frames/f0224.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0224.png"
+        },
+        {
+          "frame": 225,
+          "time": 3.75,
+          "image": "media/lily-r06-before/frames/f0225.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0225.png"
+        },
+        {
+          "frame": 226,
+          "time": 3.7666666666666666,
+          "image": "media/lily-r06-before/frames/f0226.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0226.png"
+        },
+        {
+          "frame": 227,
+          "time": 3.783333333333333,
+          "image": "media/lily-r06-before/frames/f0227.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0227.png"
+        },
+        {
+          "frame": 228,
+          "time": 3.8,
+          "image": "media/lily-r06-before/frames/f0228.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0228.png"
+        },
+        {
+          "frame": 229,
+          "time": 3.816666666666667,
+          "image": "media/lily-r06-before/frames/f0229.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0229.png"
+        },
+        {
+          "frame": 230,
+          "time": 3.8333333333333335,
+          "image": "media/lily-r06-before/frames/f0230.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0230.png"
+        },
+        {
+          "frame": 231,
+          "time": 3.85,
+          "image": "media/lily-r06-before/frames/f0231.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0231.png"
+        },
+        {
+          "frame": 232,
+          "time": 3.8666666666666667,
+          "image": "media/lily-r06-before/frames/f0232.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0232.png"
+        },
+        {
+          "frame": 233,
+          "time": 3.8833333333333333,
+          "image": "media/lily-r06-before/frames/f0233.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0233.png"
+        },
+        {
+          "frame": 234,
+          "time": 3.9,
+          "image": "media/lily-r06-before/frames/f0234.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0234.png"
+        },
+        {
+          "frame": 235,
+          "time": 3.9166666666666665,
+          "image": "media/lily-r06-before/frames/f0235.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0235.png"
+        },
+        {
+          "frame": 236,
+          "time": 3.933333333333333,
+          "image": "media/lily-r06-before/frames/f0236.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0236.png"
+        },
+        {
+          "frame": 237,
+          "time": 3.95,
+          "image": "media/lily-r06-before/frames/f0237.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0237.png"
+        },
+        {
+          "frame": 238,
+          "time": 3.966666666666667,
+          "image": "media/lily-r06-before/frames/f0238.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0238.png"
+        },
+        {
+          "frame": 239,
+          "time": 3.9833333333333334,
+          "image": "media/lily-r06-before/frames/f0239.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0239.png"
+        },
+        {
+          "frame": 240,
+          "time": 4,
+          "image": "media/lily-r06-before/frames/f0240.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0240.png"
+        },
+        {
+          "frame": 241,
+          "time": 4.016666666666667,
+          "image": "media/lily-r06-before/frames/f0241.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0241.png"
+        },
+        {
+          "frame": 242,
+          "time": 4.033333333333333,
+          "image": "media/lily-r06-before/frames/f0242.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0242.png"
+        },
+        {
+          "frame": 243,
+          "time": 4.05,
+          "image": "media/lily-r06-before/frames/f0243.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0243.png"
+        },
+        {
+          "frame": 244,
+          "time": 4.066666666666666,
+          "image": "media/lily-r06-before/frames/f0244.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0244.png"
+        },
+        {
+          "frame": 245,
+          "time": 4.083333333333333,
+          "image": "media/lily-r06-before/frames/f0245.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0245.png"
+        },
+        {
+          "frame": 246,
+          "time": 4.1,
+          "image": "media/lily-r06-before/frames/f0246.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0246.png"
+        },
+        {
+          "frame": 247,
+          "time": 4.116666666666666,
+          "image": "media/lily-r06-before/frames/f0247.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0247.png"
+        },
+        {
+          "frame": 248,
+          "time": 4.133333333333334,
+          "image": "media/lily-r06-before/frames/f0248.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0248.png"
+        },
+        {
+          "frame": 249,
+          "time": 4.15,
+          "image": "media/lily-r06-before/frames/f0249.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0249.png"
+        },
+        {
+          "frame": 250,
+          "time": 4.166666666666667,
+          "image": "media/lily-r06-before/frames/f0250.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0250.png"
+        },
+        {
+          "frame": 251,
+          "time": 4.183333333333334,
+          "image": "media/lily-r06-before/frames/f0251.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0251.png"
+        },
+        {
+          "frame": 252,
+          "time": 4.2,
+          "image": "media/lily-r06-before/frames/f0252.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0252.png"
+        },
+        {
+          "frame": 253,
+          "time": 4.216666666666667,
+          "image": "media/lily-r06-before/frames/f0253.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0253.png"
+        },
+        {
+          "frame": 254,
+          "time": 4.233333333333333,
+          "image": "media/lily-r06-before/frames/f0254.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0254.png"
+        },
+        {
+          "frame": 255,
+          "time": 4.25,
+          "image": "media/lily-r06-before/frames/f0255.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0255.png"
+        },
+        {
+          "frame": 256,
+          "time": 4.266666666666667,
+          "image": "media/lily-r06-before/frames/f0256.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0256.png"
+        },
+        {
+          "frame": 257,
+          "time": 4.283333333333333,
+          "image": "media/lily-r06-before/frames/f0257.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0257.png"
+        },
+        {
+          "frame": 258,
+          "time": 4.3,
+          "image": "media/lily-r06-before/frames/f0258.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0258.png"
+        },
+        {
+          "frame": 259,
+          "time": 4.316666666666666,
+          "image": "media/lily-r06-before/frames/f0259.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0259.png"
+        },
+        {
+          "frame": 260,
+          "time": 4.333333333333333,
+          "image": "media/lily-r06-before/frames/f0260.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0260.png"
+        },
+        {
+          "frame": 261,
+          "time": 4.35,
+          "image": "media/lily-r06-before/frames/f0261.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0261.png"
+        },
+        {
+          "frame": 262,
+          "time": 4.366666666666666,
+          "image": "media/lily-r06-before/frames/f0262.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0262.png"
+        },
+        {
+          "frame": 263,
+          "time": 4.383333333333334,
+          "image": "media/lily-r06-before/frames/f0263.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0263.png"
+        },
+        {
+          "frame": 264,
+          "time": 4.4,
+          "image": "media/lily-r06-before/frames/f0264.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0264.png"
+        },
+        {
+          "frame": 265,
+          "time": 4.416666666666667,
+          "image": "media/lily-r06-before/frames/f0265.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0265.png"
+        },
+        {
+          "frame": 266,
+          "time": 4.433333333333334,
+          "image": "media/lily-r06-before/frames/f0266.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0266.png"
+        },
+        {
+          "frame": 267,
+          "time": 4.45,
+          "image": "media/lily-r06-before/frames/f0267.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0267.png"
+        },
+        {
+          "frame": 268,
+          "time": 4.466666666666667,
+          "image": "media/lily-r06-before/frames/f0268.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0268.png"
+        },
+        {
+          "frame": 269,
+          "time": 4.483333333333333,
+          "image": "media/lily-r06-before/frames/f0269.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0269.png"
+        },
+        {
+          "frame": 270,
+          "time": 4.5,
+          "image": "media/lily-r06-before/frames/f0270.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0270.png"
+        },
+        {
+          "frame": 271,
+          "time": 4.516666666666667,
+          "image": "media/lily-r06-before/frames/f0271.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0271.png"
+        },
+        {
+          "frame": 272,
+          "time": 4.533333333333333,
+          "image": "media/lily-r06-before/frames/f0272.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0272.png"
+        },
+        {
+          "frame": 273,
+          "time": 4.55,
+          "image": "media/lily-r06-before/frames/f0273.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0273.png"
+        },
+        {
+          "frame": 274,
+          "time": 4.566666666666666,
+          "image": "media/lily-r06-before/frames/f0274.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0274.png"
+        },
+        {
+          "frame": 275,
+          "time": 4.583333333333333,
+          "image": "media/lily-r06-before/frames/f0275.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0275.png"
+        },
+        {
+          "frame": 276,
+          "time": 4.6,
+          "image": "media/lily-r06-before/frames/f0276.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0276.png"
+        },
+        {
+          "frame": 277,
+          "time": 4.616666666666666,
+          "image": "media/lily-r06-before/frames/f0277.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0277.png"
+        },
+        {
+          "frame": 278,
+          "time": 4.633333333333334,
+          "image": "media/lily-r06-before/frames/f0278.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0278.png"
+        },
+        {
+          "frame": 279,
+          "time": 4.65,
+          "image": "media/lily-r06-before/frames/f0279.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0279.png"
+        },
+        {
+          "frame": 280,
+          "time": 4.666666666666667,
+          "image": "media/lily-r06-before/frames/f0280.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0280.png"
+        },
+        {
+          "frame": 281,
+          "time": 4.683333333333334,
+          "image": "media/lily-r06-before/frames/f0281.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0281.png"
+        },
+        {
+          "frame": 282,
+          "time": 4.7,
+          "image": "media/lily-r06-before/frames/f0282.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0282.png"
+        },
+        {
+          "frame": 283,
+          "time": 4.716666666666667,
+          "image": "media/lily-r06-before/frames/f0283.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0283.png"
+        },
+        {
+          "frame": 284,
+          "time": 4.733333333333333,
+          "image": "media/lily-r06-before/frames/f0284.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0284.png"
+        },
+        {
+          "frame": 285,
+          "time": 4.75,
+          "image": "media/lily-r06-before/frames/f0285.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0285.png"
+        },
+        {
+          "frame": 286,
+          "time": 4.766666666666667,
+          "image": "media/lily-r06-before/frames/f0286.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0286.png"
+        },
+        {
+          "frame": 287,
+          "time": 4.783333333333333,
+          "image": "media/lily-r06-before/frames/f0287.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0287.png"
+        },
+        {
+          "frame": 288,
+          "time": 4.8,
+          "image": "media/lily-r06-before/frames/f0288.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0288.png"
+        },
+        {
+          "frame": 289,
+          "time": 4.816666666666666,
+          "image": "media/lily-r06-before/frames/f0289.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0289.png"
+        },
+        {
+          "frame": 290,
+          "time": 4.833333333333333,
+          "image": "media/lily-r06-before/frames/f0290.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0290.png"
+        },
+        {
+          "frame": 291,
+          "time": 4.85,
+          "image": "media/lily-r06-before/frames/f0291.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0291.png"
+        },
+        {
+          "frame": 292,
+          "time": 4.866666666666666,
+          "image": "media/lily-r06-before/frames/f0292.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0292.png"
+        },
+        {
+          "frame": 293,
+          "time": 4.883333333333334,
+          "image": "media/lily-r06-before/frames/f0293.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0293.png"
+        },
+        {
+          "frame": 294,
+          "time": 4.9,
+          "image": "media/lily-r06-before/frames/f0294.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0294.png"
+        },
+        {
+          "frame": 295,
+          "time": 4.916666666666667,
+          "image": "media/lily-r06-before/frames/f0295.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0295.png"
+        },
+        {
+          "frame": 296,
+          "time": 4.933333333333334,
+          "image": "media/lily-r06-before/frames/f0296.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0296.png"
+        },
+        {
+          "frame": 297,
+          "time": 4.95,
+          "image": "media/lily-r06-before/frames/f0297.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0297.png"
+        },
+        {
+          "frame": 298,
+          "time": 4.966666666666667,
+          "image": "media/lily-r06-before/frames/f0298.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0298.png"
+        },
+        {
+          "frame": 299,
+          "time": 4.983333333333333,
+          "image": "media/lily-r06-before/frames/f0299.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0299.png"
+        },
+        {
+          "frame": 300,
+          "time": 5,
+          "image": "media/lily-r06-before/frames/f0300.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0300.png"
+        },
+        {
+          "frame": 301,
+          "time": 5.016666666666667,
+          "image": "media/lily-r06-before/frames/f0301.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0301.png"
+        },
+        {
+          "frame": 302,
+          "time": 5.033333333333333,
+          "image": "media/lily-r06-before/frames/f0302.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0302.png"
+        },
+        {
+          "frame": 303,
+          "time": 5.05,
+          "image": "media/lily-r06-before/frames/f0303.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0303.png"
+        },
+        {
+          "frame": 304,
+          "time": 5.066666666666666,
+          "image": "media/lily-r06-before/frames/f0304.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0304.png"
+        },
+        {
+          "frame": 305,
+          "time": 5.083333333333333,
+          "image": "media/lily-r06-before/frames/f0305.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0305.png"
+        },
+        {
+          "frame": 306,
+          "time": 5.1,
+          "image": "media/lily-r06-before/frames/f0306.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0306.png"
+        },
+        {
+          "frame": 307,
+          "time": 5.116666666666666,
+          "image": "media/lily-r06-before/frames/f0307.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0307.png"
+        },
+        {
+          "frame": 308,
+          "time": 5.133333333333334,
+          "image": "media/lily-r06-before/frames/f0308.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0308.png"
+        },
+        {
+          "frame": 309,
+          "time": 5.15,
+          "image": "media/lily-r06-before/frames/f0309.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0309.png"
+        },
+        {
+          "frame": 310,
+          "time": 5.166666666666667,
+          "image": "media/lily-r06-before/frames/f0310.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0310.png"
+        },
+        {
+          "frame": 311,
+          "time": 5.183333333333334,
+          "image": "media/lily-r06-before/frames/f0311.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0311.png"
+        },
+        {
+          "frame": 312,
+          "time": 5.2,
+          "image": "media/lily-r06-before/frames/f0312.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0312.png"
+        },
+        {
+          "frame": 313,
+          "time": 5.216666666666667,
+          "image": "media/lily-r06-before/frames/f0313.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0313.png"
+        },
+        {
+          "frame": 314,
+          "time": 5.233333333333333,
+          "image": "media/lily-r06-before/frames/f0314.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0314.png"
+        },
+        {
+          "frame": 315,
+          "time": 5.25,
+          "image": "media/lily-r06-before/frames/f0315.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0315.png"
+        },
+        {
+          "frame": 316,
+          "time": 5.266666666666667,
+          "image": "media/lily-r06-before/frames/f0316.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0316.png"
+        },
+        {
+          "frame": 317,
+          "time": 5.283333333333333,
+          "image": "media/lily-r06-before/frames/f0317.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0317.png"
+        },
+        {
+          "frame": 318,
+          "time": 5.3,
+          "image": "media/lily-r06-before/frames/f0318.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0318.png"
+        },
+        {
+          "frame": 319,
+          "time": 5.316666666666666,
+          "image": "media/lily-r06-before/frames/f0319.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0319.png"
+        },
+        {
+          "frame": 320,
+          "time": 5.333333333333333,
+          "image": "media/lily-r06-before/frames/f0320.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0320.png"
+        },
+        {
+          "frame": 321,
+          "time": 5.35,
+          "image": "media/lily-r06-before/frames/f0321.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0321.png"
+        },
+        {
+          "frame": 322,
+          "time": 5.366666666666666,
+          "image": "media/lily-r06-before/frames/f0322.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0322.png"
+        },
+        {
+          "frame": 323,
+          "time": 5.383333333333334,
+          "image": "media/lily-r06-before/frames/f0323.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0323.png"
+        },
+        {
+          "frame": 324,
+          "time": 5.4,
+          "image": "media/lily-r06-before/frames/f0324.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0324.png"
+        },
+        {
+          "frame": 325,
+          "time": 5.416666666666667,
+          "image": "media/lily-r06-before/frames/f0325.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0325.png"
+        },
+        {
+          "frame": 326,
+          "time": 5.433333333333334,
+          "image": "media/lily-r06-before/frames/f0326.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0326.png"
+        },
+        {
+          "frame": 327,
+          "time": 5.45,
+          "image": "media/lily-r06-before/frames/f0327.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0327.png"
+        },
+        {
+          "frame": 328,
+          "time": 5.466666666666667,
+          "image": "media/lily-r06-before/frames/f0328.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0328.png"
+        },
+        {
+          "frame": 329,
+          "time": 5.483333333333333,
+          "image": "media/lily-r06-before/frames/f0329.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0329.png"
+        },
+        {
+          "frame": 330,
+          "time": 5.5,
+          "image": "media/lily-r06-before/frames/f0330.png",
+          "thumbnail": "media/lily-r06-before/thumbs/f0330.png"
+        }
+      ]
+    },
+    {
+      "id": "lily-r09",
+      "revision": "4e7cc7d1ae7d25d9f301bbe4e52e117ec58ce69458058b26875659326c225726",
+      "title": "릴리 수정 후보 r09",
+      "character": "릴리",
+      "fps": 60,
+      "first": 0,
+      "last": 330,
+      "duration": 5.5,
+      "width": 768,
+      "height": 768,
+      "status": "가중치 수정 중 · 품질 미통과",
+      "notes": "검 꺾임과 일부 끌림을 줄였으나 목깃·방패 아래·관절 변형이 남습니다. 실제 동작 331표본이며 게임에 반영하지 않았습니다.",
+      "frames": [
+        {
+          "frame": 0,
+          "time": 0,
+          "image": "media/lily-r09/frames/f0000.png",
+          "thumbnail": "media/lily-r09/thumbs/f0000.png"
+        },
+        {
+          "frame": 1,
+          "time": 0.016666666666666666,
+          "image": "media/lily-r09/frames/f0001.png",
+          "thumbnail": "media/lily-r09/thumbs/f0001.png"
+        },
+        {
+          "frame": 2,
+          "time": 0.03333333333333333,
+          "image": "media/lily-r09/frames/f0002.png",
+          "thumbnail": "media/lily-r09/thumbs/f0002.png"
+        },
+        {
+          "frame": 3,
+          "time": 0.05,
+          "image": "media/lily-r09/frames/f0003.png",
+          "thumbnail": "media/lily-r09/thumbs/f0003.png"
+        },
+        {
+          "frame": 4,
+          "time": 0.06666666666666667,
+          "image": "media/lily-r09/frames/f0004.png",
+          "thumbnail": "media/lily-r09/thumbs/f0004.png"
+        },
+        {
+          "frame": 5,
+          "time": 0.08333333333333333,
+          "image": "media/lily-r09/frames/f0005.png",
+          "thumbnail": "media/lily-r09/thumbs/f0005.png"
+        },
+        {
+          "frame": 6,
+          "time": 0.1,
+          "image": "media/lily-r09/frames/f0006.png",
+          "thumbnail": "media/lily-r09/thumbs/f0006.png"
+        },
+        {
+          "frame": 7,
+          "time": 0.11666666666666667,
+          "image": "media/lily-r09/frames/f0007.png",
+          "thumbnail": "media/lily-r09/thumbs/f0007.png"
+        },
+        {
+          "frame": 8,
+          "time": 0.13333333333333333,
+          "image": "media/lily-r09/frames/f0008.png",
+          "thumbnail": "media/lily-r09/thumbs/f0008.png"
+        },
+        {
+          "frame": 9,
+          "time": 0.15,
+          "image": "media/lily-r09/frames/f0009.png",
+          "thumbnail": "media/lily-r09/thumbs/f0009.png"
+        },
+        {
+          "frame": 10,
+          "time": 0.16666666666666666,
+          "image": "media/lily-r09/frames/f0010.png",
+          "thumbnail": "media/lily-r09/thumbs/f0010.png"
+        },
+        {
+          "frame": 11,
+          "time": 0.18333333333333332,
+          "image": "media/lily-r09/frames/f0011.png",
+          "thumbnail": "media/lily-r09/thumbs/f0011.png"
+        },
+        {
+          "frame": 12,
+          "time": 0.2,
+          "image": "media/lily-r09/frames/f0012.png",
+          "thumbnail": "media/lily-r09/thumbs/f0012.png"
+        },
+        {
+          "frame": 13,
+          "time": 0.21666666666666667,
+          "image": "media/lily-r09/frames/f0013.png",
+          "thumbnail": "media/lily-r09/thumbs/f0013.png"
+        },
+        {
+          "frame": 14,
+          "time": 0.23333333333333334,
+          "image": "media/lily-r09/frames/f0014.png",
+          "thumbnail": "media/lily-r09/thumbs/f0014.png"
+        },
+        {
+          "frame": 15,
+          "time": 0.25,
+          "image": "media/lily-r09/frames/f0015.png",
+          "thumbnail": "media/lily-r09/thumbs/f0015.png"
+        },
+        {
+          "frame": 16,
+          "time": 0.26666666666666666,
+          "image": "media/lily-r09/frames/f0016.png",
+          "thumbnail": "media/lily-r09/thumbs/f0016.png"
+        },
+        {
+          "frame": 17,
+          "time": 0.2833333333333333,
+          "image": "media/lily-r09/frames/f0017.png",
+          "thumbnail": "media/lily-r09/thumbs/f0017.png"
+        },
+        {
+          "frame": 18,
+          "time": 0.3,
+          "image": "media/lily-r09/frames/f0018.png",
+          "thumbnail": "media/lily-r09/thumbs/f0018.png"
+        },
+        {
+          "frame": 19,
+          "time": 0.31666666666666665,
+          "image": "media/lily-r09/frames/f0019.png",
+          "thumbnail": "media/lily-r09/thumbs/f0019.png"
+        },
+        {
+          "frame": 20,
+          "time": 0.3333333333333333,
+          "image": "media/lily-r09/frames/f0020.png",
+          "thumbnail": "media/lily-r09/thumbs/f0020.png"
+        },
+        {
+          "frame": 21,
+          "time": 0.35,
+          "image": "media/lily-r09/frames/f0021.png",
+          "thumbnail": "media/lily-r09/thumbs/f0021.png"
+        },
+        {
+          "frame": 22,
+          "time": 0.36666666666666664,
+          "image": "media/lily-r09/frames/f0022.png",
+          "thumbnail": "media/lily-r09/thumbs/f0022.png"
+        },
+        {
+          "frame": 23,
+          "time": 0.38333333333333336,
+          "image": "media/lily-r09/frames/f0023.png",
+          "thumbnail": "media/lily-r09/thumbs/f0023.png"
+        },
+        {
+          "frame": 24,
+          "time": 0.4,
+          "image": "media/lily-r09/frames/f0024.png",
+          "thumbnail": "media/lily-r09/thumbs/f0024.png"
+        },
+        {
+          "frame": 25,
+          "time": 0.4166666666666667,
+          "image": "media/lily-r09/frames/f0025.png",
+          "thumbnail": "media/lily-r09/thumbs/f0025.png"
+        },
+        {
+          "frame": 26,
+          "time": 0.43333333333333335,
+          "image": "media/lily-r09/frames/f0026.png",
+          "thumbnail": "media/lily-r09/thumbs/f0026.png"
+        },
+        {
+          "frame": 27,
+          "time": 0.45,
+          "image": "media/lily-r09/frames/f0027.png",
+          "thumbnail": "media/lily-r09/thumbs/f0027.png"
+        },
+        {
+          "frame": 28,
+          "time": 0.4666666666666667,
+          "image": "media/lily-r09/frames/f0028.png",
+          "thumbnail": "media/lily-r09/thumbs/f0028.png"
+        },
+        {
+          "frame": 29,
+          "time": 0.48333333333333334,
+          "image": "media/lily-r09/frames/f0029.png",
+          "thumbnail": "media/lily-r09/thumbs/f0029.png"
+        },
+        {
+          "frame": 30,
+          "time": 0.5,
+          "image": "media/lily-r09/frames/f0030.png",
+          "thumbnail": "media/lily-r09/thumbs/f0030.png"
+        },
+        {
+          "frame": 31,
+          "time": 0.5166666666666667,
+          "image": "media/lily-r09/frames/f0031.png",
+          "thumbnail": "media/lily-r09/thumbs/f0031.png"
+        },
+        {
+          "frame": 32,
+          "time": 0.5333333333333333,
+          "image": "media/lily-r09/frames/f0032.png",
+          "thumbnail": "media/lily-r09/thumbs/f0032.png"
+        },
+        {
+          "frame": 33,
+          "time": 0.55,
+          "image": "media/lily-r09/frames/f0033.png",
+          "thumbnail": "media/lily-r09/thumbs/f0033.png"
+        },
+        {
+          "frame": 34,
+          "time": 0.5666666666666667,
+          "image": "media/lily-r09/frames/f0034.png",
+          "thumbnail": "media/lily-r09/thumbs/f0034.png"
+        },
+        {
+          "frame": 35,
+          "time": 0.5833333333333334,
+          "image": "media/lily-r09/frames/f0035.png",
+          "thumbnail": "media/lily-r09/thumbs/f0035.png"
+        },
+        {
+          "frame": 36,
+          "time": 0.6,
+          "image": "media/lily-r09/frames/f0036.png",
+          "thumbnail": "media/lily-r09/thumbs/f0036.png"
+        },
+        {
+          "frame": 37,
+          "time": 0.6166666666666667,
+          "image": "media/lily-r09/frames/f0037.png",
+          "thumbnail": "media/lily-r09/thumbs/f0037.png"
+        },
+        {
+          "frame": 38,
+          "time": 0.6333333333333333,
+          "image": "media/lily-r09/frames/f0038.png",
+          "thumbnail": "media/lily-r09/thumbs/f0038.png"
+        },
+        {
+          "frame": 39,
+          "time": 0.65,
+          "image": "media/lily-r09/frames/f0039.png",
+          "thumbnail": "media/lily-r09/thumbs/f0039.png"
+        },
+        {
+          "frame": 40,
+          "time": 0.6666666666666666,
+          "image": "media/lily-r09/frames/f0040.png",
+          "thumbnail": "media/lily-r09/thumbs/f0040.png"
+        },
+        {
+          "frame": 41,
+          "time": 0.6833333333333333,
+          "image": "media/lily-r09/frames/f0041.png",
+          "thumbnail": "media/lily-r09/thumbs/f0041.png"
+        },
+        {
+          "frame": 42,
+          "time": 0.7,
+          "image": "media/lily-r09/frames/f0042.png",
+          "thumbnail": "media/lily-r09/thumbs/f0042.png"
+        },
+        {
+          "frame": 43,
+          "time": 0.7166666666666667,
+          "image": "media/lily-r09/frames/f0043.png",
+          "thumbnail": "media/lily-r09/thumbs/f0043.png"
+        },
+        {
+          "frame": 44,
+          "time": 0.7333333333333333,
+          "image": "media/lily-r09/frames/f0044.png",
+          "thumbnail": "media/lily-r09/thumbs/f0044.png"
+        },
+        {
+          "frame": 45,
+          "time": 0.75,
+          "image": "media/lily-r09/frames/f0045.png",
+          "thumbnail": "media/lily-r09/thumbs/f0045.png"
+        },
+        {
+          "frame": 46,
+          "time": 0.7666666666666667,
+          "image": "media/lily-r09/frames/f0046.png",
+          "thumbnail": "media/lily-r09/thumbs/f0046.png"
+        },
+        {
+          "frame": 47,
+          "time": 0.7833333333333333,
+          "image": "media/lily-r09/frames/f0047.png",
+          "thumbnail": "media/lily-r09/thumbs/f0047.png"
+        },
+        {
+          "frame": 48,
+          "time": 0.8,
+          "image": "media/lily-r09/frames/f0048.png",
+          "thumbnail": "media/lily-r09/thumbs/f0048.png"
+        },
+        {
+          "frame": 49,
+          "time": 0.8166666666666667,
+          "image": "media/lily-r09/frames/f0049.png",
+          "thumbnail": "media/lily-r09/thumbs/f0049.png"
+        },
+        {
+          "frame": 50,
+          "time": 0.8333333333333334,
+          "image": "media/lily-r09/frames/f0050.png",
+          "thumbnail": "media/lily-r09/thumbs/f0050.png"
+        },
+        {
+          "frame": 51,
+          "time": 0.85,
+          "image": "media/lily-r09/frames/f0051.png",
+          "thumbnail": "media/lily-r09/thumbs/f0051.png"
+        },
+        {
+          "frame": 52,
+          "time": 0.8666666666666667,
+          "image": "media/lily-r09/frames/f0052.png",
+          "thumbnail": "media/lily-r09/thumbs/f0052.png"
+        },
+        {
+          "frame": 53,
+          "time": 0.8833333333333333,
+          "image": "media/lily-r09/frames/f0053.png",
+          "thumbnail": "media/lily-r09/thumbs/f0053.png"
+        },
+        {
+          "frame": 54,
+          "time": 0.9,
+          "image": "media/lily-r09/frames/f0054.png",
+          "thumbnail": "media/lily-r09/thumbs/f0054.png"
+        },
+        {
+          "frame": 55,
+          "time": 0.9166666666666666,
+          "image": "media/lily-r09/frames/f0055.png",
+          "thumbnail": "media/lily-r09/thumbs/f0055.png"
+        },
+        {
+          "frame": 56,
+          "time": 0.9333333333333333,
+          "image": "media/lily-r09/frames/f0056.png",
+          "thumbnail": "media/lily-r09/thumbs/f0056.png"
+        },
+        {
+          "frame": 57,
+          "time": 0.95,
+          "image": "media/lily-r09/frames/f0057.png",
+          "thumbnail": "media/lily-r09/thumbs/f0057.png"
+        },
+        {
+          "frame": 58,
+          "time": 0.9666666666666667,
+          "image": "media/lily-r09/frames/f0058.png",
+          "thumbnail": "media/lily-r09/thumbs/f0058.png"
+        },
+        {
+          "frame": 59,
+          "time": 0.9833333333333333,
+          "image": "media/lily-r09/frames/f0059.png",
+          "thumbnail": "media/lily-r09/thumbs/f0059.png"
+        },
+        {
+          "frame": 60,
+          "time": 1,
+          "image": "media/lily-r09/frames/f0060.png",
+          "thumbnail": "media/lily-r09/thumbs/f0060.png"
+        },
+        {
+          "frame": 61,
+          "time": 1.0166666666666666,
+          "image": "media/lily-r09/frames/f0061.png",
+          "thumbnail": "media/lily-r09/thumbs/f0061.png"
+        },
+        {
+          "frame": 62,
+          "time": 1.0333333333333334,
+          "image": "media/lily-r09/frames/f0062.png",
+          "thumbnail": "media/lily-r09/thumbs/f0062.png"
+        },
+        {
+          "frame": 63,
+          "time": 1.05,
+          "image": "media/lily-r09/frames/f0063.png",
+          "thumbnail": "media/lily-r09/thumbs/f0063.png"
+        },
+        {
+          "frame": 64,
+          "time": 1.0666666666666667,
+          "image": "media/lily-r09/frames/f0064.png",
+          "thumbnail": "media/lily-r09/thumbs/f0064.png"
+        },
+        {
+          "frame": 65,
+          "time": 1.0833333333333333,
+          "image": "media/lily-r09/frames/f0065.png",
+          "thumbnail": "media/lily-r09/thumbs/f0065.png"
+        },
+        {
+          "frame": 66,
+          "time": 1.1,
+          "image": "media/lily-r09/frames/f0066.png",
+          "thumbnail": "media/lily-r09/thumbs/f0066.png"
+        },
+        {
+          "frame": 67,
+          "time": 1.1166666666666667,
+          "image": "media/lily-r09/frames/f0067.png",
+          "thumbnail": "media/lily-r09/thumbs/f0067.png"
+        },
+        {
+          "frame": 68,
+          "time": 1.1333333333333333,
+          "image": "media/lily-r09/frames/f0068.png",
+          "thumbnail": "media/lily-r09/thumbs/f0068.png"
+        },
+        {
+          "frame": 69,
+          "time": 1.15,
+          "image": "media/lily-r09/frames/f0069.png",
+          "thumbnail": "media/lily-r09/thumbs/f0069.png"
+        },
+        {
+          "frame": 70,
+          "time": 1.1666666666666667,
+          "image": "media/lily-r09/frames/f0070.png",
+          "thumbnail": "media/lily-r09/thumbs/f0070.png"
+        },
+        {
+          "frame": 71,
+          "time": 1.1833333333333333,
+          "image": "media/lily-r09/frames/f0071.png",
+          "thumbnail": "media/lily-r09/thumbs/f0071.png"
+        },
+        {
+          "frame": 72,
+          "time": 1.2,
+          "image": "media/lily-r09/frames/f0072.png",
+          "thumbnail": "media/lily-r09/thumbs/f0072.png"
+        },
+        {
+          "frame": 73,
+          "time": 1.2166666666666666,
+          "image": "media/lily-r09/frames/f0073.png",
+          "thumbnail": "media/lily-r09/thumbs/f0073.png"
+        },
+        {
+          "frame": 74,
+          "time": 1.2333333333333334,
+          "image": "media/lily-r09/frames/f0074.png",
+          "thumbnail": "media/lily-r09/thumbs/f0074.png"
+        },
+        {
+          "frame": 75,
+          "time": 1.25,
+          "image": "media/lily-r09/frames/f0075.png",
+          "thumbnail": "media/lily-r09/thumbs/f0075.png"
+        },
+        {
+          "frame": 76,
+          "time": 1.2666666666666666,
+          "image": "media/lily-r09/frames/f0076.png",
+          "thumbnail": "media/lily-r09/thumbs/f0076.png"
+        },
+        {
+          "frame": 77,
+          "time": 1.2833333333333334,
+          "image": "media/lily-r09/frames/f0077.png",
+          "thumbnail": "media/lily-r09/thumbs/f0077.png"
+        },
+        {
+          "frame": 78,
+          "time": 1.3,
+          "image": "media/lily-r09/frames/f0078.png",
+          "thumbnail": "media/lily-r09/thumbs/f0078.png"
+        },
+        {
+          "frame": 79,
+          "time": 1.3166666666666667,
+          "image": "media/lily-r09/frames/f0079.png",
+          "thumbnail": "media/lily-r09/thumbs/f0079.png"
+        },
+        {
+          "frame": 80,
+          "time": 1.3333333333333333,
+          "image": "media/lily-r09/frames/f0080.png",
+          "thumbnail": "media/lily-r09/thumbs/f0080.png"
+        },
+        {
+          "frame": 81,
+          "time": 1.35,
+          "image": "media/lily-r09/frames/f0081.png",
+          "thumbnail": "media/lily-r09/thumbs/f0081.png"
+        },
+        {
+          "frame": 82,
+          "time": 1.3666666666666667,
+          "image": "media/lily-r09/frames/f0082.png",
+          "thumbnail": "media/lily-r09/thumbs/f0082.png"
+        },
+        {
+          "frame": 83,
+          "time": 1.3833333333333333,
+          "image": "media/lily-r09/frames/f0083.png",
+          "thumbnail": "media/lily-r09/thumbs/f0083.png"
+        },
+        {
+          "frame": 84,
+          "time": 1.4,
+          "image": "media/lily-r09/frames/f0084.png",
+          "thumbnail": "media/lily-r09/thumbs/f0084.png"
+        },
+        {
+          "frame": 85,
+          "time": 1.4166666666666667,
+          "image": "media/lily-r09/frames/f0085.png",
+          "thumbnail": "media/lily-r09/thumbs/f0085.png"
+        },
+        {
+          "frame": 86,
+          "time": 1.4333333333333333,
+          "image": "media/lily-r09/frames/f0086.png",
+          "thumbnail": "media/lily-r09/thumbs/f0086.png"
+        },
+        {
+          "frame": 87,
+          "time": 1.45,
+          "image": "media/lily-r09/frames/f0087.png",
+          "thumbnail": "media/lily-r09/thumbs/f0087.png"
+        },
+        {
+          "frame": 88,
+          "time": 1.4666666666666666,
+          "image": "media/lily-r09/frames/f0088.png",
+          "thumbnail": "media/lily-r09/thumbs/f0088.png"
+        },
+        {
+          "frame": 89,
+          "time": 1.4833333333333334,
+          "image": "media/lily-r09/frames/f0089.png",
+          "thumbnail": "media/lily-r09/thumbs/f0089.png"
+        },
+        {
+          "frame": 90,
+          "time": 1.5,
+          "image": "media/lily-r09/frames/f0090.png",
+          "thumbnail": "media/lily-r09/thumbs/f0090.png"
+        },
+        {
+          "frame": 91,
+          "time": 1.5166666666666666,
+          "image": "media/lily-r09/frames/f0091.png",
+          "thumbnail": "media/lily-r09/thumbs/f0091.png"
+        },
+        {
+          "frame": 92,
+          "time": 1.5333333333333334,
+          "image": "media/lily-r09/frames/f0092.png",
+          "thumbnail": "media/lily-r09/thumbs/f0092.png"
+        },
+        {
+          "frame": 93,
+          "time": 1.55,
+          "image": "media/lily-r09/frames/f0093.png",
+          "thumbnail": "media/lily-r09/thumbs/f0093.png"
+        },
+        {
+          "frame": 94,
+          "time": 1.5666666666666667,
+          "image": "media/lily-r09/frames/f0094.png",
+          "thumbnail": "media/lily-r09/thumbs/f0094.png"
+        },
+        {
+          "frame": 95,
+          "time": 1.5833333333333333,
+          "image": "media/lily-r09/frames/f0095.png",
+          "thumbnail": "media/lily-r09/thumbs/f0095.png"
+        },
+        {
+          "frame": 96,
+          "time": 1.6,
+          "image": "media/lily-r09/frames/f0096.png",
+          "thumbnail": "media/lily-r09/thumbs/f0096.png"
+        },
+        {
+          "frame": 97,
+          "time": 1.6166666666666667,
+          "image": "media/lily-r09/frames/f0097.png",
+          "thumbnail": "media/lily-r09/thumbs/f0097.png"
+        },
+        {
+          "frame": 98,
+          "time": 1.6333333333333333,
+          "image": "media/lily-r09/frames/f0098.png",
+          "thumbnail": "media/lily-r09/thumbs/f0098.png"
+        },
+        {
+          "frame": 99,
+          "time": 1.65,
+          "image": "media/lily-r09/frames/f0099.png",
+          "thumbnail": "media/lily-r09/thumbs/f0099.png"
+        },
+        {
+          "frame": 100,
+          "time": 1.6666666666666667,
+          "image": "media/lily-r09/frames/f0100.png",
+          "thumbnail": "media/lily-r09/thumbs/f0100.png"
+        },
+        {
+          "frame": 101,
+          "time": 1.6833333333333333,
+          "image": "media/lily-r09/frames/f0101.png",
+          "thumbnail": "media/lily-r09/thumbs/f0101.png"
+        },
+        {
+          "frame": 102,
+          "time": 1.7,
+          "image": "media/lily-r09/frames/f0102.png",
+          "thumbnail": "media/lily-r09/thumbs/f0102.png"
+        },
+        {
+          "frame": 103,
+          "time": 1.7166666666666666,
+          "image": "media/lily-r09/frames/f0103.png",
+          "thumbnail": "media/lily-r09/thumbs/f0103.png"
+        },
+        {
+          "frame": 104,
+          "time": 1.7333333333333334,
+          "image": "media/lily-r09/frames/f0104.png",
+          "thumbnail": "media/lily-r09/thumbs/f0104.png"
+        },
+        {
+          "frame": 105,
+          "time": 1.75,
+          "image": "media/lily-r09/frames/f0105.png",
+          "thumbnail": "media/lily-r09/thumbs/f0105.png"
+        },
+        {
+          "frame": 106,
+          "time": 1.7666666666666666,
+          "image": "media/lily-r09/frames/f0106.png",
+          "thumbnail": "media/lily-r09/thumbs/f0106.png"
+        },
+        {
+          "frame": 107,
+          "time": 1.7833333333333334,
+          "image": "media/lily-r09/frames/f0107.png",
+          "thumbnail": "media/lily-r09/thumbs/f0107.png"
+        },
+        {
+          "frame": 108,
+          "time": 1.8,
+          "image": "media/lily-r09/frames/f0108.png",
+          "thumbnail": "media/lily-r09/thumbs/f0108.png"
+        },
+        {
+          "frame": 109,
+          "time": 1.8166666666666667,
+          "image": "media/lily-r09/frames/f0109.png",
+          "thumbnail": "media/lily-r09/thumbs/f0109.png"
+        },
+        {
+          "frame": 110,
+          "time": 1.8333333333333333,
+          "image": "media/lily-r09/frames/f0110.png",
+          "thumbnail": "media/lily-r09/thumbs/f0110.png"
+        },
+        {
+          "frame": 111,
+          "time": 1.85,
+          "image": "media/lily-r09/frames/f0111.png",
+          "thumbnail": "media/lily-r09/thumbs/f0111.png"
+        },
+        {
+          "frame": 112,
+          "time": 1.8666666666666667,
+          "image": "media/lily-r09/frames/f0112.png",
+          "thumbnail": "media/lily-r09/thumbs/f0112.png"
+        },
+        {
+          "frame": 113,
+          "time": 1.8833333333333333,
+          "image": "media/lily-r09/frames/f0113.png",
+          "thumbnail": "media/lily-r09/thumbs/f0113.png"
+        },
+        {
+          "frame": 114,
+          "time": 1.9,
+          "image": "media/lily-r09/frames/f0114.png",
+          "thumbnail": "media/lily-r09/thumbs/f0114.png"
+        },
+        {
+          "frame": 115,
+          "time": 1.9166666666666667,
+          "image": "media/lily-r09/frames/f0115.png",
+          "thumbnail": "media/lily-r09/thumbs/f0115.png"
+        },
+        {
+          "frame": 116,
+          "time": 1.9333333333333333,
+          "image": "media/lily-r09/frames/f0116.png",
+          "thumbnail": "media/lily-r09/thumbs/f0116.png"
+        },
+        {
+          "frame": 117,
+          "time": 1.95,
+          "image": "media/lily-r09/frames/f0117.png",
+          "thumbnail": "media/lily-r09/thumbs/f0117.png"
+        },
+        {
+          "frame": 118,
+          "time": 1.9666666666666666,
+          "image": "media/lily-r09/frames/f0118.png",
+          "thumbnail": "media/lily-r09/thumbs/f0118.png"
+        },
+        {
+          "frame": 119,
+          "time": 1.9833333333333334,
+          "image": "media/lily-r09/frames/f0119.png",
+          "thumbnail": "media/lily-r09/thumbs/f0119.png"
+        },
+        {
+          "frame": 120,
+          "time": 2,
+          "image": "media/lily-r09/frames/f0120.png",
+          "thumbnail": "media/lily-r09/thumbs/f0120.png"
+        },
+        {
+          "frame": 121,
+          "time": 2.0166666666666666,
+          "image": "media/lily-r09/frames/f0121.png",
+          "thumbnail": "media/lily-r09/thumbs/f0121.png"
+        },
+        {
+          "frame": 122,
+          "time": 2.033333333333333,
+          "image": "media/lily-r09/frames/f0122.png",
+          "thumbnail": "media/lily-r09/thumbs/f0122.png"
+        },
+        {
+          "frame": 123,
+          "time": 2.05,
+          "image": "media/lily-r09/frames/f0123.png",
+          "thumbnail": "media/lily-r09/thumbs/f0123.png"
+        },
+        {
+          "frame": 124,
+          "time": 2.066666666666667,
+          "image": "media/lily-r09/frames/f0124.png",
+          "thumbnail": "media/lily-r09/thumbs/f0124.png"
+        },
+        {
+          "frame": 125,
+          "time": 2.0833333333333335,
+          "image": "media/lily-r09/frames/f0125.png",
+          "thumbnail": "media/lily-r09/thumbs/f0125.png"
+        },
+        {
+          "frame": 126,
+          "time": 2.1,
+          "image": "media/lily-r09/frames/f0126.png",
+          "thumbnail": "media/lily-r09/thumbs/f0126.png"
+        },
+        {
+          "frame": 127,
+          "time": 2.1166666666666667,
+          "image": "media/lily-r09/frames/f0127.png",
+          "thumbnail": "media/lily-r09/thumbs/f0127.png"
+        },
+        {
+          "frame": 128,
+          "time": 2.1333333333333333,
+          "image": "media/lily-r09/frames/f0128.png",
+          "thumbnail": "media/lily-r09/thumbs/f0128.png"
+        },
+        {
+          "frame": 129,
+          "time": 2.15,
+          "image": "media/lily-r09/frames/f0129.png",
+          "thumbnail": "media/lily-r09/thumbs/f0129.png"
+        },
+        {
+          "frame": 130,
+          "time": 2.1666666666666665,
+          "image": "media/lily-r09/frames/f0130.png",
+          "thumbnail": "media/lily-r09/thumbs/f0130.png"
+        },
+        {
+          "frame": 131,
+          "time": 2.183333333333333,
+          "image": "media/lily-r09/frames/f0131.png",
+          "thumbnail": "media/lily-r09/thumbs/f0131.png"
+        },
+        {
+          "frame": 132,
+          "time": 2.2,
+          "image": "media/lily-r09/frames/f0132.png",
+          "thumbnail": "media/lily-r09/thumbs/f0132.png"
+        },
+        {
+          "frame": 133,
+          "time": 2.216666666666667,
+          "image": "media/lily-r09/frames/f0133.png",
+          "thumbnail": "media/lily-r09/thumbs/f0133.png"
+        },
+        {
+          "frame": 134,
+          "time": 2.2333333333333334,
+          "image": "media/lily-r09/frames/f0134.png",
+          "thumbnail": "media/lily-r09/thumbs/f0134.png"
+        },
+        {
+          "frame": 135,
+          "time": 2.25,
+          "image": "media/lily-r09/frames/f0135.png",
+          "thumbnail": "media/lily-r09/thumbs/f0135.png"
+        },
+        {
+          "frame": 136,
+          "time": 2.2666666666666666,
+          "image": "media/lily-r09/frames/f0136.png",
+          "thumbnail": "media/lily-r09/thumbs/f0136.png"
+        },
+        {
+          "frame": 137,
+          "time": 2.283333333333333,
+          "image": "media/lily-r09/frames/f0137.png",
+          "thumbnail": "media/lily-r09/thumbs/f0137.png"
+        },
+        {
+          "frame": 138,
+          "time": 2.3,
+          "image": "media/lily-r09/frames/f0138.png",
+          "thumbnail": "media/lily-r09/thumbs/f0138.png"
+        },
+        {
+          "frame": 139,
+          "time": 2.316666666666667,
+          "image": "media/lily-r09/frames/f0139.png",
+          "thumbnail": "media/lily-r09/thumbs/f0139.png"
+        },
+        {
+          "frame": 140,
+          "time": 2.3333333333333335,
+          "image": "media/lily-r09/frames/f0140.png",
+          "thumbnail": "media/lily-r09/thumbs/f0140.png"
+        },
+        {
+          "frame": 141,
+          "time": 2.35,
+          "image": "media/lily-r09/frames/f0141.png",
+          "thumbnail": "media/lily-r09/thumbs/f0141.png"
+        },
+        {
+          "frame": 142,
+          "time": 2.3666666666666667,
+          "image": "media/lily-r09/frames/f0142.png",
+          "thumbnail": "media/lily-r09/thumbs/f0142.png"
+        },
+        {
+          "frame": 143,
+          "time": 2.3833333333333333,
+          "image": "media/lily-r09/frames/f0143.png",
+          "thumbnail": "media/lily-r09/thumbs/f0143.png"
+        },
+        {
+          "frame": 144,
+          "time": 2.4,
+          "image": "media/lily-r09/frames/f0144.png",
+          "thumbnail": "media/lily-r09/thumbs/f0144.png"
+        },
+        {
+          "frame": 145,
+          "time": 2.4166666666666665,
+          "image": "media/lily-r09/frames/f0145.png",
+          "thumbnail": "media/lily-r09/thumbs/f0145.png"
+        },
+        {
+          "frame": 146,
+          "time": 2.433333333333333,
+          "image": "media/lily-r09/frames/f0146.png",
+          "thumbnail": "media/lily-r09/thumbs/f0146.png"
+        },
+        {
+          "frame": 147,
+          "time": 2.45,
+          "image": "media/lily-r09/frames/f0147.png",
+          "thumbnail": "media/lily-r09/thumbs/f0147.png"
+        },
+        {
+          "frame": 148,
+          "time": 2.466666666666667,
+          "image": "media/lily-r09/frames/f0148.png",
+          "thumbnail": "media/lily-r09/thumbs/f0148.png"
+        },
+        {
+          "frame": 149,
+          "time": 2.4833333333333334,
+          "image": "media/lily-r09/frames/f0149.png",
+          "thumbnail": "media/lily-r09/thumbs/f0149.png"
+        },
+        {
+          "frame": 150,
+          "time": 2.5,
+          "image": "media/lily-r09/frames/f0150.png",
+          "thumbnail": "media/lily-r09/thumbs/f0150.png"
+        },
+        {
+          "frame": 151,
+          "time": 2.5166666666666666,
+          "image": "media/lily-r09/frames/f0151.png",
+          "thumbnail": "media/lily-r09/thumbs/f0151.png"
+        },
+        {
+          "frame": 152,
+          "time": 2.533333333333333,
+          "image": "media/lily-r09/frames/f0152.png",
+          "thumbnail": "media/lily-r09/thumbs/f0152.png"
+        },
+        {
+          "frame": 153,
+          "time": 2.55,
+          "image": "media/lily-r09/frames/f0153.png",
+          "thumbnail": "media/lily-r09/thumbs/f0153.png"
+        },
+        {
+          "frame": 154,
+          "time": 2.566666666666667,
+          "image": "media/lily-r09/frames/f0154.png",
+          "thumbnail": "media/lily-r09/thumbs/f0154.png"
+        },
+        {
+          "frame": 155,
+          "time": 2.5833333333333335,
+          "image": "media/lily-r09/frames/f0155.png",
+          "thumbnail": "media/lily-r09/thumbs/f0155.png"
+        },
+        {
+          "frame": 156,
+          "time": 2.6,
+          "image": "media/lily-r09/frames/f0156.png",
+          "thumbnail": "media/lily-r09/thumbs/f0156.png"
+        },
+        {
+          "frame": 157,
+          "time": 2.6166666666666667,
+          "image": "media/lily-r09/frames/f0157.png",
+          "thumbnail": "media/lily-r09/thumbs/f0157.png"
+        },
+        {
+          "frame": 158,
+          "time": 2.6333333333333333,
+          "image": "media/lily-r09/frames/f0158.png",
+          "thumbnail": "media/lily-r09/thumbs/f0158.png"
+        },
+        {
+          "frame": 159,
+          "time": 2.65,
+          "image": "media/lily-r09/frames/f0159.png",
+          "thumbnail": "media/lily-r09/thumbs/f0159.png"
+        },
+        {
+          "frame": 160,
+          "time": 2.6666666666666665,
+          "image": "media/lily-r09/frames/f0160.png",
+          "thumbnail": "media/lily-r09/thumbs/f0160.png"
+        },
+        {
+          "frame": 161,
+          "time": 2.683333333333333,
+          "image": "media/lily-r09/frames/f0161.png",
+          "thumbnail": "media/lily-r09/thumbs/f0161.png"
+        },
+        {
+          "frame": 162,
+          "time": 2.7,
+          "image": "media/lily-r09/frames/f0162.png",
+          "thumbnail": "media/lily-r09/thumbs/f0162.png"
+        },
+        {
+          "frame": 163,
+          "time": 2.716666666666667,
+          "image": "media/lily-r09/frames/f0163.png",
+          "thumbnail": "media/lily-r09/thumbs/f0163.png"
+        },
+        {
+          "frame": 164,
+          "time": 2.7333333333333334,
+          "image": "media/lily-r09/frames/f0164.png",
+          "thumbnail": "media/lily-r09/thumbs/f0164.png"
+        },
+        {
+          "frame": 165,
+          "time": 2.75,
+          "image": "media/lily-r09/frames/f0165.png",
+          "thumbnail": "media/lily-r09/thumbs/f0165.png"
+        },
+        {
+          "frame": 166,
+          "time": 2.7666666666666666,
+          "image": "media/lily-r09/frames/f0166.png",
+          "thumbnail": "media/lily-r09/thumbs/f0166.png"
+        },
+        {
+          "frame": 167,
+          "time": 2.783333333333333,
+          "image": "media/lily-r09/frames/f0167.png",
+          "thumbnail": "media/lily-r09/thumbs/f0167.png"
+        },
+        {
+          "frame": 168,
+          "time": 2.8,
+          "image": "media/lily-r09/frames/f0168.png",
+          "thumbnail": "media/lily-r09/thumbs/f0168.png"
+        },
+        {
+          "frame": 169,
+          "time": 2.816666666666667,
+          "image": "media/lily-r09/frames/f0169.png",
+          "thumbnail": "media/lily-r09/thumbs/f0169.png"
+        },
+        {
+          "frame": 170,
+          "time": 2.8333333333333335,
+          "image": "media/lily-r09/frames/f0170.png",
+          "thumbnail": "media/lily-r09/thumbs/f0170.png"
+        },
+        {
+          "frame": 171,
+          "time": 2.85,
+          "image": "media/lily-r09/frames/f0171.png",
+          "thumbnail": "media/lily-r09/thumbs/f0171.png"
+        },
+        {
+          "frame": 172,
+          "time": 2.8666666666666667,
+          "image": "media/lily-r09/frames/f0172.png",
+          "thumbnail": "media/lily-r09/thumbs/f0172.png"
+        },
+        {
+          "frame": 173,
+          "time": 2.8833333333333333,
+          "image": "media/lily-r09/frames/f0173.png",
+          "thumbnail": "media/lily-r09/thumbs/f0173.png"
+        },
+        {
+          "frame": 174,
+          "time": 2.9,
+          "image": "media/lily-r09/frames/f0174.png",
+          "thumbnail": "media/lily-r09/thumbs/f0174.png"
+        },
+        {
+          "frame": 175,
+          "time": 2.9166666666666665,
+          "image": "media/lily-r09/frames/f0175.png",
+          "thumbnail": "media/lily-r09/thumbs/f0175.png"
+        },
+        {
+          "frame": 176,
+          "time": 2.933333333333333,
+          "image": "media/lily-r09/frames/f0176.png",
+          "thumbnail": "media/lily-r09/thumbs/f0176.png"
+        },
+        {
+          "frame": 177,
+          "time": 2.95,
+          "image": "media/lily-r09/frames/f0177.png",
+          "thumbnail": "media/lily-r09/thumbs/f0177.png"
+        },
+        {
+          "frame": 178,
+          "time": 2.966666666666667,
+          "image": "media/lily-r09/frames/f0178.png",
+          "thumbnail": "media/lily-r09/thumbs/f0178.png"
+        },
+        {
+          "frame": 179,
+          "time": 2.9833333333333334,
+          "image": "media/lily-r09/frames/f0179.png",
+          "thumbnail": "media/lily-r09/thumbs/f0179.png"
+        },
+        {
+          "frame": 180,
+          "time": 3,
+          "image": "media/lily-r09/frames/f0180.png",
+          "thumbnail": "media/lily-r09/thumbs/f0180.png"
+        },
+        {
+          "frame": 181,
+          "time": 3.0166666666666666,
+          "image": "media/lily-r09/frames/f0181.png",
+          "thumbnail": "media/lily-r09/thumbs/f0181.png"
+        },
+        {
+          "frame": 182,
+          "time": 3.033333333333333,
+          "image": "media/lily-r09/frames/f0182.png",
+          "thumbnail": "media/lily-r09/thumbs/f0182.png"
+        },
+        {
+          "frame": 183,
+          "time": 3.05,
+          "image": "media/lily-r09/frames/f0183.png",
+          "thumbnail": "media/lily-r09/thumbs/f0183.png"
+        },
+        {
+          "frame": 184,
+          "time": 3.066666666666667,
+          "image": "media/lily-r09/frames/f0184.png",
+          "thumbnail": "media/lily-r09/thumbs/f0184.png"
+        },
+        {
+          "frame": 185,
+          "time": 3.0833333333333335,
+          "image": "media/lily-r09/frames/f0185.png",
+          "thumbnail": "media/lily-r09/thumbs/f0185.png"
+        },
+        {
+          "frame": 186,
+          "time": 3.1,
+          "image": "media/lily-r09/frames/f0186.png",
+          "thumbnail": "media/lily-r09/thumbs/f0186.png"
+        },
+        {
+          "frame": 187,
+          "time": 3.1166666666666667,
+          "image": "media/lily-r09/frames/f0187.png",
+          "thumbnail": "media/lily-r09/thumbs/f0187.png"
+        },
+        {
+          "frame": 188,
+          "time": 3.1333333333333333,
+          "image": "media/lily-r09/frames/f0188.png",
+          "thumbnail": "media/lily-r09/thumbs/f0188.png"
+        },
+        {
+          "frame": 189,
+          "time": 3.15,
+          "image": "media/lily-r09/frames/f0189.png",
+          "thumbnail": "media/lily-r09/thumbs/f0189.png"
+        },
+        {
+          "frame": 190,
+          "time": 3.1666666666666665,
+          "image": "media/lily-r09/frames/f0190.png",
+          "thumbnail": "media/lily-r09/thumbs/f0190.png"
+        },
+        {
+          "frame": 191,
+          "time": 3.183333333333333,
+          "image": "media/lily-r09/frames/f0191.png",
+          "thumbnail": "media/lily-r09/thumbs/f0191.png"
+        },
+        {
+          "frame": 192,
+          "time": 3.2,
+          "image": "media/lily-r09/frames/f0192.png",
+          "thumbnail": "media/lily-r09/thumbs/f0192.png"
+        },
+        {
+          "frame": 193,
+          "time": 3.216666666666667,
+          "image": "media/lily-r09/frames/f0193.png",
+          "thumbnail": "media/lily-r09/thumbs/f0193.png"
+        },
+        {
+          "frame": 194,
+          "time": 3.2333333333333334,
+          "image": "media/lily-r09/frames/f0194.png",
+          "thumbnail": "media/lily-r09/thumbs/f0194.png"
+        },
+        {
+          "frame": 195,
+          "time": 3.25,
+          "image": "media/lily-r09/frames/f0195.png",
+          "thumbnail": "media/lily-r09/thumbs/f0195.png"
+        },
+        {
+          "frame": 196,
+          "time": 3.2666666666666666,
+          "image": "media/lily-r09/frames/f0196.png",
+          "thumbnail": "media/lily-r09/thumbs/f0196.png"
+        },
+        {
+          "frame": 197,
+          "time": 3.283333333333333,
+          "image": "media/lily-r09/frames/f0197.png",
+          "thumbnail": "media/lily-r09/thumbs/f0197.png"
+        },
+        {
+          "frame": 198,
+          "time": 3.3,
+          "image": "media/lily-r09/frames/f0198.png",
+          "thumbnail": "media/lily-r09/thumbs/f0198.png"
+        },
+        {
+          "frame": 199,
+          "time": 3.316666666666667,
+          "image": "media/lily-r09/frames/f0199.png",
+          "thumbnail": "media/lily-r09/thumbs/f0199.png"
+        },
+        {
+          "frame": 200,
+          "time": 3.3333333333333335,
+          "image": "media/lily-r09/frames/f0200.png",
+          "thumbnail": "media/lily-r09/thumbs/f0200.png"
+        },
+        {
+          "frame": 201,
+          "time": 3.35,
+          "image": "media/lily-r09/frames/f0201.png",
+          "thumbnail": "media/lily-r09/thumbs/f0201.png"
+        },
+        {
+          "frame": 202,
+          "time": 3.3666666666666667,
+          "image": "media/lily-r09/frames/f0202.png",
+          "thumbnail": "media/lily-r09/thumbs/f0202.png"
+        },
+        {
+          "frame": 203,
+          "time": 3.3833333333333333,
+          "image": "media/lily-r09/frames/f0203.png",
+          "thumbnail": "media/lily-r09/thumbs/f0203.png"
+        },
+        {
+          "frame": 204,
+          "time": 3.4,
+          "image": "media/lily-r09/frames/f0204.png",
+          "thumbnail": "media/lily-r09/thumbs/f0204.png"
+        },
+        {
+          "frame": 205,
+          "time": 3.4166666666666665,
+          "image": "media/lily-r09/frames/f0205.png",
+          "thumbnail": "media/lily-r09/thumbs/f0205.png"
+        },
+        {
+          "frame": 206,
+          "time": 3.433333333333333,
+          "image": "media/lily-r09/frames/f0206.png",
+          "thumbnail": "media/lily-r09/thumbs/f0206.png"
+        },
+        {
+          "frame": 207,
+          "time": 3.45,
+          "image": "media/lily-r09/frames/f0207.png",
+          "thumbnail": "media/lily-r09/thumbs/f0207.png"
+        },
+        {
+          "frame": 208,
+          "time": 3.466666666666667,
+          "image": "media/lily-r09/frames/f0208.png",
+          "thumbnail": "media/lily-r09/thumbs/f0208.png"
+        },
+        {
+          "frame": 209,
+          "time": 3.4833333333333334,
+          "image": "media/lily-r09/frames/f0209.png",
+          "thumbnail": "media/lily-r09/thumbs/f0209.png"
+        },
+        {
+          "frame": 210,
+          "time": 3.5,
+          "image": "media/lily-r09/frames/f0210.png",
+          "thumbnail": "media/lily-r09/thumbs/f0210.png"
+        },
+        {
+          "frame": 211,
+          "time": 3.5166666666666666,
+          "image": "media/lily-r09/frames/f0211.png",
+          "thumbnail": "media/lily-r09/thumbs/f0211.png"
+        },
+        {
+          "frame": 212,
+          "time": 3.533333333333333,
+          "image": "media/lily-r09/frames/f0212.png",
+          "thumbnail": "media/lily-r09/thumbs/f0212.png"
+        },
+        {
+          "frame": 213,
+          "time": 3.55,
+          "image": "media/lily-r09/frames/f0213.png",
+          "thumbnail": "media/lily-r09/thumbs/f0213.png"
+        },
+        {
+          "frame": 214,
+          "time": 3.566666666666667,
+          "image": "media/lily-r09/frames/f0214.png",
+          "thumbnail": "media/lily-r09/thumbs/f0214.png"
+        },
+        {
+          "frame": 215,
+          "time": 3.5833333333333335,
+          "image": "media/lily-r09/frames/f0215.png",
+          "thumbnail": "media/lily-r09/thumbs/f0215.png"
+        },
+        {
+          "frame": 216,
+          "time": 3.6,
+          "image": "media/lily-r09/frames/f0216.png",
+          "thumbnail": "media/lily-r09/thumbs/f0216.png"
+        },
+        {
+          "frame": 217,
+          "time": 3.6166666666666667,
+          "image": "media/lily-r09/frames/f0217.png",
+          "thumbnail": "media/lily-r09/thumbs/f0217.png"
+        },
+        {
+          "frame": 218,
+          "time": 3.6333333333333333,
+          "image": "media/lily-r09/frames/f0218.png",
+          "thumbnail": "media/lily-r09/thumbs/f0218.png"
+        },
+        {
+          "frame": 219,
+          "time": 3.65,
+          "image": "media/lily-r09/frames/f0219.png",
+          "thumbnail": "media/lily-r09/thumbs/f0219.png"
+        },
+        {
+          "frame": 220,
+          "time": 3.6666666666666665,
+          "image": "media/lily-r09/frames/f0220.png",
+          "thumbnail": "media/lily-r09/thumbs/f0220.png"
+        },
+        {
+          "frame": 221,
+          "time": 3.683333333333333,
+          "image": "media/lily-r09/frames/f0221.png",
+          "thumbnail": "media/lily-r09/thumbs/f0221.png"
+        },
+        {
+          "frame": 222,
+          "time": 3.7,
+          "image": "media/lily-r09/frames/f0222.png",
+          "thumbnail": "media/lily-r09/thumbs/f0222.png"
+        },
+        {
+          "frame": 223,
+          "time": 3.716666666666667,
+          "image": "media/lily-r09/frames/f0223.png",
+          "thumbnail": "media/lily-r09/thumbs/f0223.png"
+        },
+        {
+          "frame": 224,
+          "time": 3.7333333333333334,
+          "image": "media/lily-r09/frames/f0224.png",
+          "thumbnail": "media/lily-r09/thumbs/f0224.png"
+        },
+        {
+          "frame": 225,
+          "time": 3.75,
+          "image": "media/lily-r09/frames/f0225.png",
+          "thumbnail": "media/lily-r09/thumbs/f0225.png"
+        },
+        {
+          "frame": 226,
+          "time": 3.7666666666666666,
+          "image": "media/lily-r09/frames/f0226.png",
+          "thumbnail": "media/lily-r09/thumbs/f0226.png"
+        },
+        {
+          "frame": 227,
+          "time": 3.783333333333333,
+          "image": "media/lily-r09/frames/f0227.png",
+          "thumbnail": "media/lily-r09/thumbs/f0227.png"
+        },
+        {
+          "frame": 228,
+          "time": 3.8,
+          "image": "media/lily-r09/frames/f0228.png",
+          "thumbnail": "media/lily-r09/thumbs/f0228.png"
+        },
+        {
+          "frame": 229,
+          "time": 3.816666666666667,
+          "image": "media/lily-r09/frames/f0229.png",
+          "thumbnail": "media/lily-r09/thumbs/f0229.png"
+        },
+        {
+          "frame": 230,
+          "time": 3.8333333333333335,
+          "image": "media/lily-r09/frames/f0230.png",
+          "thumbnail": "media/lily-r09/thumbs/f0230.png"
+        },
+        {
+          "frame": 231,
+          "time": 3.85,
+          "image": "media/lily-r09/frames/f0231.png",
+          "thumbnail": "media/lily-r09/thumbs/f0231.png"
+        },
+        {
+          "frame": 232,
+          "time": 3.8666666666666667,
+          "image": "media/lily-r09/frames/f0232.png",
+          "thumbnail": "media/lily-r09/thumbs/f0232.png"
+        },
+        {
+          "frame": 233,
+          "time": 3.8833333333333333,
+          "image": "media/lily-r09/frames/f0233.png",
+          "thumbnail": "media/lily-r09/thumbs/f0233.png"
+        },
+        {
+          "frame": 234,
+          "time": 3.9,
+          "image": "media/lily-r09/frames/f0234.png",
+          "thumbnail": "media/lily-r09/thumbs/f0234.png"
+        },
+        {
+          "frame": 235,
+          "time": 3.9166666666666665,
+          "image": "media/lily-r09/frames/f0235.png",
+          "thumbnail": "media/lily-r09/thumbs/f0235.png"
+        },
+        {
+          "frame": 236,
+          "time": 3.933333333333333,
+          "image": "media/lily-r09/frames/f0236.png",
+          "thumbnail": "media/lily-r09/thumbs/f0236.png"
+        },
+        {
+          "frame": 237,
+          "time": 3.95,
+          "image": "media/lily-r09/frames/f0237.png",
+          "thumbnail": "media/lily-r09/thumbs/f0237.png"
+        },
+        {
+          "frame": 238,
+          "time": 3.966666666666667,
+          "image": "media/lily-r09/frames/f0238.png",
+          "thumbnail": "media/lily-r09/thumbs/f0238.png"
+        },
+        {
+          "frame": 239,
+          "time": 3.9833333333333334,
+          "image": "media/lily-r09/frames/f0239.png",
+          "thumbnail": "media/lily-r09/thumbs/f0239.png"
+        },
+        {
+          "frame": 240,
+          "time": 4,
+          "image": "media/lily-r09/frames/f0240.png",
+          "thumbnail": "media/lily-r09/thumbs/f0240.png"
+        },
+        {
+          "frame": 241,
+          "time": 4.016666666666667,
+          "image": "media/lily-r09/frames/f0241.png",
+          "thumbnail": "media/lily-r09/thumbs/f0241.png"
+        },
+        {
+          "frame": 242,
+          "time": 4.033333333333333,
+          "image": "media/lily-r09/frames/f0242.png",
+          "thumbnail": "media/lily-r09/thumbs/f0242.png"
+        },
+        {
+          "frame": 243,
+          "time": 4.05,
+          "image": "media/lily-r09/frames/f0243.png",
+          "thumbnail": "media/lily-r09/thumbs/f0243.png"
+        },
+        {
+          "frame": 244,
+          "time": 4.066666666666666,
+          "image": "media/lily-r09/frames/f0244.png",
+          "thumbnail": "media/lily-r09/thumbs/f0244.png"
+        },
+        {
+          "frame": 245,
+          "time": 4.083333333333333,
+          "image": "media/lily-r09/frames/f0245.png",
+          "thumbnail": "media/lily-r09/thumbs/f0245.png"
+        },
+        {
+          "frame": 246,
+          "time": 4.1,
+          "image": "media/lily-r09/frames/f0246.png",
+          "thumbnail": "media/lily-r09/thumbs/f0246.png"
+        },
+        {
+          "frame": 247,
+          "time": 4.116666666666666,
+          "image": "media/lily-r09/frames/f0247.png",
+          "thumbnail": "media/lily-r09/thumbs/f0247.png"
+        },
+        {
+          "frame": 248,
+          "time": 4.133333333333334,
+          "image": "media/lily-r09/frames/f0248.png",
+          "thumbnail": "media/lily-r09/thumbs/f0248.png"
+        },
+        {
+          "frame": 249,
+          "time": 4.15,
+          "image": "media/lily-r09/frames/f0249.png",
+          "thumbnail": "media/lily-r09/thumbs/f0249.png"
+        },
+        {
+          "frame": 250,
+          "time": 4.166666666666667,
+          "image": "media/lily-r09/frames/f0250.png",
+          "thumbnail": "media/lily-r09/thumbs/f0250.png"
+        },
+        {
+          "frame": 251,
+          "time": 4.183333333333334,
+          "image": "media/lily-r09/frames/f0251.png",
+          "thumbnail": "media/lily-r09/thumbs/f0251.png"
+        },
+        {
+          "frame": 252,
+          "time": 4.2,
+          "image": "media/lily-r09/frames/f0252.png",
+          "thumbnail": "media/lily-r09/thumbs/f0252.png"
+        },
+        {
+          "frame": 253,
+          "time": 4.216666666666667,
+          "image": "media/lily-r09/frames/f0253.png",
+          "thumbnail": "media/lily-r09/thumbs/f0253.png"
+        },
+        {
+          "frame": 254,
+          "time": 4.233333333333333,
+          "image": "media/lily-r09/frames/f0254.png",
+          "thumbnail": "media/lily-r09/thumbs/f0254.png"
+        },
+        {
+          "frame": 255,
+          "time": 4.25,
+          "image": "media/lily-r09/frames/f0255.png",
+          "thumbnail": "media/lily-r09/thumbs/f0255.png"
+        },
+        {
+          "frame": 256,
+          "time": 4.266666666666667,
+          "image": "media/lily-r09/frames/f0256.png",
+          "thumbnail": "media/lily-r09/thumbs/f0256.png"
+        },
+        {
+          "frame": 257,
+          "time": 4.283333333333333,
+          "image": "media/lily-r09/frames/f0257.png",
+          "thumbnail": "media/lily-r09/thumbs/f0257.png"
+        },
+        {
+          "frame": 258,
+          "time": 4.3,
+          "image": "media/lily-r09/frames/f0258.png",
+          "thumbnail": "media/lily-r09/thumbs/f0258.png"
+        },
+        {
+          "frame": 259,
+          "time": 4.316666666666666,
+          "image": "media/lily-r09/frames/f0259.png",
+          "thumbnail": "media/lily-r09/thumbs/f0259.png"
+        },
+        {
+          "frame": 260,
+          "time": 4.333333333333333,
+          "image": "media/lily-r09/frames/f0260.png",
+          "thumbnail": "media/lily-r09/thumbs/f0260.png"
+        },
+        {
+          "frame": 261,
+          "time": 4.35,
+          "image": "media/lily-r09/frames/f0261.png",
+          "thumbnail": "media/lily-r09/thumbs/f0261.png"
+        },
+        {
+          "frame": 262,
+          "time": 4.366666666666666,
+          "image": "media/lily-r09/frames/f0262.png",
+          "thumbnail": "media/lily-r09/thumbs/f0262.png"
+        },
+        {
+          "frame": 263,
+          "time": 4.383333333333334,
+          "image": "media/lily-r09/frames/f0263.png",
+          "thumbnail": "media/lily-r09/thumbs/f0263.png"
+        },
+        {
+          "frame": 264,
+          "time": 4.4,
+          "image": "media/lily-r09/frames/f0264.png",
+          "thumbnail": "media/lily-r09/thumbs/f0264.png"
+        },
+        {
+          "frame": 265,
+          "time": 4.416666666666667,
+          "image": "media/lily-r09/frames/f0265.png",
+          "thumbnail": "media/lily-r09/thumbs/f0265.png"
+        },
+        {
+          "frame": 266,
+          "time": 4.433333333333334,
+          "image": "media/lily-r09/frames/f0266.png",
+          "thumbnail": "media/lily-r09/thumbs/f0266.png"
+        },
+        {
+          "frame": 267,
+          "time": 4.45,
+          "image": "media/lily-r09/frames/f0267.png",
+          "thumbnail": "media/lily-r09/thumbs/f0267.png"
+        },
+        {
+          "frame": 268,
+          "time": 4.466666666666667,
+          "image": "media/lily-r09/frames/f0268.png",
+          "thumbnail": "media/lily-r09/thumbs/f0268.png"
+        },
+        {
+          "frame": 269,
+          "time": 4.483333333333333,
+          "image": "media/lily-r09/frames/f0269.png",
+          "thumbnail": "media/lily-r09/thumbs/f0269.png"
+        },
+        {
+          "frame": 270,
+          "time": 4.5,
+          "image": "media/lily-r09/frames/f0270.png",
+          "thumbnail": "media/lily-r09/thumbs/f0270.png"
+        },
+        {
+          "frame": 271,
+          "time": 4.516666666666667,
+          "image": "media/lily-r09/frames/f0271.png",
+          "thumbnail": "media/lily-r09/thumbs/f0271.png"
+        },
+        {
+          "frame": 272,
+          "time": 4.533333333333333,
+          "image": "media/lily-r09/frames/f0272.png",
+          "thumbnail": "media/lily-r09/thumbs/f0272.png"
+        },
+        {
+          "frame": 273,
+          "time": 4.55,
+          "image": "media/lily-r09/frames/f0273.png",
+          "thumbnail": "media/lily-r09/thumbs/f0273.png"
+        },
+        {
+          "frame": 274,
+          "time": 4.566666666666666,
+          "image": "media/lily-r09/frames/f0274.png",
+          "thumbnail": "media/lily-r09/thumbs/f0274.png"
+        },
+        {
+          "frame": 275,
+          "time": 4.583333333333333,
+          "image": "media/lily-r09/frames/f0275.png",
+          "thumbnail": "media/lily-r09/thumbs/f0275.png"
+        },
+        {
+          "frame": 276,
+          "time": 4.6,
+          "image": "media/lily-r09/frames/f0276.png",
+          "thumbnail": "media/lily-r09/thumbs/f0276.png"
+        },
+        {
+          "frame": 277,
+          "time": 4.616666666666666,
+          "image": "media/lily-r09/frames/f0277.png",
+          "thumbnail": "media/lily-r09/thumbs/f0277.png"
+        },
+        {
+          "frame": 278,
+          "time": 4.633333333333334,
+          "image": "media/lily-r09/frames/f0278.png",
+          "thumbnail": "media/lily-r09/thumbs/f0278.png"
+        },
+        {
+          "frame": 279,
+          "time": 4.65,
+          "image": "media/lily-r09/frames/f0279.png",
+          "thumbnail": "media/lily-r09/thumbs/f0279.png"
+        },
+        {
+          "frame": 280,
+          "time": 4.666666666666667,
+          "image": "media/lily-r09/frames/f0280.png",
+          "thumbnail": "media/lily-r09/thumbs/f0280.png"
+        },
+        {
+          "frame": 281,
+          "time": 4.683333333333334,
+          "image": "media/lily-r09/frames/f0281.png",
+          "thumbnail": "media/lily-r09/thumbs/f0281.png"
+        },
+        {
+          "frame": 282,
+          "time": 4.7,
+          "image": "media/lily-r09/frames/f0282.png",
+          "thumbnail": "media/lily-r09/thumbs/f0282.png"
+        },
+        {
+          "frame": 283,
+          "time": 4.716666666666667,
+          "image": "media/lily-r09/frames/f0283.png",
+          "thumbnail": "media/lily-r09/thumbs/f0283.png"
+        },
+        {
+          "frame": 284,
+          "time": 4.733333333333333,
+          "image": "media/lily-r09/frames/f0284.png",
+          "thumbnail": "media/lily-r09/thumbs/f0284.png"
+        },
+        {
+          "frame": 285,
+          "time": 4.75,
+          "image": "media/lily-r09/frames/f0285.png",
+          "thumbnail": "media/lily-r09/thumbs/f0285.png"
+        },
+        {
+          "frame": 286,
+          "time": 4.766666666666667,
+          "image": "media/lily-r09/frames/f0286.png",
+          "thumbnail": "media/lily-r09/thumbs/f0286.png"
+        },
+        {
+          "frame": 287,
+          "time": 4.783333333333333,
+          "image": "media/lily-r09/frames/f0287.png",
+          "thumbnail": "media/lily-r09/thumbs/f0287.png"
+        },
+        {
+          "frame": 288,
+          "time": 4.8,
+          "image": "media/lily-r09/frames/f0288.png",
+          "thumbnail": "media/lily-r09/thumbs/f0288.png"
+        },
+        {
+          "frame": 289,
+          "time": 4.816666666666666,
+          "image": "media/lily-r09/frames/f0289.png",
+          "thumbnail": "media/lily-r09/thumbs/f0289.png"
+        },
+        {
+          "frame": 290,
+          "time": 4.833333333333333,
+          "image": "media/lily-r09/frames/f0290.png",
+          "thumbnail": "media/lily-r09/thumbs/f0290.png"
+        },
+        {
+          "frame": 291,
+          "time": 4.85,
+          "image": "media/lily-r09/frames/f0291.png",
+          "thumbnail": "media/lily-r09/thumbs/f0291.png"
+        },
+        {
+          "frame": 292,
+          "time": 4.866666666666666,
+          "image": "media/lily-r09/frames/f0292.png",
+          "thumbnail": "media/lily-r09/thumbs/f0292.png"
+        },
+        {
+          "frame": 293,
+          "time": 4.883333333333334,
+          "image": "media/lily-r09/frames/f0293.png",
+          "thumbnail": "media/lily-r09/thumbs/f0293.png"
+        },
+        {
+          "frame": 294,
+          "time": 4.9,
+          "image": "media/lily-r09/frames/f0294.png",
+          "thumbnail": "media/lily-r09/thumbs/f0294.png"
+        },
+        {
+          "frame": 295,
+          "time": 4.916666666666667,
+          "image": "media/lily-r09/frames/f0295.png",
+          "thumbnail": "media/lily-r09/thumbs/f0295.png"
+        },
+        {
+          "frame": 296,
+          "time": 4.933333333333334,
+          "image": "media/lily-r09/frames/f0296.png",
+          "thumbnail": "media/lily-r09/thumbs/f0296.png"
+        },
+        {
+          "frame": 297,
+          "time": 4.95,
+          "image": "media/lily-r09/frames/f0297.png",
+          "thumbnail": "media/lily-r09/thumbs/f0297.png"
+        },
+        {
+          "frame": 298,
+          "time": 4.966666666666667,
+          "image": "media/lily-r09/frames/f0298.png",
+          "thumbnail": "media/lily-r09/thumbs/f0298.png"
+        },
+        {
+          "frame": 299,
+          "time": 4.983333333333333,
+          "image": "media/lily-r09/frames/f0299.png",
+          "thumbnail": "media/lily-r09/thumbs/f0299.png"
+        },
+        {
+          "frame": 300,
+          "time": 5,
+          "image": "media/lily-r09/frames/f0300.png",
+          "thumbnail": "media/lily-r09/thumbs/f0300.png"
+        },
+        {
+          "frame": 301,
+          "time": 5.016666666666667,
+          "image": "media/lily-r09/frames/f0301.png",
+          "thumbnail": "media/lily-r09/thumbs/f0301.png"
+        },
+        {
+          "frame": 302,
+          "time": 5.033333333333333,
+          "image": "media/lily-r09/frames/f0302.png",
+          "thumbnail": "media/lily-r09/thumbs/f0302.png"
+        },
+        {
+          "frame": 303,
+          "time": 5.05,
+          "image": "media/lily-r09/frames/f0303.png",
+          "thumbnail": "media/lily-r09/thumbs/f0303.png"
+        },
+        {
+          "frame": 304,
+          "time": 5.066666666666666,
+          "image": "media/lily-r09/frames/f0304.png",
+          "thumbnail": "media/lily-r09/thumbs/f0304.png"
+        },
+        {
+          "frame": 305,
+          "time": 5.083333333333333,
+          "image": "media/lily-r09/frames/f0305.png",
+          "thumbnail": "media/lily-r09/thumbs/f0305.png"
+        },
+        {
+          "frame": 306,
+          "time": 5.1,
+          "image": "media/lily-r09/frames/f0306.png",
+          "thumbnail": "media/lily-r09/thumbs/f0306.png"
+        },
+        {
+          "frame": 307,
+          "time": 5.116666666666666,
+          "image": "media/lily-r09/frames/f0307.png",
+          "thumbnail": "media/lily-r09/thumbs/f0307.png"
+        },
+        {
+          "frame": 308,
+          "time": 5.133333333333334,
+          "image": "media/lily-r09/frames/f0308.png",
+          "thumbnail": "media/lily-r09/thumbs/f0308.png"
+        },
+        {
+          "frame": 309,
+          "time": 5.15,
+          "image": "media/lily-r09/frames/f0309.png",
+          "thumbnail": "media/lily-r09/thumbs/f0309.png"
+        },
+        {
+          "frame": 310,
+          "time": 5.166666666666667,
+          "image": "media/lily-r09/frames/f0310.png",
+          "thumbnail": "media/lily-r09/thumbs/f0310.png"
+        },
+        {
+          "frame": 311,
+          "time": 5.183333333333334,
+          "image": "media/lily-r09/frames/f0311.png",
+          "thumbnail": "media/lily-r09/thumbs/f0311.png"
+        },
+        {
+          "frame": 312,
+          "time": 5.2,
+          "image": "media/lily-r09/frames/f0312.png",
+          "thumbnail": "media/lily-r09/thumbs/f0312.png"
+        },
+        {
+          "frame": 313,
+          "time": 5.216666666666667,
+          "image": "media/lily-r09/frames/f0313.png",
+          "thumbnail": "media/lily-r09/thumbs/f0313.png"
+        },
+        {
+          "frame": 314,
+          "time": 5.233333333333333,
+          "image": "media/lily-r09/frames/f0314.png",
+          "thumbnail": "media/lily-r09/thumbs/f0314.png"
+        },
+        {
+          "frame": 315,
+          "time": 5.25,
+          "image": "media/lily-r09/frames/f0315.png",
+          "thumbnail": "media/lily-r09/thumbs/f0315.png"
+        },
+        {
+          "frame": 316,
+          "time": 5.266666666666667,
+          "image": "media/lily-r09/frames/f0316.png",
+          "thumbnail": "media/lily-r09/thumbs/f0316.png"
+        },
+        {
+          "frame": 317,
+          "time": 5.283333333333333,
+          "image": "media/lily-r09/frames/f0317.png",
+          "thumbnail": "media/lily-r09/thumbs/f0317.png"
+        },
+        {
+          "frame": 318,
+          "time": 5.3,
+          "image": "media/lily-r09/frames/f0318.png",
+          "thumbnail": "media/lily-r09/thumbs/f0318.png"
+        },
+        {
+          "frame": 319,
+          "time": 5.316666666666666,
+          "image": "media/lily-r09/frames/f0319.png",
+          "thumbnail": "media/lily-r09/thumbs/f0319.png"
+        },
+        {
+          "frame": 320,
+          "time": 5.333333333333333,
+          "image": "media/lily-r09/frames/f0320.png",
+          "thumbnail": "media/lily-r09/thumbs/f0320.png"
+        },
+        {
+          "frame": 321,
+          "time": 5.35,
+          "image": "media/lily-r09/frames/f0321.png",
+          "thumbnail": "media/lily-r09/thumbs/f0321.png"
+        },
+        {
+          "frame": 322,
+          "time": 5.366666666666666,
+          "image": "media/lily-r09/frames/f0322.png",
+          "thumbnail": "media/lily-r09/thumbs/f0322.png"
+        },
+        {
+          "frame": 323,
+          "time": 5.383333333333334,
+          "image": "media/lily-r09/frames/f0323.png",
+          "thumbnail": "media/lily-r09/thumbs/f0323.png"
+        },
+        {
+          "frame": 324,
+          "time": 5.4,
+          "image": "media/lily-r09/frames/f0324.png",
+          "thumbnail": "media/lily-r09/thumbs/f0324.png"
+        },
+        {
+          "frame": 325,
+          "time": 5.416666666666667,
+          "image": "media/lily-r09/frames/f0325.png",
+          "thumbnail": "media/lily-r09/thumbs/f0325.png"
+        },
+        {
+          "frame": 326,
+          "time": 5.433333333333334,
+          "image": "media/lily-r09/frames/f0326.png",
+          "thumbnail": "media/lily-r09/thumbs/f0326.png"
+        },
+        {
+          "frame": 327,
+          "time": 5.45,
+          "image": "media/lily-r09/frames/f0327.png",
+          "thumbnail": "media/lily-r09/thumbs/f0327.png"
+        },
+        {
+          "frame": 328,
+          "time": 5.466666666666667,
+          "image": "media/lily-r09/frames/f0328.png",
+          "thumbnail": "media/lily-r09/thumbs/f0328.png"
+        },
+        {
+          "frame": 329,
+          "time": 5.483333333333333,
+          "image": "media/lily-r09/frames/f0329.png",
+          "thumbnail": "media/lily-r09/thumbs/f0329.png"
+        },
+        {
+          "frame": 330,
+          "time": 5.5,
+          "image": "media/lily-r09/frames/f0330.png",
+          "thumbnail": "media/lily-r09/thumbs/f0330.png"
+        }
+      ]
+    },
+    {
+      "id": "lily-r10",
+      "revision": "9fb1a33337c0ce71591c33c0beb057c5dd02cf2b8908a5bd89d7a4798111c737",
+      "title": "릴리 수정 후보 r10",
+      "character": "릴리",
+      "fps": 60,
+      "first": 0,
+      "last": 330,
+      "duration": 5.5,
+      "width": 768,
+      "height": 768,
+      "status": "가중치 수정 후보 · 품질 미통과",
+      "notes": "기존 Take02의 실제 331표본입니다. 방패 끝 연결을 수정했으며 목깃·팔 기준 뼈·접촉부 결함은 남아 있습니다. 독립 검수 진행 중입니다.",
+      "frames": [
+        {
+          "frame": 0,
+          "time": 0,
+          "image": "media/lily-r10/frames/f0000.png",
+          "thumbnail": "media/lily-r10/thumbs/f0000.png"
+        },
+        {
+          "frame": 1,
+          "time": 0.016666666666666666,
+          "image": "media/lily-r10/frames/f0001.png",
+          "thumbnail": "media/lily-r10/thumbs/f0001.png"
+        },
+        {
+          "frame": 2,
+          "time": 0.03333333333333333,
+          "image": "media/lily-r10/frames/f0002.png",
+          "thumbnail": "media/lily-r10/thumbs/f0002.png"
+        },
+        {
+          "frame": 3,
+          "time": 0.05,
+          "image": "media/lily-r10/frames/f0003.png",
+          "thumbnail": "media/lily-r10/thumbs/f0003.png"
+        },
+        {
+          "frame": 4,
+          "time": 0.06666666666666667,
+          "image": "media/lily-r10/frames/f0004.png",
+          "thumbnail": "media/lily-r10/thumbs/f0004.png"
+        },
+        {
+          "frame": 5,
+          "time": 0.08333333333333333,
+          "image": "media/lily-r10/frames/f0005.png",
+          "thumbnail": "media/lily-r10/thumbs/f0005.png"
+        },
+        {
+          "frame": 6,
+          "time": 0.1,
+          "image": "media/lily-r10/frames/f0006.png",
+          "thumbnail": "media/lily-r10/thumbs/f0006.png"
+        },
+        {
+          "frame": 7,
+          "time": 0.11666666666666667,
+          "image": "media/lily-r10/frames/f0007.png",
+          "thumbnail": "media/lily-r10/thumbs/f0007.png"
+        },
+        {
+          "frame": 8,
+          "time": 0.13333333333333333,
+          "image": "media/lily-r10/frames/f0008.png",
+          "thumbnail": "media/lily-r10/thumbs/f0008.png"
+        },
+        {
+          "frame": 9,
+          "time": 0.15,
+          "image": "media/lily-r10/frames/f0009.png",
+          "thumbnail": "media/lily-r10/thumbs/f0009.png"
+        },
+        {
+          "frame": 10,
+          "time": 0.16666666666666666,
+          "image": "media/lily-r10/frames/f0010.png",
+          "thumbnail": "media/lily-r10/thumbs/f0010.png"
+        },
+        {
+          "frame": 11,
+          "time": 0.18333333333333332,
+          "image": "media/lily-r10/frames/f0011.png",
+          "thumbnail": "media/lily-r10/thumbs/f0011.png"
+        },
+        {
+          "frame": 12,
+          "time": 0.2,
+          "image": "media/lily-r10/frames/f0012.png",
+          "thumbnail": "media/lily-r10/thumbs/f0012.png"
+        },
+        {
+          "frame": 13,
+          "time": 0.21666666666666667,
+          "image": "media/lily-r10/frames/f0013.png",
+          "thumbnail": "media/lily-r10/thumbs/f0013.png"
+        },
+        {
+          "frame": 14,
+          "time": 0.23333333333333334,
+          "image": "media/lily-r10/frames/f0014.png",
+          "thumbnail": "media/lily-r10/thumbs/f0014.png"
+        },
+        {
+          "frame": 15,
+          "time": 0.25,
+          "image": "media/lily-r10/frames/f0015.png",
+          "thumbnail": "media/lily-r10/thumbs/f0015.png"
+        },
+        {
+          "frame": 16,
+          "time": 0.26666666666666666,
+          "image": "media/lily-r10/frames/f0016.png",
+          "thumbnail": "media/lily-r10/thumbs/f0016.png"
+        },
+        {
+          "frame": 17,
+          "time": 0.2833333333333333,
+          "image": "media/lily-r10/frames/f0017.png",
+          "thumbnail": "media/lily-r10/thumbs/f0017.png"
+        },
+        {
+          "frame": 18,
+          "time": 0.3,
+          "image": "media/lily-r10/frames/f0018.png",
+          "thumbnail": "media/lily-r10/thumbs/f0018.png"
+        },
+        {
+          "frame": 19,
+          "time": 0.31666666666666665,
+          "image": "media/lily-r10/frames/f0019.png",
+          "thumbnail": "media/lily-r10/thumbs/f0019.png"
+        },
+        {
+          "frame": 20,
+          "time": 0.3333333333333333,
+          "image": "media/lily-r10/frames/f0020.png",
+          "thumbnail": "media/lily-r10/thumbs/f0020.png"
+        },
+        {
+          "frame": 21,
+          "time": 0.35,
+          "image": "media/lily-r10/frames/f0021.png",
+          "thumbnail": "media/lily-r10/thumbs/f0021.png"
+        },
+        {
+          "frame": 22,
+          "time": 0.36666666666666664,
+          "image": "media/lily-r10/frames/f0022.png",
+          "thumbnail": "media/lily-r10/thumbs/f0022.png"
+        },
+        {
+          "frame": 23,
+          "time": 0.38333333333333336,
+          "image": "media/lily-r10/frames/f0023.png",
+          "thumbnail": "media/lily-r10/thumbs/f0023.png"
+        },
+        {
+          "frame": 24,
+          "time": 0.4,
+          "image": "media/lily-r10/frames/f0024.png",
+          "thumbnail": "media/lily-r10/thumbs/f0024.png"
+        },
+        {
+          "frame": 25,
+          "time": 0.4166666666666667,
+          "image": "media/lily-r10/frames/f0025.png",
+          "thumbnail": "media/lily-r10/thumbs/f0025.png"
+        },
+        {
+          "frame": 26,
+          "time": 0.43333333333333335,
+          "image": "media/lily-r10/frames/f0026.png",
+          "thumbnail": "media/lily-r10/thumbs/f0026.png"
+        },
+        {
+          "frame": 27,
+          "time": 0.45,
+          "image": "media/lily-r10/frames/f0027.png",
+          "thumbnail": "media/lily-r10/thumbs/f0027.png"
+        },
+        {
+          "frame": 28,
+          "time": 0.4666666666666667,
+          "image": "media/lily-r10/frames/f0028.png",
+          "thumbnail": "media/lily-r10/thumbs/f0028.png"
+        },
+        {
+          "frame": 29,
+          "time": 0.48333333333333334,
+          "image": "media/lily-r10/frames/f0029.png",
+          "thumbnail": "media/lily-r10/thumbs/f0029.png"
+        },
+        {
+          "frame": 30,
+          "time": 0.5,
+          "image": "media/lily-r10/frames/f0030.png",
+          "thumbnail": "media/lily-r10/thumbs/f0030.png"
+        },
+        {
+          "frame": 31,
+          "time": 0.5166666666666667,
+          "image": "media/lily-r10/frames/f0031.png",
+          "thumbnail": "media/lily-r10/thumbs/f0031.png"
+        },
+        {
+          "frame": 32,
+          "time": 0.5333333333333333,
+          "image": "media/lily-r10/frames/f0032.png",
+          "thumbnail": "media/lily-r10/thumbs/f0032.png"
+        },
+        {
+          "frame": 33,
+          "time": 0.55,
+          "image": "media/lily-r10/frames/f0033.png",
+          "thumbnail": "media/lily-r10/thumbs/f0033.png"
+        },
+        {
+          "frame": 34,
+          "time": 0.5666666666666667,
+          "image": "media/lily-r10/frames/f0034.png",
+          "thumbnail": "media/lily-r10/thumbs/f0034.png"
+        },
+        {
+          "frame": 35,
+          "time": 0.5833333333333334,
+          "image": "media/lily-r10/frames/f0035.png",
+          "thumbnail": "media/lily-r10/thumbs/f0035.png"
+        },
+        {
+          "frame": 36,
+          "time": 0.6,
+          "image": "media/lily-r10/frames/f0036.png",
+          "thumbnail": "media/lily-r10/thumbs/f0036.png"
+        },
+        {
+          "frame": 37,
+          "time": 0.6166666666666667,
+          "image": "media/lily-r10/frames/f0037.png",
+          "thumbnail": "media/lily-r10/thumbs/f0037.png"
+        },
+        {
+          "frame": 38,
+          "time": 0.6333333333333333,
+          "image": "media/lily-r10/frames/f0038.png",
+          "thumbnail": "media/lily-r10/thumbs/f0038.png"
+        },
+        {
+          "frame": 39,
+          "time": 0.65,
+          "image": "media/lily-r10/frames/f0039.png",
+          "thumbnail": "media/lily-r10/thumbs/f0039.png"
+        },
+        {
+          "frame": 40,
+          "time": 0.6666666666666666,
+          "image": "media/lily-r10/frames/f0040.png",
+          "thumbnail": "media/lily-r10/thumbs/f0040.png"
+        },
+        {
+          "frame": 41,
+          "time": 0.6833333333333333,
+          "image": "media/lily-r10/frames/f0041.png",
+          "thumbnail": "media/lily-r10/thumbs/f0041.png"
+        },
+        {
+          "frame": 42,
+          "time": 0.7,
+          "image": "media/lily-r10/frames/f0042.png",
+          "thumbnail": "media/lily-r10/thumbs/f0042.png"
+        },
+        {
+          "frame": 43,
+          "time": 0.7166666666666667,
+          "image": "media/lily-r10/frames/f0043.png",
+          "thumbnail": "media/lily-r10/thumbs/f0043.png"
+        },
+        {
+          "frame": 44,
+          "time": 0.7333333333333333,
+          "image": "media/lily-r10/frames/f0044.png",
+          "thumbnail": "media/lily-r10/thumbs/f0044.png"
+        },
+        {
+          "frame": 45,
+          "time": 0.75,
+          "image": "media/lily-r10/frames/f0045.png",
+          "thumbnail": "media/lily-r10/thumbs/f0045.png"
+        },
+        {
+          "frame": 46,
+          "time": 0.7666666666666667,
+          "image": "media/lily-r10/frames/f0046.png",
+          "thumbnail": "media/lily-r10/thumbs/f0046.png"
+        },
+        {
+          "frame": 47,
+          "time": 0.7833333333333333,
+          "image": "media/lily-r10/frames/f0047.png",
+          "thumbnail": "media/lily-r10/thumbs/f0047.png"
+        },
+        {
+          "frame": 48,
+          "time": 0.8,
+          "image": "media/lily-r10/frames/f0048.png",
+          "thumbnail": "media/lily-r10/thumbs/f0048.png"
+        },
+        {
+          "frame": 49,
+          "time": 0.8166666666666667,
+          "image": "media/lily-r10/frames/f0049.png",
+          "thumbnail": "media/lily-r10/thumbs/f0049.png"
+        },
+        {
+          "frame": 50,
+          "time": 0.8333333333333334,
+          "image": "media/lily-r10/frames/f0050.png",
+          "thumbnail": "media/lily-r10/thumbs/f0050.png"
+        },
+        {
+          "frame": 51,
+          "time": 0.85,
+          "image": "media/lily-r10/frames/f0051.png",
+          "thumbnail": "media/lily-r10/thumbs/f0051.png"
+        },
+        {
+          "frame": 52,
+          "time": 0.8666666666666667,
+          "image": "media/lily-r10/frames/f0052.png",
+          "thumbnail": "media/lily-r10/thumbs/f0052.png"
+        },
+        {
+          "frame": 53,
+          "time": 0.8833333333333333,
+          "image": "media/lily-r10/frames/f0053.png",
+          "thumbnail": "media/lily-r10/thumbs/f0053.png"
+        },
+        {
+          "frame": 54,
+          "time": 0.9,
+          "image": "media/lily-r10/frames/f0054.png",
+          "thumbnail": "media/lily-r10/thumbs/f0054.png"
+        },
+        {
+          "frame": 55,
+          "time": 0.9166666666666666,
+          "image": "media/lily-r10/frames/f0055.png",
+          "thumbnail": "media/lily-r10/thumbs/f0055.png"
+        },
+        {
+          "frame": 56,
+          "time": 0.9333333333333333,
+          "image": "media/lily-r10/frames/f0056.png",
+          "thumbnail": "media/lily-r10/thumbs/f0056.png"
+        },
+        {
+          "frame": 57,
+          "time": 0.95,
+          "image": "media/lily-r10/frames/f0057.png",
+          "thumbnail": "media/lily-r10/thumbs/f0057.png"
+        },
+        {
+          "frame": 58,
+          "time": 0.9666666666666667,
+          "image": "media/lily-r10/frames/f0058.png",
+          "thumbnail": "media/lily-r10/thumbs/f0058.png"
+        },
+        {
+          "frame": 59,
+          "time": 0.9833333333333333,
+          "image": "media/lily-r10/frames/f0059.png",
+          "thumbnail": "media/lily-r10/thumbs/f0059.png"
+        },
+        {
+          "frame": 60,
+          "time": 1,
+          "image": "media/lily-r10/frames/f0060.png",
+          "thumbnail": "media/lily-r10/thumbs/f0060.png"
+        },
+        {
+          "frame": 61,
+          "time": 1.0166666666666666,
+          "image": "media/lily-r10/frames/f0061.png",
+          "thumbnail": "media/lily-r10/thumbs/f0061.png"
+        },
+        {
+          "frame": 62,
+          "time": 1.0333333333333334,
+          "image": "media/lily-r10/frames/f0062.png",
+          "thumbnail": "media/lily-r10/thumbs/f0062.png"
+        },
+        {
+          "frame": 63,
+          "time": 1.05,
+          "image": "media/lily-r10/frames/f0063.png",
+          "thumbnail": "media/lily-r10/thumbs/f0063.png"
+        },
+        {
+          "frame": 64,
+          "time": 1.0666666666666667,
+          "image": "media/lily-r10/frames/f0064.png",
+          "thumbnail": "media/lily-r10/thumbs/f0064.png"
+        },
+        {
+          "frame": 65,
+          "time": 1.0833333333333333,
+          "image": "media/lily-r10/frames/f0065.png",
+          "thumbnail": "media/lily-r10/thumbs/f0065.png"
+        },
+        {
+          "frame": 66,
+          "time": 1.1,
+          "image": "media/lily-r10/frames/f0066.png",
+          "thumbnail": "media/lily-r10/thumbs/f0066.png"
+        },
+        {
+          "frame": 67,
+          "time": 1.1166666666666667,
+          "image": "media/lily-r10/frames/f0067.png",
+          "thumbnail": "media/lily-r10/thumbs/f0067.png"
+        },
+        {
+          "frame": 68,
+          "time": 1.1333333333333333,
+          "image": "media/lily-r10/frames/f0068.png",
+          "thumbnail": "media/lily-r10/thumbs/f0068.png"
+        },
+        {
+          "frame": 69,
+          "time": 1.15,
+          "image": "media/lily-r10/frames/f0069.png",
+          "thumbnail": "media/lily-r10/thumbs/f0069.png"
+        },
+        {
+          "frame": 70,
+          "time": 1.1666666666666667,
+          "image": "media/lily-r10/frames/f0070.png",
+          "thumbnail": "media/lily-r10/thumbs/f0070.png"
+        },
+        {
+          "frame": 71,
+          "time": 1.1833333333333333,
+          "image": "media/lily-r10/frames/f0071.png",
+          "thumbnail": "media/lily-r10/thumbs/f0071.png"
+        },
+        {
+          "frame": 72,
+          "time": 1.2,
+          "image": "media/lily-r10/frames/f0072.png",
+          "thumbnail": "media/lily-r10/thumbs/f0072.png"
+        },
+        {
+          "frame": 73,
+          "time": 1.2166666666666666,
+          "image": "media/lily-r10/frames/f0073.png",
+          "thumbnail": "media/lily-r10/thumbs/f0073.png"
+        },
+        {
+          "frame": 74,
+          "time": 1.2333333333333334,
+          "image": "media/lily-r10/frames/f0074.png",
+          "thumbnail": "media/lily-r10/thumbs/f0074.png"
+        },
+        {
+          "frame": 75,
+          "time": 1.25,
+          "image": "media/lily-r10/frames/f0075.png",
+          "thumbnail": "media/lily-r10/thumbs/f0075.png"
+        },
+        {
+          "frame": 76,
+          "time": 1.2666666666666666,
+          "image": "media/lily-r10/frames/f0076.png",
+          "thumbnail": "media/lily-r10/thumbs/f0076.png"
+        },
+        {
+          "frame": 77,
+          "time": 1.2833333333333334,
+          "image": "media/lily-r10/frames/f0077.png",
+          "thumbnail": "media/lily-r10/thumbs/f0077.png"
+        },
+        {
+          "frame": 78,
+          "time": 1.3,
+          "image": "media/lily-r10/frames/f0078.png",
+          "thumbnail": "media/lily-r10/thumbs/f0078.png"
+        },
+        {
+          "frame": 79,
+          "time": 1.3166666666666667,
+          "image": "media/lily-r10/frames/f0079.png",
+          "thumbnail": "media/lily-r10/thumbs/f0079.png"
+        },
+        {
+          "frame": 80,
+          "time": 1.3333333333333333,
+          "image": "media/lily-r10/frames/f0080.png",
+          "thumbnail": "media/lily-r10/thumbs/f0080.png"
+        },
+        {
+          "frame": 81,
+          "time": 1.35,
+          "image": "media/lily-r10/frames/f0081.png",
+          "thumbnail": "media/lily-r10/thumbs/f0081.png"
+        },
+        {
+          "frame": 82,
+          "time": 1.3666666666666667,
+          "image": "media/lily-r10/frames/f0082.png",
+          "thumbnail": "media/lily-r10/thumbs/f0082.png"
+        },
+        {
+          "frame": 83,
+          "time": 1.3833333333333333,
+          "image": "media/lily-r10/frames/f0083.png",
+          "thumbnail": "media/lily-r10/thumbs/f0083.png"
+        },
+        {
+          "frame": 84,
+          "time": 1.4,
+          "image": "media/lily-r10/frames/f0084.png",
+          "thumbnail": "media/lily-r10/thumbs/f0084.png"
+        },
+        {
+          "frame": 85,
+          "time": 1.4166666666666667,
+          "image": "media/lily-r10/frames/f0085.png",
+          "thumbnail": "media/lily-r10/thumbs/f0085.png"
+        },
+        {
+          "frame": 86,
+          "time": 1.4333333333333333,
+          "image": "media/lily-r10/frames/f0086.png",
+          "thumbnail": "media/lily-r10/thumbs/f0086.png"
+        },
+        {
+          "frame": 87,
+          "time": 1.45,
+          "image": "media/lily-r10/frames/f0087.png",
+          "thumbnail": "media/lily-r10/thumbs/f0087.png"
+        },
+        {
+          "frame": 88,
+          "time": 1.4666666666666666,
+          "image": "media/lily-r10/frames/f0088.png",
+          "thumbnail": "media/lily-r10/thumbs/f0088.png"
+        },
+        {
+          "frame": 89,
+          "time": 1.4833333333333334,
+          "image": "media/lily-r10/frames/f0089.png",
+          "thumbnail": "media/lily-r10/thumbs/f0089.png"
+        },
+        {
+          "frame": 90,
+          "time": 1.5,
+          "image": "media/lily-r10/frames/f0090.png",
+          "thumbnail": "media/lily-r10/thumbs/f0090.png"
+        },
+        {
+          "frame": 91,
+          "time": 1.5166666666666666,
+          "image": "media/lily-r10/frames/f0091.png",
+          "thumbnail": "media/lily-r10/thumbs/f0091.png"
+        },
+        {
+          "frame": 92,
+          "time": 1.5333333333333334,
+          "image": "media/lily-r10/frames/f0092.png",
+          "thumbnail": "media/lily-r10/thumbs/f0092.png"
+        },
+        {
+          "frame": 93,
+          "time": 1.55,
+          "image": "media/lily-r10/frames/f0093.png",
+          "thumbnail": "media/lily-r10/thumbs/f0093.png"
+        },
+        {
+          "frame": 94,
+          "time": 1.5666666666666667,
+          "image": "media/lily-r10/frames/f0094.png",
+          "thumbnail": "media/lily-r10/thumbs/f0094.png"
+        },
+        {
+          "frame": 95,
+          "time": 1.5833333333333333,
+          "image": "media/lily-r10/frames/f0095.png",
+          "thumbnail": "media/lily-r10/thumbs/f0095.png"
+        },
+        {
+          "frame": 96,
+          "time": 1.6,
+          "image": "media/lily-r10/frames/f0096.png",
+          "thumbnail": "media/lily-r10/thumbs/f0096.png"
+        },
+        {
+          "frame": 97,
+          "time": 1.6166666666666667,
+          "image": "media/lily-r10/frames/f0097.png",
+          "thumbnail": "media/lily-r10/thumbs/f0097.png"
+        },
+        {
+          "frame": 98,
+          "time": 1.6333333333333333,
+          "image": "media/lily-r10/frames/f0098.png",
+          "thumbnail": "media/lily-r10/thumbs/f0098.png"
+        },
+        {
+          "frame": 99,
+          "time": 1.65,
+          "image": "media/lily-r10/frames/f0099.png",
+          "thumbnail": "media/lily-r10/thumbs/f0099.png"
+        },
+        {
+          "frame": 100,
+          "time": 1.6666666666666667,
+          "image": "media/lily-r10/frames/f0100.png",
+          "thumbnail": "media/lily-r10/thumbs/f0100.png"
+        },
+        {
+          "frame": 101,
+          "time": 1.6833333333333333,
+          "image": "media/lily-r10/frames/f0101.png",
+          "thumbnail": "media/lily-r10/thumbs/f0101.png"
+        },
+        {
+          "frame": 102,
+          "time": 1.7,
+          "image": "media/lily-r10/frames/f0102.png",
+          "thumbnail": "media/lily-r10/thumbs/f0102.png"
+        },
+        {
+          "frame": 103,
+          "time": 1.7166666666666666,
+          "image": "media/lily-r10/frames/f0103.png",
+          "thumbnail": "media/lily-r10/thumbs/f0103.png"
+        },
+        {
+          "frame": 104,
+          "time": 1.7333333333333334,
+          "image": "media/lily-r10/frames/f0104.png",
+          "thumbnail": "media/lily-r10/thumbs/f0104.png"
+        },
+        {
+          "frame": 105,
+          "time": 1.75,
+          "image": "media/lily-r10/frames/f0105.png",
+          "thumbnail": "media/lily-r10/thumbs/f0105.png"
+        },
+        {
+          "frame": 106,
+          "time": 1.7666666666666666,
+          "image": "media/lily-r10/frames/f0106.png",
+          "thumbnail": "media/lily-r10/thumbs/f0106.png"
+        },
+        {
+          "frame": 107,
+          "time": 1.7833333333333334,
+          "image": "media/lily-r10/frames/f0107.png",
+          "thumbnail": "media/lily-r10/thumbs/f0107.png"
+        },
+        {
+          "frame": 108,
+          "time": 1.8,
+          "image": "media/lily-r10/frames/f0108.png",
+          "thumbnail": "media/lily-r10/thumbs/f0108.png"
+        },
+        {
+          "frame": 109,
+          "time": 1.8166666666666667,
+          "image": "media/lily-r10/frames/f0109.png",
+          "thumbnail": "media/lily-r10/thumbs/f0109.png"
+        },
+        {
+          "frame": 110,
+          "time": 1.8333333333333333,
+          "image": "media/lily-r10/frames/f0110.png",
+          "thumbnail": "media/lily-r10/thumbs/f0110.png"
+        },
+        {
+          "frame": 111,
+          "time": 1.85,
+          "image": "media/lily-r10/frames/f0111.png",
+          "thumbnail": "media/lily-r10/thumbs/f0111.png"
+        },
+        {
+          "frame": 112,
+          "time": 1.8666666666666667,
+          "image": "media/lily-r10/frames/f0112.png",
+          "thumbnail": "media/lily-r10/thumbs/f0112.png"
+        },
+        {
+          "frame": 113,
+          "time": 1.8833333333333333,
+          "image": "media/lily-r10/frames/f0113.png",
+          "thumbnail": "media/lily-r10/thumbs/f0113.png"
+        },
+        {
+          "frame": 114,
+          "time": 1.9,
+          "image": "media/lily-r10/frames/f0114.png",
+          "thumbnail": "media/lily-r10/thumbs/f0114.png"
+        },
+        {
+          "frame": 115,
+          "time": 1.9166666666666667,
+          "image": "media/lily-r10/frames/f0115.png",
+          "thumbnail": "media/lily-r10/thumbs/f0115.png"
+        },
+        {
+          "frame": 116,
+          "time": 1.9333333333333333,
+          "image": "media/lily-r10/frames/f0116.png",
+          "thumbnail": "media/lily-r10/thumbs/f0116.png"
+        },
+        {
+          "frame": 117,
+          "time": 1.95,
+          "image": "media/lily-r10/frames/f0117.png",
+          "thumbnail": "media/lily-r10/thumbs/f0117.png"
+        },
+        {
+          "frame": 118,
+          "time": 1.9666666666666666,
+          "image": "media/lily-r10/frames/f0118.png",
+          "thumbnail": "media/lily-r10/thumbs/f0118.png"
+        },
+        {
+          "frame": 119,
+          "time": 1.9833333333333334,
+          "image": "media/lily-r10/frames/f0119.png",
+          "thumbnail": "media/lily-r10/thumbs/f0119.png"
+        },
+        {
+          "frame": 120,
+          "time": 2,
+          "image": "media/lily-r10/frames/f0120.png",
+          "thumbnail": "media/lily-r10/thumbs/f0120.png"
+        },
+        {
+          "frame": 121,
+          "time": 2.0166666666666666,
+          "image": "media/lily-r10/frames/f0121.png",
+          "thumbnail": "media/lily-r10/thumbs/f0121.png"
+        },
+        {
+          "frame": 122,
+          "time": 2.033333333333333,
+          "image": "media/lily-r10/frames/f0122.png",
+          "thumbnail": "media/lily-r10/thumbs/f0122.png"
+        },
+        {
+          "frame": 123,
+          "time": 2.05,
+          "image": "media/lily-r10/frames/f0123.png",
+          "thumbnail": "media/lily-r10/thumbs/f0123.png"
+        },
+        {
+          "frame": 124,
+          "time": 2.066666666666667,
+          "image": "media/lily-r10/frames/f0124.png",
+          "thumbnail": "media/lily-r10/thumbs/f0124.png"
+        },
+        {
+          "frame": 125,
+          "time": 2.0833333333333335,
+          "image": "media/lily-r10/frames/f0125.png",
+          "thumbnail": "media/lily-r10/thumbs/f0125.png"
+        },
+        {
+          "frame": 126,
+          "time": 2.1,
+          "image": "media/lily-r10/frames/f0126.png",
+          "thumbnail": "media/lily-r10/thumbs/f0126.png"
+        },
+        {
+          "frame": 127,
+          "time": 2.1166666666666667,
+          "image": "media/lily-r10/frames/f0127.png",
+          "thumbnail": "media/lily-r10/thumbs/f0127.png"
+        },
+        {
+          "frame": 128,
+          "time": 2.1333333333333333,
+          "image": "media/lily-r10/frames/f0128.png",
+          "thumbnail": "media/lily-r10/thumbs/f0128.png"
+        },
+        {
+          "frame": 129,
+          "time": 2.15,
+          "image": "media/lily-r10/frames/f0129.png",
+          "thumbnail": "media/lily-r10/thumbs/f0129.png"
+        },
+        {
+          "frame": 130,
+          "time": 2.1666666666666665,
+          "image": "media/lily-r10/frames/f0130.png",
+          "thumbnail": "media/lily-r10/thumbs/f0130.png"
+        },
+        {
+          "frame": 131,
+          "time": 2.183333333333333,
+          "image": "media/lily-r10/frames/f0131.png",
+          "thumbnail": "media/lily-r10/thumbs/f0131.png"
+        },
+        {
+          "frame": 132,
+          "time": 2.2,
+          "image": "media/lily-r10/frames/f0132.png",
+          "thumbnail": "media/lily-r10/thumbs/f0132.png"
+        },
+        {
+          "frame": 133,
+          "time": 2.216666666666667,
+          "image": "media/lily-r10/frames/f0133.png",
+          "thumbnail": "media/lily-r10/thumbs/f0133.png"
+        },
+        {
+          "frame": 134,
+          "time": 2.2333333333333334,
+          "image": "media/lily-r10/frames/f0134.png",
+          "thumbnail": "media/lily-r10/thumbs/f0134.png"
+        },
+        {
+          "frame": 135,
+          "time": 2.25,
+          "image": "media/lily-r10/frames/f0135.png",
+          "thumbnail": "media/lily-r10/thumbs/f0135.png"
+        },
+        {
+          "frame": 136,
+          "time": 2.2666666666666666,
+          "image": "media/lily-r10/frames/f0136.png",
+          "thumbnail": "media/lily-r10/thumbs/f0136.png"
+        },
+        {
+          "frame": 137,
+          "time": 2.283333333333333,
+          "image": "media/lily-r10/frames/f0137.png",
+          "thumbnail": "media/lily-r10/thumbs/f0137.png"
+        },
+        {
+          "frame": 138,
+          "time": 2.3,
+          "image": "media/lily-r10/frames/f0138.png",
+          "thumbnail": "media/lily-r10/thumbs/f0138.png"
+        },
+        {
+          "frame": 139,
+          "time": 2.316666666666667,
+          "image": "media/lily-r10/frames/f0139.png",
+          "thumbnail": "media/lily-r10/thumbs/f0139.png"
+        },
+        {
+          "frame": 140,
+          "time": 2.3333333333333335,
+          "image": "media/lily-r10/frames/f0140.png",
+          "thumbnail": "media/lily-r10/thumbs/f0140.png"
+        },
+        {
+          "frame": 141,
+          "time": 2.35,
+          "image": "media/lily-r10/frames/f0141.png",
+          "thumbnail": "media/lily-r10/thumbs/f0141.png"
+        },
+        {
+          "frame": 142,
+          "time": 2.3666666666666667,
+          "image": "media/lily-r10/frames/f0142.png",
+          "thumbnail": "media/lily-r10/thumbs/f0142.png"
+        },
+        {
+          "frame": 143,
+          "time": 2.3833333333333333,
+          "image": "media/lily-r10/frames/f0143.png",
+          "thumbnail": "media/lily-r10/thumbs/f0143.png"
+        },
+        {
+          "frame": 144,
+          "time": 2.4,
+          "image": "media/lily-r10/frames/f0144.png",
+          "thumbnail": "media/lily-r10/thumbs/f0144.png"
+        },
+        {
+          "frame": 145,
+          "time": 2.4166666666666665,
+          "image": "media/lily-r10/frames/f0145.png",
+          "thumbnail": "media/lily-r10/thumbs/f0145.png"
+        },
+        {
+          "frame": 146,
+          "time": 2.433333333333333,
+          "image": "media/lily-r10/frames/f0146.png",
+          "thumbnail": "media/lily-r10/thumbs/f0146.png"
+        },
+        {
+          "frame": 147,
+          "time": 2.45,
+          "image": "media/lily-r10/frames/f0147.png",
+          "thumbnail": "media/lily-r10/thumbs/f0147.png"
+        },
+        {
+          "frame": 148,
+          "time": 2.466666666666667,
+          "image": "media/lily-r10/frames/f0148.png",
+          "thumbnail": "media/lily-r10/thumbs/f0148.png"
+        },
+        {
+          "frame": 149,
+          "time": 2.4833333333333334,
+          "image": "media/lily-r10/frames/f0149.png",
+          "thumbnail": "media/lily-r10/thumbs/f0149.png"
+        },
+        {
+          "frame": 150,
+          "time": 2.5,
+          "image": "media/lily-r10/frames/f0150.png",
+          "thumbnail": "media/lily-r10/thumbs/f0150.png"
+        },
+        {
+          "frame": 151,
+          "time": 2.5166666666666666,
+          "image": "media/lily-r10/frames/f0151.png",
+          "thumbnail": "media/lily-r10/thumbs/f0151.png"
+        },
+        {
+          "frame": 152,
+          "time": 2.533333333333333,
+          "image": "media/lily-r10/frames/f0152.png",
+          "thumbnail": "media/lily-r10/thumbs/f0152.png"
+        },
+        {
+          "frame": 153,
+          "time": 2.55,
+          "image": "media/lily-r10/frames/f0153.png",
+          "thumbnail": "media/lily-r10/thumbs/f0153.png"
+        },
+        {
+          "frame": 154,
+          "time": 2.566666666666667,
+          "image": "media/lily-r10/frames/f0154.png",
+          "thumbnail": "media/lily-r10/thumbs/f0154.png"
+        },
+        {
+          "frame": 155,
+          "time": 2.5833333333333335,
+          "image": "media/lily-r10/frames/f0155.png",
+          "thumbnail": "media/lily-r10/thumbs/f0155.png"
+        },
+        {
+          "frame": 156,
+          "time": 2.6,
+          "image": "media/lily-r10/frames/f0156.png",
+          "thumbnail": "media/lily-r10/thumbs/f0156.png"
+        },
+        {
+          "frame": 157,
+          "time": 2.6166666666666667,
+          "image": "media/lily-r10/frames/f0157.png",
+          "thumbnail": "media/lily-r10/thumbs/f0157.png"
+        },
+        {
+          "frame": 158,
+          "time": 2.6333333333333333,
+          "image": "media/lily-r10/frames/f0158.png",
+          "thumbnail": "media/lily-r10/thumbs/f0158.png"
+        },
+        {
+          "frame": 159,
+          "time": 2.65,
+          "image": "media/lily-r10/frames/f0159.png",
+          "thumbnail": "media/lily-r10/thumbs/f0159.png"
+        },
+        {
+          "frame": 160,
+          "time": 2.6666666666666665,
+          "image": "media/lily-r10/frames/f0160.png",
+          "thumbnail": "media/lily-r10/thumbs/f0160.png"
+        },
+        {
+          "frame": 161,
+          "time": 2.683333333333333,
+          "image": "media/lily-r10/frames/f0161.png",
+          "thumbnail": "media/lily-r10/thumbs/f0161.png"
+        },
+        {
+          "frame": 162,
+          "time": 2.7,
+          "image": "media/lily-r10/frames/f0162.png",
+          "thumbnail": "media/lily-r10/thumbs/f0162.png"
+        },
+        {
+          "frame": 163,
+          "time": 2.716666666666667,
+          "image": "media/lily-r10/frames/f0163.png",
+          "thumbnail": "media/lily-r10/thumbs/f0163.png"
+        },
+        {
+          "frame": 164,
+          "time": 2.7333333333333334,
+          "image": "media/lily-r10/frames/f0164.png",
+          "thumbnail": "media/lily-r10/thumbs/f0164.png"
+        },
+        {
+          "frame": 165,
+          "time": 2.75,
+          "image": "media/lily-r10/frames/f0165.png",
+          "thumbnail": "media/lily-r10/thumbs/f0165.png"
+        },
+        {
+          "frame": 166,
+          "time": 2.7666666666666666,
+          "image": "media/lily-r10/frames/f0166.png",
+          "thumbnail": "media/lily-r10/thumbs/f0166.png"
+        },
+        {
+          "frame": 167,
+          "time": 2.783333333333333,
+          "image": "media/lily-r10/frames/f0167.png",
+          "thumbnail": "media/lily-r10/thumbs/f0167.png"
+        },
+        {
+          "frame": 168,
+          "time": 2.8,
+          "image": "media/lily-r10/frames/f0168.png",
+          "thumbnail": "media/lily-r10/thumbs/f0168.png"
+        },
+        {
+          "frame": 169,
+          "time": 2.816666666666667,
+          "image": "media/lily-r10/frames/f0169.png",
+          "thumbnail": "media/lily-r10/thumbs/f0169.png"
+        },
+        {
+          "frame": 170,
+          "time": 2.8333333333333335,
+          "image": "media/lily-r10/frames/f0170.png",
+          "thumbnail": "media/lily-r10/thumbs/f0170.png"
+        },
+        {
+          "frame": 171,
+          "time": 2.85,
+          "image": "media/lily-r10/frames/f0171.png",
+          "thumbnail": "media/lily-r10/thumbs/f0171.png"
+        },
+        {
+          "frame": 172,
+          "time": 2.8666666666666667,
+          "image": "media/lily-r10/frames/f0172.png",
+          "thumbnail": "media/lily-r10/thumbs/f0172.png"
+        },
+        {
+          "frame": 173,
+          "time": 2.8833333333333333,
+          "image": "media/lily-r10/frames/f0173.png",
+          "thumbnail": "media/lily-r10/thumbs/f0173.png"
+        },
+        {
+          "frame": 174,
+          "time": 2.9,
+          "image": "media/lily-r10/frames/f0174.png",
+          "thumbnail": "media/lily-r10/thumbs/f0174.png"
+        },
+        {
+          "frame": 175,
+          "time": 2.9166666666666665,
+          "image": "media/lily-r10/frames/f0175.png",
+          "thumbnail": "media/lily-r10/thumbs/f0175.png"
+        },
+        {
+          "frame": 176,
+          "time": 2.933333333333333,
+          "image": "media/lily-r10/frames/f0176.png",
+          "thumbnail": "media/lily-r10/thumbs/f0176.png"
+        },
+        {
+          "frame": 177,
+          "time": 2.95,
+          "image": "media/lily-r10/frames/f0177.png",
+          "thumbnail": "media/lily-r10/thumbs/f0177.png"
+        },
+        {
+          "frame": 178,
+          "time": 2.966666666666667,
+          "image": "media/lily-r10/frames/f0178.png",
+          "thumbnail": "media/lily-r10/thumbs/f0178.png"
+        },
+        {
+          "frame": 179,
+          "time": 2.9833333333333334,
+          "image": "media/lily-r10/frames/f0179.png",
+          "thumbnail": "media/lily-r10/thumbs/f0179.png"
+        },
+        {
+          "frame": 180,
+          "time": 3,
+          "image": "media/lily-r10/frames/f0180.png",
+          "thumbnail": "media/lily-r10/thumbs/f0180.png"
+        },
+        {
+          "frame": 181,
+          "time": 3.0166666666666666,
+          "image": "media/lily-r10/frames/f0181.png",
+          "thumbnail": "media/lily-r10/thumbs/f0181.png"
+        },
+        {
+          "frame": 182,
+          "time": 3.033333333333333,
+          "image": "media/lily-r10/frames/f0182.png",
+          "thumbnail": "media/lily-r10/thumbs/f0182.png"
+        },
+        {
+          "frame": 183,
+          "time": 3.05,
+          "image": "media/lily-r10/frames/f0183.png",
+          "thumbnail": "media/lily-r10/thumbs/f0183.png"
+        },
+        {
+          "frame": 184,
+          "time": 3.066666666666667,
+          "image": "media/lily-r10/frames/f0184.png",
+          "thumbnail": "media/lily-r10/thumbs/f0184.png"
+        },
+        {
+          "frame": 185,
+          "time": 3.0833333333333335,
+          "image": "media/lily-r10/frames/f0185.png",
+          "thumbnail": "media/lily-r10/thumbs/f0185.png"
+        },
+        {
+          "frame": 186,
+          "time": 3.1,
+          "image": "media/lily-r10/frames/f0186.png",
+          "thumbnail": "media/lily-r10/thumbs/f0186.png"
+        },
+        {
+          "frame": 187,
+          "time": 3.1166666666666667,
+          "image": "media/lily-r10/frames/f0187.png",
+          "thumbnail": "media/lily-r10/thumbs/f0187.png"
+        },
+        {
+          "frame": 188,
+          "time": 3.1333333333333333,
+          "image": "media/lily-r10/frames/f0188.png",
+          "thumbnail": "media/lily-r10/thumbs/f0188.png"
+        },
+        {
+          "frame": 189,
+          "time": 3.15,
+          "image": "media/lily-r10/frames/f0189.png",
+          "thumbnail": "media/lily-r10/thumbs/f0189.png"
+        },
+        {
+          "frame": 190,
+          "time": 3.1666666666666665,
+          "image": "media/lily-r10/frames/f0190.png",
+          "thumbnail": "media/lily-r10/thumbs/f0190.png"
+        },
+        {
+          "frame": 191,
+          "time": 3.183333333333333,
+          "image": "media/lily-r10/frames/f0191.png",
+          "thumbnail": "media/lily-r10/thumbs/f0191.png"
+        },
+        {
+          "frame": 192,
+          "time": 3.2,
+          "image": "media/lily-r10/frames/f0192.png",
+          "thumbnail": "media/lily-r10/thumbs/f0192.png"
+        },
+        {
+          "frame": 193,
+          "time": 3.216666666666667,
+          "image": "media/lily-r10/frames/f0193.png",
+          "thumbnail": "media/lily-r10/thumbs/f0193.png"
+        },
+        {
+          "frame": 194,
+          "time": 3.2333333333333334,
+          "image": "media/lily-r10/frames/f0194.png",
+          "thumbnail": "media/lily-r10/thumbs/f0194.png"
+        },
+        {
+          "frame": 195,
+          "time": 3.25,
+          "image": "media/lily-r10/frames/f0195.png",
+          "thumbnail": "media/lily-r10/thumbs/f0195.png"
+        },
+        {
+          "frame": 196,
+          "time": 3.2666666666666666,
+          "image": "media/lily-r10/frames/f0196.png",
+          "thumbnail": "media/lily-r10/thumbs/f0196.png"
+        },
+        {
+          "frame": 197,
+          "time": 3.283333333333333,
+          "image": "media/lily-r10/frames/f0197.png",
+          "thumbnail": "media/lily-r10/thumbs/f0197.png"
+        },
+        {
+          "frame": 198,
+          "time": 3.3,
+          "image": "media/lily-r10/frames/f0198.png",
+          "thumbnail": "media/lily-r10/thumbs/f0198.png"
+        },
+        {
+          "frame": 199,
+          "time": 3.316666666666667,
+          "image": "media/lily-r10/frames/f0199.png",
+          "thumbnail": "media/lily-r10/thumbs/f0199.png"
+        },
+        {
+          "frame": 200,
+          "time": 3.3333333333333335,
+          "image": "media/lily-r10/frames/f0200.png",
+          "thumbnail": "media/lily-r10/thumbs/f0200.png"
+        },
+        {
+          "frame": 201,
+          "time": 3.35,
+          "image": "media/lily-r10/frames/f0201.png",
+          "thumbnail": "media/lily-r10/thumbs/f0201.png"
+        },
+        {
+          "frame": 202,
+          "time": 3.3666666666666667,
+          "image": "media/lily-r10/frames/f0202.png",
+          "thumbnail": "media/lily-r10/thumbs/f0202.png"
+        },
+        {
+          "frame": 203,
+          "time": 3.3833333333333333,
+          "image": "media/lily-r10/frames/f0203.png",
+          "thumbnail": "media/lily-r10/thumbs/f0203.png"
+        },
+        {
+          "frame": 204,
+          "time": 3.4,
+          "image": "media/lily-r10/frames/f0204.png",
+          "thumbnail": "media/lily-r10/thumbs/f0204.png"
+        },
+        {
+          "frame": 205,
+          "time": 3.4166666666666665,
+          "image": "media/lily-r10/frames/f0205.png",
+          "thumbnail": "media/lily-r10/thumbs/f0205.png"
+        },
+        {
+          "frame": 206,
+          "time": 3.433333333333333,
+          "image": "media/lily-r10/frames/f0206.png",
+          "thumbnail": "media/lily-r10/thumbs/f0206.png"
+        },
+        {
+          "frame": 207,
+          "time": 3.45,
+          "image": "media/lily-r10/frames/f0207.png",
+          "thumbnail": "media/lily-r10/thumbs/f0207.png"
+        },
+        {
+          "frame": 208,
+          "time": 3.466666666666667,
+          "image": "media/lily-r10/frames/f0208.png",
+          "thumbnail": "media/lily-r10/thumbs/f0208.png"
+        },
+        {
+          "frame": 209,
+          "time": 3.4833333333333334,
+          "image": "media/lily-r10/frames/f0209.png",
+          "thumbnail": "media/lily-r10/thumbs/f0209.png"
+        },
+        {
+          "frame": 210,
+          "time": 3.5,
+          "image": "media/lily-r10/frames/f0210.png",
+          "thumbnail": "media/lily-r10/thumbs/f0210.png"
+        },
+        {
+          "frame": 211,
+          "time": 3.5166666666666666,
+          "image": "media/lily-r10/frames/f0211.png",
+          "thumbnail": "media/lily-r10/thumbs/f0211.png"
+        },
+        {
+          "frame": 212,
+          "time": 3.533333333333333,
+          "image": "media/lily-r10/frames/f0212.png",
+          "thumbnail": "media/lily-r10/thumbs/f0212.png"
+        },
+        {
+          "frame": 213,
+          "time": 3.55,
+          "image": "media/lily-r10/frames/f0213.png",
+          "thumbnail": "media/lily-r10/thumbs/f0213.png"
+        },
+        {
+          "frame": 214,
+          "time": 3.566666666666667,
+          "image": "media/lily-r10/frames/f0214.png",
+          "thumbnail": "media/lily-r10/thumbs/f0214.png"
+        },
+        {
+          "frame": 215,
+          "time": 3.5833333333333335,
+          "image": "media/lily-r10/frames/f0215.png",
+          "thumbnail": "media/lily-r10/thumbs/f0215.png"
+        },
+        {
+          "frame": 216,
+          "time": 3.6,
+          "image": "media/lily-r10/frames/f0216.png",
+          "thumbnail": "media/lily-r10/thumbs/f0216.png"
+        },
+        {
+          "frame": 217,
+          "time": 3.6166666666666667,
+          "image": "media/lily-r10/frames/f0217.png",
+          "thumbnail": "media/lily-r10/thumbs/f0217.png"
+        },
+        {
+          "frame": 218,
+          "time": 3.6333333333333333,
+          "image": "media/lily-r10/frames/f0218.png",
+          "thumbnail": "media/lily-r10/thumbs/f0218.png"
+        },
+        {
+          "frame": 219,
+          "time": 3.65,
+          "image": "media/lily-r10/frames/f0219.png",
+          "thumbnail": "media/lily-r10/thumbs/f0219.png"
+        },
+        {
+          "frame": 220,
+          "time": 3.6666666666666665,
+          "image": "media/lily-r10/frames/f0220.png",
+          "thumbnail": "media/lily-r10/thumbs/f0220.png"
+        },
+        {
+          "frame": 221,
+          "time": 3.683333333333333,
+          "image": "media/lily-r10/frames/f0221.png",
+          "thumbnail": "media/lily-r10/thumbs/f0221.png"
+        },
+        {
+          "frame": 222,
+          "time": 3.7,
+          "image": "media/lily-r10/frames/f0222.png",
+          "thumbnail": "media/lily-r10/thumbs/f0222.png"
+        },
+        {
+          "frame": 223,
+          "time": 3.716666666666667,
+          "image": "media/lily-r10/frames/f0223.png",
+          "thumbnail": "media/lily-r10/thumbs/f0223.png"
+        },
+        {
+          "frame": 224,
+          "time": 3.7333333333333334,
+          "image": "media/lily-r10/frames/f0224.png",
+          "thumbnail": "media/lily-r10/thumbs/f0224.png"
+        },
+        {
+          "frame": 225,
+          "time": 3.75,
+          "image": "media/lily-r10/frames/f0225.png",
+          "thumbnail": "media/lily-r10/thumbs/f0225.png"
+        },
+        {
+          "frame": 226,
+          "time": 3.7666666666666666,
+          "image": "media/lily-r10/frames/f0226.png",
+          "thumbnail": "media/lily-r10/thumbs/f0226.png"
+        },
+        {
+          "frame": 227,
+          "time": 3.783333333333333,
+          "image": "media/lily-r10/frames/f0227.png",
+          "thumbnail": "media/lily-r10/thumbs/f0227.png"
+        },
+        {
+          "frame": 228,
+          "time": 3.8,
+          "image": "media/lily-r10/frames/f0228.png",
+          "thumbnail": "media/lily-r10/thumbs/f0228.png"
+        },
+        {
+          "frame": 229,
+          "time": 3.816666666666667,
+          "image": "media/lily-r10/frames/f0229.png",
+          "thumbnail": "media/lily-r10/thumbs/f0229.png"
+        },
+        {
+          "frame": 230,
+          "time": 3.8333333333333335,
+          "image": "media/lily-r10/frames/f0230.png",
+          "thumbnail": "media/lily-r10/thumbs/f0230.png"
+        },
+        {
+          "frame": 231,
+          "time": 3.85,
+          "image": "media/lily-r10/frames/f0231.png",
+          "thumbnail": "media/lily-r10/thumbs/f0231.png"
+        },
+        {
+          "frame": 232,
+          "time": 3.8666666666666667,
+          "image": "media/lily-r10/frames/f0232.png",
+          "thumbnail": "media/lily-r10/thumbs/f0232.png"
+        },
+        {
+          "frame": 233,
+          "time": 3.8833333333333333,
+          "image": "media/lily-r10/frames/f0233.png",
+          "thumbnail": "media/lily-r10/thumbs/f0233.png"
+        },
+        {
+          "frame": 234,
+          "time": 3.9,
+          "image": "media/lily-r10/frames/f0234.png",
+          "thumbnail": "media/lily-r10/thumbs/f0234.png"
+        },
+        {
+          "frame": 235,
+          "time": 3.9166666666666665,
+          "image": "media/lily-r10/frames/f0235.png",
+          "thumbnail": "media/lily-r10/thumbs/f0235.png"
+        },
+        {
+          "frame": 236,
+          "time": 3.933333333333333,
+          "image": "media/lily-r10/frames/f0236.png",
+          "thumbnail": "media/lily-r10/thumbs/f0236.png"
+        },
+        {
+          "frame": 237,
+          "time": 3.95,
+          "image": "media/lily-r10/frames/f0237.png",
+          "thumbnail": "media/lily-r10/thumbs/f0237.png"
+        },
+        {
+          "frame": 238,
+          "time": 3.966666666666667,
+          "image": "media/lily-r10/frames/f0238.png",
+          "thumbnail": "media/lily-r10/thumbs/f0238.png"
+        },
+        {
+          "frame": 239,
+          "time": 3.9833333333333334,
+          "image": "media/lily-r10/frames/f0239.png",
+          "thumbnail": "media/lily-r10/thumbs/f0239.png"
+        },
+        {
+          "frame": 240,
+          "time": 4,
+          "image": "media/lily-r10/frames/f0240.png",
+          "thumbnail": "media/lily-r10/thumbs/f0240.png"
+        },
+        {
+          "frame": 241,
+          "time": 4.016666666666667,
+          "image": "media/lily-r10/frames/f0241.png",
+          "thumbnail": "media/lily-r10/thumbs/f0241.png"
+        },
+        {
+          "frame": 242,
+          "time": 4.033333333333333,
+          "image": "media/lily-r10/frames/f0242.png",
+          "thumbnail": "media/lily-r10/thumbs/f0242.png"
+        },
+        {
+          "frame": 243,
+          "time": 4.05,
+          "image": "media/lily-r10/frames/f0243.png",
+          "thumbnail": "media/lily-r10/thumbs/f0243.png"
+        },
+        {
+          "frame": 244,
+          "time": 4.066666666666666,
+          "image": "media/lily-r10/frames/f0244.png",
+          "thumbnail": "media/lily-r10/thumbs/f0244.png"
+        },
+        {
+          "frame": 245,
+          "time": 4.083333333333333,
+          "image": "media/lily-r10/frames/f0245.png",
+          "thumbnail": "media/lily-r10/thumbs/f0245.png"
+        },
+        {
+          "frame": 246,
+          "time": 4.1,
+          "image": "media/lily-r10/frames/f0246.png",
+          "thumbnail": "media/lily-r10/thumbs/f0246.png"
+        },
+        {
+          "frame": 247,
+          "time": 4.116666666666666,
+          "image": "media/lily-r10/frames/f0247.png",
+          "thumbnail": "media/lily-r10/thumbs/f0247.png"
+        },
+        {
+          "frame": 248,
+          "time": 4.133333333333334,
+          "image": "media/lily-r10/frames/f0248.png",
+          "thumbnail": "media/lily-r10/thumbs/f0248.png"
+        },
+        {
+          "frame": 249,
+          "time": 4.15,
+          "image": "media/lily-r10/frames/f0249.png",
+          "thumbnail": "media/lily-r10/thumbs/f0249.png"
+        },
+        {
+          "frame": 250,
+          "time": 4.166666666666667,
+          "image": "media/lily-r10/frames/f0250.png",
+          "thumbnail": "media/lily-r10/thumbs/f0250.png"
+        },
+        {
+          "frame": 251,
+          "time": 4.183333333333334,
+          "image": "media/lily-r10/frames/f0251.png",
+          "thumbnail": "media/lily-r10/thumbs/f0251.png"
+        },
+        {
+          "frame": 252,
+          "time": 4.2,
+          "image": "media/lily-r10/frames/f0252.png",
+          "thumbnail": "media/lily-r10/thumbs/f0252.png"
+        },
+        {
+          "frame": 253,
+          "time": 4.216666666666667,
+          "image": "media/lily-r10/frames/f0253.png",
+          "thumbnail": "media/lily-r10/thumbs/f0253.png"
+        },
+        {
+          "frame": 254,
+          "time": 4.233333333333333,
+          "image": "media/lily-r10/frames/f0254.png",
+          "thumbnail": "media/lily-r10/thumbs/f0254.png"
+        },
+        {
+          "frame": 255,
+          "time": 4.25,
+          "image": "media/lily-r10/frames/f0255.png",
+          "thumbnail": "media/lily-r10/thumbs/f0255.png"
+        },
+        {
+          "frame": 256,
+          "time": 4.266666666666667,
+          "image": "media/lily-r10/frames/f0256.png",
+          "thumbnail": "media/lily-r10/thumbs/f0256.png"
+        },
+        {
+          "frame": 257,
+          "time": 4.283333333333333,
+          "image": "media/lily-r10/frames/f0257.png",
+          "thumbnail": "media/lily-r10/thumbs/f0257.png"
+        },
+        {
+          "frame": 258,
+          "time": 4.3,
+          "image": "media/lily-r10/frames/f0258.png",
+          "thumbnail": "media/lily-r10/thumbs/f0258.png"
+        },
+        {
+          "frame": 259,
+          "time": 4.316666666666666,
+          "image": "media/lily-r10/frames/f0259.png",
+          "thumbnail": "media/lily-r10/thumbs/f0259.png"
+        },
+        {
+          "frame": 260,
+          "time": 4.333333333333333,
+          "image": "media/lily-r10/frames/f0260.png",
+          "thumbnail": "media/lily-r10/thumbs/f0260.png"
+        },
+        {
+          "frame": 261,
+          "time": 4.35,
+          "image": "media/lily-r10/frames/f0261.png",
+          "thumbnail": "media/lily-r10/thumbs/f0261.png"
+        },
+        {
+          "frame": 262,
+          "time": 4.366666666666666,
+          "image": "media/lily-r10/frames/f0262.png",
+          "thumbnail": "media/lily-r10/thumbs/f0262.png"
+        },
+        {
+          "frame": 263,
+          "time": 4.383333333333334,
+          "image": "media/lily-r10/frames/f0263.png",
+          "thumbnail": "media/lily-r10/thumbs/f0263.png"
+        },
+        {
+          "frame": 264,
+          "time": 4.4,
+          "image": "media/lily-r10/frames/f0264.png",
+          "thumbnail": "media/lily-r10/thumbs/f0264.png"
+        },
+        {
+          "frame": 265,
+          "time": 4.416666666666667,
+          "image": "media/lily-r10/frames/f0265.png",
+          "thumbnail": "media/lily-r10/thumbs/f0265.png"
+        },
+        {
+          "frame": 266,
+          "time": 4.433333333333334,
+          "image": "media/lily-r10/frames/f0266.png",
+          "thumbnail": "media/lily-r10/thumbs/f0266.png"
+        },
+        {
+          "frame": 267,
+          "time": 4.45,
+          "image": "media/lily-r10/frames/f0267.png",
+          "thumbnail": "media/lily-r10/thumbs/f0267.png"
+        },
+        {
+          "frame": 268,
+          "time": 4.466666666666667,
+          "image": "media/lily-r10/frames/f0268.png",
+          "thumbnail": "media/lily-r10/thumbs/f0268.png"
+        },
+        {
+          "frame": 269,
+          "time": 4.483333333333333,
+          "image": "media/lily-r10/frames/f0269.png",
+          "thumbnail": "media/lily-r10/thumbs/f0269.png"
+        },
+        {
+          "frame": 270,
+          "time": 4.5,
+          "image": "media/lily-r10/frames/f0270.png",
+          "thumbnail": "media/lily-r10/thumbs/f0270.png"
+        },
+        {
+          "frame": 271,
+          "time": 4.516666666666667,
+          "image": "media/lily-r10/frames/f0271.png",
+          "thumbnail": "media/lily-r10/thumbs/f0271.png"
+        },
+        {
+          "frame": 272,
+          "time": 4.533333333333333,
+          "image": "media/lily-r10/frames/f0272.png",
+          "thumbnail": "media/lily-r10/thumbs/f0272.png"
+        },
+        {
+          "frame": 273,
+          "time": 4.55,
+          "image": "media/lily-r10/frames/f0273.png",
+          "thumbnail": "media/lily-r10/thumbs/f0273.png"
+        },
+        {
+          "frame": 274,
+          "time": 4.566666666666666,
+          "image": "media/lily-r10/frames/f0274.png",
+          "thumbnail": "media/lily-r10/thumbs/f0274.png"
+        },
+        {
+          "frame": 275,
+          "time": 4.583333333333333,
+          "image": "media/lily-r10/frames/f0275.png",
+          "thumbnail": "media/lily-r10/thumbs/f0275.png"
+        },
+        {
+          "frame": 276,
+          "time": 4.6,
+          "image": "media/lily-r10/frames/f0276.png",
+          "thumbnail": "media/lily-r10/thumbs/f0276.png"
+        },
+        {
+          "frame": 277,
+          "time": 4.616666666666666,
+          "image": "media/lily-r10/frames/f0277.png",
+          "thumbnail": "media/lily-r10/thumbs/f0277.png"
+        },
+        {
+          "frame": 278,
+          "time": 4.633333333333334,
+          "image": "media/lily-r10/frames/f0278.png",
+          "thumbnail": "media/lily-r10/thumbs/f0278.png"
+        },
+        {
+          "frame": 279,
+          "time": 4.65,
+          "image": "media/lily-r10/frames/f0279.png",
+          "thumbnail": "media/lily-r10/thumbs/f0279.png"
+        },
+        {
+          "frame": 280,
+          "time": 4.666666666666667,
+          "image": "media/lily-r10/frames/f0280.png",
+          "thumbnail": "media/lily-r10/thumbs/f0280.png"
+        },
+        {
+          "frame": 281,
+          "time": 4.683333333333334,
+          "image": "media/lily-r10/frames/f0281.png",
+          "thumbnail": "media/lily-r10/thumbs/f0281.png"
+        },
+        {
+          "frame": 282,
+          "time": 4.7,
+          "image": "media/lily-r10/frames/f0282.png",
+          "thumbnail": "media/lily-r10/thumbs/f0282.png"
+        },
+        {
+          "frame": 283,
+          "time": 4.716666666666667,
+          "image": "media/lily-r10/frames/f0283.png",
+          "thumbnail": "media/lily-r10/thumbs/f0283.png"
+        },
+        {
+          "frame": 284,
+          "time": 4.733333333333333,
+          "image": "media/lily-r10/frames/f0284.png",
+          "thumbnail": "media/lily-r10/thumbs/f0284.png"
+        },
+        {
+          "frame": 285,
+          "time": 4.75,
+          "image": "media/lily-r10/frames/f0285.png",
+          "thumbnail": "media/lily-r10/thumbs/f0285.png"
+        },
+        {
+          "frame": 286,
+          "time": 4.766666666666667,
+          "image": "media/lily-r10/frames/f0286.png",
+          "thumbnail": "media/lily-r10/thumbs/f0286.png"
+        },
+        {
+          "frame": 287,
+          "time": 4.783333333333333,
+          "image": "media/lily-r10/frames/f0287.png",
+          "thumbnail": "media/lily-r10/thumbs/f0287.png"
+        },
+        {
+          "frame": 288,
+          "time": 4.8,
+          "image": "media/lily-r10/frames/f0288.png",
+          "thumbnail": "media/lily-r10/thumbs/f0288.png"
+        },
+        {
+          "frame": 289,
+          "time": 4.816666666666666,
+          "image": "media/lily-r10/frames/f0289.png",
+          "thumbnail": "media/lily-r10/thumbs/f0289.png"
+        },
+        {
+          "frame": 290,
+          "time": 4.833333333333333,
+          "image": "media/lily-r10/frames/f0290.png",
+          "thumbnail": "media/lily-r10/thumbs/f0290.png"
+        },
+        {
+          "frame": 291,
+          "time": 4.85,
+          "image": "media/lily-r10/frames/f0291.png",
+          "thumbnail": "media/lily-r10/thumbs/f0291.png"
+        },
+        {
+          "frame": 292,
+          "time": 4.866666666666666,
+          "image": "media/lily-r10/frames/f0292.png",
+          "thumbnail": "media/lily-r10/thumbs/f0292.png"
+        },
+        {
+          "frame": 293,
+          "time": 4.883333333333334,
+          "image": "media/lily-r10/frames/f0293.png",
+          "thumbnail": "media/lily-r10/thumbs/f0293.png"
+        },
+        {
+          "frame": 294,
+          "time": 4.9,
+          "image": "media/lily-r10/frames/f0294.png",
+          "thumbnail": "media/lily-r10/thumbs/f0294.png"
+        },
+        {
+          "frame": 295,
+          "time": 4.916666666666667,
+          "image": "media/lily-r10/frames/f0295.png",
+          "thumbnail": "media/lily-r10/thumbs/f0295.png"
+        },
+        {
+          "frame": 296,
+          "time": 4.933333333333334,
+          "image": "media/lily-r10/frames/f0296.png",
+          "thumbnail": "media/lily-r10/thumbs/f0296.png"
+        },
+        {
+          "frame": 297,
+          "time": 4.95,
+          "image": "media/lily-r10/frames/f0297.png",
+          "thumbnail": "media/lily-r10/thumbs/f0297.png"
+        },
+        {
+          "frame": 298,
+          "time": 4.966666666666667,
+          "image": "media/lily-r10/frames/f0298.png",
+          "thumbnail": "media/lily-r10/thumbs/f0298.png"
+        },
+        {
+          "frame": 299,
+          "time": 4.983333333333333,
+          "image": "media/lily-r10/frames/f0299.png",
+          "thumbnail": "media/lily-r10/thumbs/f0299.png"
+        },
+        {
+          "frame": 300,
+          "time": 5,
+          "image": "media/lily-r10/frames/f0300.png",
+          "thumbnail": "media/lily-r10/thumbs/f0300.png"
+        },
+        {
+          "frame": 301,
+          "time": 5.016666666666667,
+          "image": "media/lily-r10/frames/f0301.png",
+          "thumbnail": "media/lily-r10/thumbs/f0301.png"
+        },
+        {
+          "frame": 302,
+          "time": 5.033333333333333,
+          "image": "media/lily-r10/frames/f0302.png",
+          "thumbnail": "media/lily-r10/thumbs/f0302.png"
+        },
+        {
+          "frame": 303,
+          "time": 5.05,
+          "image": "media/lily-r10/frames/f0303.png",
+          "thumbnail": "media/lily-r10/thumbs/f0303.png"
+        },
+        {
+          "frame": 304,
+          "time": 5.066666666666666,
+          "image": "media/lily-r10/frames/f0304.png",
+          "thumbnail": "media/lily-r10/thumbs/f0304.png"
+        },
+        {
+          "frame": 305,
+          "time": 5.083333333333333,
+          "image": "media/lily-r10/frames/f0305.png",
+          "thumbnail": "media/lily-r10/thumbs/f0305.png"
+        },
+        {
+          "frame": 306,
+          "time": 5.1,
+          "image": "media/lily-r10/frames/f0306.png",
+          "thumbnail": "media/lily-r10/thumbs/f0306.png"
+        },
+        {
+          "frame": 307,
+          "time": 5.116666666666666,
+          "image": "media/lily-r10/frames/f0307.png",
+          "thumbnail": "media/lily-r10/thumbs/f0307.png"
+        },
+        {
+          "frame": 308,
+          "time": 5.133333333333334,
+          "image": "media/lily-r10/frames/f0308.png",
+          "thumbnail": "media/lily-r10/thumbs/f0308.png"
+        },
+        {
+          "frame": 309,
+          "time": 5.15,
+          "image": "media/lily-r10/frames/f0309.png",
+          "thumbnail": "media/lily-r10/thumbs/f0309.png"
+        },
+        {
+          "frame": 310,
+          "time": 5.166666666666667,
+          "image": "media/lily-r10/frames/f0310.png",
+          "thumbnail": "media/lily-r10/thumbs/f0310.png"
+        },
+        {
+          "frame": 311,
+          "time": 5.183333333333334,
+          "image": "media/lily-r10/frames/f0311.png",
+          "thumbnail": "media/lily-r10/thumbs/f0311.png"
+        },
+        {
+          "frame": 312,
+          "time": 5.2,
+          "image": "media/lily-r10/frames/f0312.png",
+          "thumbnail": "media/lily-r10/thumbs/f0312.png"
+        },
+        {
+          "frame": 313,
+          "time": 5.216666666666667,
+          "image": "media/lily-r10/frames/f0313.png",
+          "thumbnail": "media/lily-r10/thumbs/f0313.png"
+        },
+        {
+          "frame": 314,
+          "time": 5.233333333333333,
+          "image": "media/lily-r10/frames/f0314.png",
+          "thumbnail": "media/lily-r10/thumbs/f0314.png"
+        },
+        {
+          "frame": 315,
+          "time": 5.25,
+          "image": "media/lily-r10/frames/f0315.png",
+          "thumbnail": "media/lily-r10/thumbs/f0315.png"
+        },
+        {
+          "frame": 316,
+          "time": 5.266666666666667,
+          "image": "media/lily-r10/frames/f0316.png",
+          "thumbnail": "media/lily-r10/thumbs/f0316.png"
+        },
+        {
+          "frame": 317,
+          "time": 5.283333333333333,
+          "image": "media/lily-r10/frames/f0317.png",
+          "thumbnail": "media/lily-r10/thumbs/f0317.png"
+        },
+        {
+          "frame": 318,
+          "time": 5.3,
+          "image": "media/lily-r10/frames/f0318.png",
+          "thumbnail": "media/lily-r10/thumbs/f0318.png"
+        },
+        {
+          "frame": 319,
+          "time": 5.316666666666666,
+          "image": "media/lily-r10/frames/f0319.png",
+          "thumbnail": "media/lily-r10/thumbs/f0319.png"
+        },
+        {
+          "frame": 320,
+          "time": 5.333333333333333,
+          "image": "media/lily-r10/frames/f0320.png",
+          "thumbnail": "media/lily-r10/thumbs/f0320.png"
+        },
+        {
+          "frame": 321,
+          "time": 5.35,
+          "image": "media/lily-r10/frames/f0321.png",
+          "thumbnail": "media/lily-r10/thumbs/f0321.png"
+        },
+        {
+          "frame": 322,
+          "time": 5.366666666666666,
+          "image": "media/lily-r10/frames/f0322.png",
+          "thumbnail": "media/lily-r10/thumbs/f0322.png"
+        },
+        {
+          "frame": 323,
+          "time": 5.383333333333334,
+          "image": "media/lily-r10/frames/f0323.png",
+          "thumbnail": "media/lily-r10/thumbs/f0323.png"
+        },
+        {
+          "frame": 324,
+          "time": 5.4,
+          "image": "media/lily-r10/frames/f0324.png",
+          "thumbnail": "media/lily-r10/thumbs/f0324.png"
+        },
+        {
+          "frame": 325,
+          "time": 5.416666666666667,
+          "image": "media/lily-r10/frames/f0325.png",
+          "thumbnail": "media/lily-r10/thumbs/f0325.png"
+        },
+        {
+          "frame": 326,
+          "time": 5.433333333333334,
+          "image": "media/lily-r10/frames/f0326.png",
+          "thumbnail": "media/lily-r10/thumbs/f0326.png"
+        },
+        {
+          "frame": 327,
+          "time": 5.45,
+          "image": "media/lily-r10/frames/f0327.png",
+          "thumbnail": "media/lily-r10/thumbs/f0327.png"
+        },
+        {
+          "frame": 328,
+          "time": 5.466666666666667,
+          "image": "media/lily-r10/frames/f0328.png",
+          "thumbnail": "media/lily-r10/thumbs/f0328.png"
+        },
+        {
+          "frame": 329,
+          "time": 5.483333333333333,
+          "image": "media/lily-r10/frames/f0329.png",
+          "thumbnail": "media/lily-r10/thumbs/f0329.png"
+        },
+        {
+          "frame": 330,
+          "time": 5.5,
+          "image": "media/lily-r10/frames/f0330.png",
+          "thumbnail": "media/lily-r10/thumbs/f0330.png"
+        }
+      ]
+    }
+  ]
+}
