@@ -2,6 +2,461 @@
   "schema": 1,
   "clips": [
     {
+      "id": "lily-dot-south-raw",
+      "revision": "051a0e6606ec24515fea8c77263583d0235adc5d3fd7d355f19b361e0a667448",
+      "title": "도트 정지 · 생성 원본",
+      "status": "생성 원본 · 가공 전 · 사용자 미채택 · 게임 미반입",
+      "notes": "새 캐릭터 시트로 만든 정면 256×256 정지 원본입니다. 화소 수정은 0이며 제작 메타데이터가 없는 열람 사본입니다. PNG 자체에는 재생 시간이 없으므로 움직임 없는 정지 표본으로 표시합니다.",
+      "character": "릴리",
+      "fps": 25,
+      "first": 0,
+      "last": 0,
+      "duration": 0,
+      "width": 256,
+      "height": 256,
+      "frames": [
+        {
+          "frame": 0,
+          "time": 0,
+          "image": "media/lily-dot-south-raw/frames/f0000.png",
+          "thumbnail": "media/lily-dot-south-raw/thumbs/f0000.png"
+        }
+      ],
+      "pixelArt": true
+    },
+    {
+      "id": "lily-dot-south-processed",
+      "revision": "d766160ab78eb14b5c743e73e6ed822d15f92e9acfc52828661e022e2cd5d02a",
+      "title": "도트 정지 · 가공본(24화소 수정)",
+      "character": "릴리",
+      "fps": 25,
+      "first": 0,
+      "last": 0,
+      "duration": 0.0,
+      "width": 256,
+      "height": 256,
+      "status": "Aseprite 가공본 · 사용자 미채택 · 게임 미반입",
+      "notes": "손가락 판 18화소의 색을 갑옷 색으로 정리하고 칼날 옆 5화소와 앞발 옆 1화소를 지웠습니다. 위치·비율·64색은 그대로입니다. 정지 생성 원본과 번갈아 선택하면 같은 크기로 비교할 수 있습니다.",
+      "pixelArt": true,
+      "frames": [
+        {
+          "frame": 0,
+          "time": 0.0,
+          "image": "media/lily-dot-south-processed/frames/f0000.png",
+          "thumbnail": "media/lily-dot-south-processed/frames/f0000.png"
+        }
+      ]
+    },
+    {
+      "id": "lily-dot-motion-reference",
+      "revision": "d3e46a8a44563add0a94b320e66b70daa0d59ce498d48eadc272f7604267daaf",
+      "title": "도트 모션 · 공통 입력 참조 0번",
+      "status": "걷기·뛰기 공통 입력 참조 · 재생 모션 아님 · 게임 미반입",
+      "notes": "두 생성 결과의 0번은 바이트와 화소가 같은 입력 참조입니다. 하나의 정지 참조로 보존하며 걷기·뛰기 1~8번 재생에 끼워 넣지 않았습니다. 원시 PNG에 지속시간이 없는 정지 표본입니다.",
+      "character": "릴리",
+      "fps": 25,
+      "first": 0,
+      "last": 0,
+      "duration": 0,
+      "width": 256,
+      "height": 256,
+      "frames": [
+        {
+          "frame": 0,
+          "time": 0,
+          "image": "media/lily-dot-motion-reference/frames/f0000.png",
+          "thumbnail": "media/lily-dot-motion-reference/thumbs/f0000.png"
+        }
+      ],
+      "pixelArt": true
+    },
+    {
+      "id": "lily-dot-walk-raw",
+      "revision": "d589a659e569c608fc7a084eb3b19c49614e9325d63b55767f70002427560828",
+      "title": "도트 걷기 · 생성 원본",
+      "status": "8프레임 · 원본 시간 미제공 · 사용자 미채택 · 게임 미반입",
+      "notes": "생성 1~8번을 원래 순서와 화소 그대로 보존했습니다. 이 원본 묶음의 화소 수정은 0입니다. 원시 PNG와 공급자 결과에는 fps·지속시간이 없습니다. 25fps 기준 3틱, 프레임당 120ms·총 0.96초는 가공본과 나란히 보기 위한 검수 재생 설정이지 원본 속도가 아닙니다. 0번 입력 참조는 별도 정지 참조에서 봅니다.",
+      "character": "릴리",
+      "fps": 25,
+      "first": 1,
+      "last": 8,
+      "duration": 0.96,
+      "width": 256,
+      "height": 256,
+      "frames": [
+        {
+          "frame": 1,
+          "time": 0.0,
+          "image": "media/lily-dot-walk-raw/frames/f0001.png",
+          "thumbnail": "media/lily-dot-walk-raw/thumbs/f0001.png"
+        },
+        {
+          "frame": 2,
+          "time": 0.12,
+          "image": "media/lily-dot-walk-raw/frames/f0002.png",
+          "thumbnail": "media/lily-dot-walk-raw/thumbs/f0002.png"
+        },
+        {
+          "frame": 3,
+          "time": 0.24,
+          "image": "media/lily-dot-walk-raw/frames/f0003.png",
+          "thumbnail": "media/lily-dot-walk-raw/thumbs/f0003.png"
+        },
+        {
+          "frame": 4,
+          "time": 0.36,
+          "image": "media/lily-dot-walk-raw/frames/f0004.png",
+          "thumbnail": "media/lily-dot-walk-raw/thumbs/f0004.png"
+        },
+        {
+          "frame": 5,
+          "time": 0.48,
+          "image": "media/lily-dot-walk-raw/frames/f0005.png",
+          "thumbnail": "media/lily-dot-walk-raw/thumbs/f0005.png"
+        },
+        {
+          "frame": 6,
+          "time": 0.6,
+          "image": "media/lily-dot-walk-raw/frames/f0006.png",
+          "thumbnail": "media/lily-dot-walk-raw/thumbs/f0006.png"
+        },
+        {
+          "frame": 7,
+          "time": 0.72,
+          "image": "media/lily-dot-walk-raw/frames/f0007.png",
+          "thumbnail": "media/lily-dot-walk-raw/thumbs/f0007.png"
+        },
+        {
+          "frame": 8,
+          "time": 0.84,
+          "image": "media/lily-dot-walk-raw/frames/f0008.png",
+          "thumbnail": "media/lily-dot-walk-raw/thumbs/f0008.png"
+        }
+      ],
+      "pixelArt": true,
+      "holds": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "id": "lily-dot-walk-processed",
+      "revision": "abbef850866f0dd5ea4ba29a2767eca4b4bae74d01da98afbbd1f0420231db03",
+      "title": "도트 걷기 · 가공 사본(화소 수정 0)",
+      "character": "릴리",
+      "fps": 25,
+      "first": 1,
+      "last": 8,
+      "duration": 0.96,
+      "width": 256,
+      "height": 256,
+      "status": "8프레임 · 화소 수정 0 · 사용자 미채택 · 게임 미반입",
+      "notes": "Aseprite 사본에서 생성 1~8번을 순서 그대로 묶었습니다. 검과 방패가 모든 프레임에서 안정적이라 화소는 생성 원본과 같습니다. 프레임당 120ms(25fps 기준 3틱)는 이 사본에 넣은 검수 재생 설정이며 원본이나 게임의 속도가 아닙니다.",
+      "holds": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "pixelArt": true,
+      "frames": [
+        {
+          "frame": 1,
+          "time": 0.0,
+          "image": "media/lily-dot-walk-processed/frames/f0001.png",
+          "thumbnail": "media/lily-dot-walk-processed/frames/f0001.png"
+        },
+        {
+          "frame": 2,
+          "time": 0.12,
+          "image": "media/lily-dot-walk-processed/frames/f0002.png",
+          "thumbnail": "media/lily-dot-walk-processed/frames/f0002.png"
+        },
+        {
+          "frame": 3,
+          "time": 0.24,
+          "image": "media/lily-dot-walk-processed/frames/f0003.png",
+          "thumbnail": "media/lily-dot-walk-processed/frames/f0003.png"
+        },
+        {
+          "frame": 4,
+          "time": 0.36,
+          "image": "media/lily-dot-walk-processed/frames/f0004.png",
+          "thumbnail": "media/lily-dot-walk-processed/frames/f0004.png"
+        },
+        {
+          "frame": 5,
+          "time": 0.48,
+          "image": "media/lily-dot-walk-processed/frames/f0005.png",
+          "thumbnail": "media/lily-dot-walk-processed/frames/f0005.png"
+        },
+        {
+          "frame": 6,
+          "time": 0.6,
+          "image": "media/lily-dot-walk-processed/frames/f0006.png",
+          "thumbnail": "media/lily-dot-walk-processed/frames/f0006.png"
+        },
+        {
+          "frame": 7,
+          "time": 0.72,
+          "image": "media/lily-dot-walk-processed/frames/f0007.png",
+          "thumbnail": "media/lily-dot-walk-processed/frames/f0007.png"
+        },
+        {
+          "frame": 8,
+          "time": 0.84,
+          "image": "media/lily-dot-walk-processed/frames/f0008.png",
+          "thumbnail": "media/lily-dot-walk-processed/frames/f0008.png"
+        }
+      ]
+    },
+    {
+      "id": "lily-dot-run-raw",
+      "revision": "58e2da7de551a0571d9e865260de888c4e3e066a7264d73a5db6d08d3128e2f2",
+      "title": "도트 뛰기 · 생성 원본",
+      "status": "8프레임 · 달리기 판독 미통과 · 사용자 미채택 · 게임 미반입",
+      "notes": "생성 1~8번의 원본입니다. 2~6번 방패가 옆으로 좁아지며 보폭·체공이 걷기와 비슷해 달리기 판독은 미통과입니다. 8번의 서 있는 자세가 반복에서 멈칫할 수 있습니다. 원시 PNG와 공급자 결과에는 fps·지속시간이 없습니다. 25fps 기준 2틱, 프레임당 80ms·총 0.64초는 가공본과 나란히 보기 위한 검수 재생 설정이지 원본 속도가 아닙니다. 원본 프레임을 제외하거나 고치지 않았습니다.",
+      "character": "릴리",
+      "fps": 25,
+      "first": 1,
+      "last": 8,
+      "duration": 0.64,
+      "width": 256,
+      "height": 256,
+      "frames": [
+        {
+          "frame": 1,
+          "time": 0.0,
+          "image": "media/lily-dot-run-raw/frames/f0001.png",
+          "thumbnail": "media/lily-dot-run-raw/thumbs/f0001.png"
+        },
+        {
+          "frame": 2,
+          "time": 0.08,
+          "image": "media/lily-dot-run-raw/frames/f0002.png",
+          "thumbnail": "media/lily-dot-run-raw/thumbs/f0002.png"
+        },
+        {
+          "frame": 3,
+          "time": 0.16,
+          "image": "media/lily-dot-run-raw/frames/f0003.png",
+          "thumbnail": "media/lily-dot-run-raw/thumbs/f0003.png"
+        },
+        {
+          "frame": 4,
+          "time": 0.24,
+          "image": "media/lily-dot-run-raw/frames/f0004.png",
+          "thumbnail": "media/lily-dot-run-raw/thumbs/f0004.png"
+        },
+        {
+          "frame": 5,
+          "time": 0.32,
+          "image": "media/lily-dot-run-raw/frames/f0005.png",
+          "thumbnail": "media/lily-dot-run-raw/thumbs/f0005.png"
+        },
+        {
+          "frame": 6,
+          "time": 0.4,
+          "image": "media/lily-dot-run-raw/frames/f0006.png",
+          "thumbnail": "media/lily-dot-run-raw/thumbs/f0006.png"
+        },
+        {
+          "frame": 7,
+          "time": 0.48,
+          "image": "media/lily-dot-run-raw/frames/f0007.png",
+          "thumbnail": "media/lily-dot-run-raw/thumbs/f0007.png"
+        },
+        {
+          "frame": 8,
+          "time": 0.56,
+          "image": "media/lily-dot-run-raw/frames/f0008.png",
+          "thumbnail": "media/lily-dot-run-raw/thumbs/f0008.png"
+        }
+      ],
+      "pixelArt": true,
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "references": [
+        {
+          "label": "방패 전후 비교판 · 윗줄 생성 원본 · 아랫줄 가공본 · 2배",
+          "href": "media/lily-dot-run-processed/reference/shield-before-after-2x.png"
+        }
+      ]
+    },
+    {
+      "id": "lily-dot-run-processed",
+      "revision": "fd081f10d2da74f4dc320bee580f961710467b061ad4fc32e3492316c5fe39b9",
+      "title": "도트 뛰기 · 방패 가공본",
+      "character": "릴리",
+      "fps": 25,
+      "first": 1,
+      "last": 8,
+      "duration": 0.64,
+      "width": 256,
+      "height": 256,
+      "status": "8프레임 · 달리기 판독 미통과 · 사용자 미채택 · 게임 미반입",
+      "notes": "2~6번 방패만 입력 정면의 방패로 바꿨고 팔·몸통·다리·머리카락·검은 생성 그대로입니다. 보폭과 체공이 걷기와 비슷해 달리기로 읽히지 않습니다. 8번을 제외하면 왼쪽 원본(1~8번)과 오른쪽 검수안(1~7번)을 나란히 비교할 수 있습니다. 프레임당 80ms(25fps 기준 2틱)는 검수 재생 설정입니다.",
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "pixelArt": true,
+      "references": [
+        {
+          "label": "방패 전후 비교판 · 윗줄 생성 원본 · 아랫줄 가공본 · 2배",
+          "href": "media/lily-dot-run-processed/reference/shield-before-after-2x.png"
+        }
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "time": 0.0,
+          "image": "media/lily-dot-run-processed/frames/f0001.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0001.png"
+        },
+        {
+          "frame": 2,
+          "time": 0.08,
+          "image": "media/lily-dot-run-processed/frames/f0002.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0002.png"
+        },
+        {
+          "frame": 3,
+          "time": 0.16,
+          "image": "media/lily-dot-run-processed/frames/f0003.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0003.png"
+        },
+        {
+          "frame": 4,
+          "time": 0.24,
+          "image": "media/lily-dot-run-processed/frames/f0004.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0004.png"
+        },
+        {
+          "frame": 5,
+          "time": 0.32,
+          "image": "media/lily-dot-run-processed/frames/f0005.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0005.png"
+        },
+        {
+          "frame": 6,
+          "time": 0.4,
+          "image": "media/lily-dot-run-processed/frames/f0006.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0006.png"
+        },
+        {
+          "frame": 7,
+          "time": 0.48,
+          "image": "media/lily-dot-run-processed/frames/f0007.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0007.png"
+        },
+        {
+          "frame": 8,
+          "time": 0.56,
+          "image": "media/lily-dot-run-processed/frames/f0008.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0008.png"
+        }
+      ]
+    },
+    {
+      "id": "lily-dot-run-processed-1to7",
+      "revision": "c326ef22bc1694687334c6ed4bcd6ab8c8231c34f1c914a42062241799d10ef8",
+      "title": "도트 뛰기 · 가공본 1~7번 반복",
+      "character": "릴리",
+      "fps": 25,
+      "first": 1,
+      "last": 7,
+      "duration": 0.56,
+      "width": 256,
+      "height": 256,
+      "status": "7프레임 · 반복 비교용 · 달리기 판독 미통과 · 게임 미반입",
+      "notes": "가공본에서 서 있는 자세인 8번만 뺀 비교본입니다. 화소는 가공본과 같습니다. 반복 재생을 켜고 가공본 클립과 번갈아 보며 멈칫함을 비교해 주세요. 프레임당 80ms는 검수 재생 설정입니다.",
+      "holds": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "pixelArt": true,
+      "references": [
+        {
+          "label": "방패 전후 비교판 · 윗줄 생성 원본 · 아랫줄 가공본 · 2배",
+          "href": "media/lily-dot-run-processed/reference/shield-before-after-2x.png"
+        }
+      ],
+      "frames": [
+        {
+          "frame": 1,
+          "time": 0.0,
+          "image": "media/lily-dot-run-processed/frames/f0001.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0001.png"
+        },
+        {
+          "frame": 2,
+          "time": 0.08,
+          "image": "media/lily-dot-run-processed/frames/f0002.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0002.png"
+        },
+        {
+          "frame": 3,
+          "time": 0.16,
+          "image": "media/lily-dot-run-processed/frames/f0003.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0003.png"
+        },
+        {
+          "frame": 4,
+          "time": 0.24,
+          "image": "media/lily-dot-run-processed/frames/f0004.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0004.png"
+        },
+        {
+          "frame": 5,
+          "time": 0.32,
+          "image": "media/lily-dot-run-processed/frames/f0005.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0005.png"
+        },
+        {
+          "frame": 6,
+          "time": 0.4,
+          "image": "media/lily-dot-run-processed/frames/f0006.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0006.png"
+        },
+        {
+          "frame": 7,
+          "time": 0.48,
+          "image": "media/lily-dot-run-processed/frames/f0007.png",
+          "thumbnail": "media/lily-dot-run-processed/frames/f0007.png"
+        }
+      ]
+    },
+    {
       "id": "lily-r06-before",
       "revision": "81f2cf3a3deb0ab7193636366236382e0b4f7d675f4edbdd223671087d6b801f",
       "title": "릴리 수정 전 · 이동·회전·정지",

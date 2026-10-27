@@ -65,6 +65,8 @@ function draw(view, frame) {
     if (token !== progress.token) return;
     context.clearRect(0, 0, canvas.width, canvas.height);
     const zoom = Number($('zoom').value);
+    // 도트 클립은 확대할 때도 화소를 섞지 않도록 최근접으로 그린다.
+    context.imageSmoothingEnabled = !clip.pixelArt;
     context.drawImage(image, canvas.width * (1 - zoom) / 2, canvas.height * (1 - zoom) / 2,
       canvas.width * zoom, canvas.height * zoom);
     notice.hidden = true;
@@ -192,17 +194,35 @@ function update() {
   drawState.original.key = null; drawState.edited.key = null;
   markRange(); renderClips(); paint();
 }
+function frameTiming(row) {
+  if (row.frames.length === 1) return '정지 1장';
+  if (!row.holds) return `원본 ${row.fps}fps`;
+  const values = [...new Set(row.holds)];
+  return values.length === 1 ? `프레임당 ${Math.round(values[0] * 1000 / row.fps)}ms` : '프레임별 원래 시간';
+}
+function renderLinks() {
+  const links = $('clip-links'); links.replaceChildren();
+  for (const item of clip.references || []) {
+    const link = document.createElement('a'); link.href = item.href; link.textContent = item.label;
+    link.target = '_blank'; link.rel = 'noopener'; links.append(link);
+  }
+  links.hidden = links.childElementCount === 0;
+}
 function selectClip(id) {
   stop(); clip = clips.find(row => row.id === id); frameMap = new Map(clip.frames.map(row => [row.frame, row]));
   reviews[id] ||= createReview(clip);
   originalTimeline = buildTimeline(clip, createReview(clip));
   activeFrame = clip.first; anchorFrame = clip.first; currentTime = 0; images.clear();
-  for (const view of ['original', 'edited']) { $(view).width = clip.width; $(view).height = clip.height; drawState[view].token++; drawState[view].key = null; }
+  for (const view of ['original', 'edited']) { $(view).width = clip.width; $(view).height = clip.height; $(view).classList.toggle('pixel-art', Boolean(clip.pixelArt)); drawState[view].token++; drawState[view].key = null; }
+  $('frames').classList.toggle('pixel-art', Boolean(clip.pixelArt));
   $('clip-title').textContent = clip.title;
-  $('clip-facts').textContent = `${clip.character} · 원본 ${clip.fps}fps · ${clip.first}~${clip.last}번 · ${clip.frames.length}표본 · ${seconds(clip.duration)}`;
+  $('clip-facts').textContent = `${clip.character} · ${frameTiming(clip)} · ${clip.first}~${clip.last}번 · ${clip.frames.length}표본 · ${seconds(clip.duration)}`;
   $('clip-status').textContent = `${clip.status}${clip.notes ? ' · ' + clip.notes : ''}`;
+  renderLinks();
   $('original-count').textContent = `${clip.frames.length}표본 · ${seconds(clip.duration)}`;
-  $('timing-help').textContent = `유지 1틱 = 1/${clip.fps}초입니다. 끝 표본의 기본값은 0틱이며 원본 재생은 ${seconds(clip.duration)}에 끝 표본을 표시하고 멈춥니다. 추가 유지 시간은 검수안에만 적용합니다.`;
+  $('timing-help').textContent = clip.holds
+    ? `유지 1틱 = 1/${clip.fps}초입니다. 원본은 끝 표본까지 프레임마다 원래 시간만큼 보여 주며, 반복 재생을 켜면 처음 프레임으로 이어집니다. 추가 유지 시간은 검수안에만 적용합니다.`
+    : `유지 1틱 = 1/${clip.fps}초입니다. 끝 표본의 기본값은 0틱이며 원본 재생은 ${seconds(clip.duration)}에 끝 표본을 표시하고 멈춥니다. 추가 유지 시간은 검수안에만 적용합니다.`;
   for (const id of ['range-start', 'range-end']) { $(id).min = clip.first; $(id).max = clip.last; }
   $('range-start').value = clip.first; $('range-end').value = clip.last; $('interval').max = clip.frames.length;
   renderFrames(); update();
@@ -273,6 +293,10 @@ async function start() {
       for (const frame of row.frames) for (const field of ['image', 'thumbnail']) {
         const url = new URL(frame[field], location.href);
         if (url.origin !== location.origin || !['http:', 'https:'].includes(url.protocol)) throw new Error('동작 이미지 주소가 같은 사이트의 자료가 아닙니다.');
+      }
+      for (const item of row.references || []) {
+        const url = new URL(item.href, location.href);
+        if (url.origin !== location.origin || !['http:', 'https:'].includes(url.protocol)) throw new Error('참고 그림 주소가 같은 사이트의 자료가 아닙니다.');
       }
     }
     try { const saved = localStorage.getItem(storageKey); if (saved) reviews = { ...reviews, ...parseReviews(clips, saved) }; }

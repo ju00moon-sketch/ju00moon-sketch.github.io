@@ -39,6 +39,8 @@ p { margin:0 0 10px; } label { display:block; }
 .clip-heading { border-bottom:1px solid var(--border); margin-bottom:14px; padding-bottom:8px; }
 .clip-heading p { overflow-wrap:anywhere; font-size:13px; }
 .warning { color:#f1c482; }
+.clip-links { display:flex; flex-wrap:wrap; gap:0 16px; margin:0; }
+.clip-links a { display:inline-flex; align-items:center; min-height:44px; }
 .work-columns { display:grid; grid-template-columns:minmax(280px,.85fr) minmax(400px,1.15fr); gap:18px; align-items:start; }
 .previews { position:sticky; top:12px; min-width:0; }
 figure { margin:0 0 14px; border:1px solid var(--border); border-radius:3px; overflow:hidden; }
@@ -47,6 +49,8 @@ figcaption span { color:var(--muted); font-size:12px; }
 /* 투명 픽셀과 의상 경계를 구분하기 위한 작업용 체크 배경이다. */
 .stage { position:relative; display:grid; place-items:center; background-color:#303741; background-image:conic-gradient(#39414d 25%,transparent 0 50%,#39414d 0 75%,transparent 0); background-size:20px 20px; }
 canvas { width:100%; height:auto; max-height:31vh; object-fit:contain; display:block; }
+/* 도트 클립은 화면 크기에 맞춰 늘어날 때도 화소를 섞지 않는다. */
+canvas.pixel-art,.frames.pixel-art img { image-rendering:pixelated; }
 .stage-error { position:absolute; inset:0; display:grid; place-items:center; padding:20px; background:#19212ae8; text-align:center; }
 .frame-caption { margin:0; padding:6px 10px; min-height:32px; color:var(--muted); font-variant-numeric:tabular-nums; }
 .editor { min-width:0; }

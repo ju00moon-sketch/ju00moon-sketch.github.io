@@ -13,12 +13,12 @@ const MIN_SPEED = 0.25;
 const MAX_SPEED = 4;
 const MAX_NOTE = 8000;
 
-// 기본 검수안입니다. 전부 남김, 끝이 아닌 표본은 1틱, 끝 표본은 0틱, 배속 1, compress, 빈 메모, 미완료입니다.
-// 이 검수안의 시간축이 원본 시간축이며(첫 표본 0초부터 끝 표본 duration초), 화면은 원본 재생에 이 시간축을 따로 씁니다.
+// 기본 검수안입니다. 전부 남김, 표본마다 클립의 원래 유지 틱, 배속 1, compress, 빈 메모, 미완료입니다.
+// 원래 유지 틱은 클립의 holds이며, holds가 없는 클립은 끝이 아닌 표본 1틱·끝 표본 0틱입니다.
+// 이 검수안의 시간축이 원본 시간축이며(첫 표본 0초부터 duration초), 화면은 원본 재생에 이 시간축을 따로 씁니다.
 export function createReview(clip) {
   const info = requireClip(clip);
-  const holds = new Array(info.count).fill(1);
-  holds[info.count - 1] = 0;
+  const holds = info.base.slice();
   return {
     revision: info.revision,
     keep: new Array(info.count).fill(true),
@@ -39,8 +39,8 @@ export function validateReview(clip, value) {
 
 // 검수안의 재생 시간축입니다. 시간 단위는 배속 적용 전 초이며 화면이 원본과 검수안 재생 시계에 같은 speed를 적용합니다.
 // segments는 남긴 표본마다 하나씩 frames 순서이고, 각 구간은 [start, end)입니다. 끝 표본 0틱은 start === end인 구간입니다.
-// compress는 남긴 표본의 틱만 잇습니다. preserve는 제외한 표본의 원본 구간(끝이 아닌 표본 1틱, 끝 표본 0틱)을 직전에 남긴 표본에,
-// 첫 남긴 표본 앞의 제외 구간은 그 첫 표본에 더합니다. 제외한 표본의 수정 holds는 쓰지 않습니다.
+// compress는 남긴 표본의 틱만 잇습니다. preserve는 제외한 표본의 원래 유지 틱(클립 holds, 없으면 끝이 아닌 표본 1틱·끝 표본 0틱)을
+// 직전에 남긴 표본에, 첫 남긴 표본 앞의 제외 구간은 그 첫 표본에 더합니다. 제외한 표본의 수정 holds는 쓰지 않습니다.
 // 전부 제외하면 { segments: [], duration: 0, finalFrame: null }입니다. 잘못된 검수안은 code invalid_review를 던집니다.
 export function buildTimeline(clip, review) {
   const info = requireClip(clip);
@@ -53,7 +53,7 @@ export function buildTimeline(clip, review) {
   let total = 0;
   let leading = 0;
   for (let index = 0; index < info.count; index += 1) {
-    const original = index === info.count - 1 ? 0 : 1;
+    const original = info.base[index];
     if (review.keep[index]) {
       const length = review.holds[index] + (ticks.length === 0 ? leading : 0);
       ticks.push({ frame: info.frames[index], start: total, end: total + length });
@@ -174,19 +174,24 @@ export function parseReviews(clips, text) {
   return Object.fromEntries(loaded);
 }
 
-// 클립에서 이 모듈이 쓰는 값만 검사해 꺼냅니다. frames는 first부터 last까지 빠짐없는 연속 frame이고,
-// duration은 (last - first) / fps입니다(새 릴리 60fps·0~330·331표본·5.5초).
+// 클립에서 이 모듈이 쓰는 값만 검사해 꺼냅니다. frames는 first부터 last까지 빠짐없는 연속 frame입니다.
+// holds가 없으면 duration은 (last - first) / fps입니다(새 릴리 60fps·0~330·331표본·5.5초).
+// holds(선택)는 표본별 원래 유지 틱(각각 1 이상의 정수)이며 duration은 holds 합 / fps입니다. 도트처럼 프레임마다 정해진 시간을 두고 끝 표본도 보여야 할 때 씁니다.
 function requireClip(clip) {
   const problem = clipProblem(clip);
   if (problem !== '') {
     throw stateError('invalid_clip', problem);
   }
+  const count = clip.frames.length;
   return {
     id: clip.id,
     revision: clip.revision,
     fps: clip.fps,
-    count: clip.frames.length,
+    count,
     frames: clip.frames.map((item) => item.frame),
+    base: clip.holds === undefined
+      ? Array.from({ length: count }, (_, index) => (index === count - 1 ? 0 : 1))
+      : clip.holds.slice(),
   };
 }
 
@@ -211,6 +216,23 @@ function clipProblem(clip) {
     if (!isPlainObject(item) || item.frame !== clip.first + index) {
       return `${clip.id}: frames[${index}]가 연속 frame ${clip.first + index}이 아닙니다.`;
     }
+  }
+  if (clip.holds !== undefined) {
+    if (!Array.isArray(clip.holds) || clip.holds.length !== clip.frames.length) {
+      return `${clip.id}: holds는 표본 수와 같은 길이의 배열이어야 합니다.`;
+    }
+    for (let index = 0; index < clip.holds.length; index += 1) {
+      const hold = clip.holds[index];
+      if (!Number.isInteger(hold) || hold < 1 || hold > MAX_HOLD) {
+        return `${clip.id}: holds[${index}]는 1~${MAX_HOLD} 정수 틱이어야 합니다.`;
+      }
+    }
+    const ticks = clip.holds.reduce((sum, hold) => sum + hold, 0);
+    if (typeof clip.duration !== 'number' || !Number.isFinite(clip.duration)
+      || Math.abs(clip.duration - ticks / clip.fps) > 1e-9) {
+      return `${clip.id}: duration이 holds 합 / fps와 다릅니다.`;
+    }
+    return '';
   }
   if (typeof clip.duration !== 'number' || !Number.isFinite(clip.duration)
     || Math.abs(clip.duration - (clip.last - clip.first) / clip.fps) > 1e-9) {

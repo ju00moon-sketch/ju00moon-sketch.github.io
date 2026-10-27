@@ -24,12 +24,12 @@
     <p class="scope">선택과 메모는 이 브라우저에 임시 저장됩니다. 전달·백업하려면 검수안 파일을 저장해 주세요. 원본 동작은 바뀌지 않습니다.</p>
   </aside>
   <main id="workspace" tabindex="-1">
-    <div class="clip-heading"><h2 id="clip-title"></h2><p id="clip-facts"></p><p id="clip-status" class="warning"></p></div>
+    <div class="clip-heading"><h2 id="clip-title"></h2><p id="clip-facts"></p><p id="clip-status" class="warning"></p><p id="clip-links" class="clip-links" hidden></p></div>
     <div class="work-columns">
       <section class="previews" aria-label="원본과 검수안 비교">
         <figure><figcaption><strong>전체 원본</strong><span id="original-count"></span></figcaption><div class="stage"><canvas id="original" width="768" height="768" aria-label="전체 원본의 현재 프레임"></canvas><p class="stage-error" id="original-error" hidden></p></div><p id="original-frame" class="frame-caption"></p></figure>
         <figure><figcaption><strong>검수안</strong><span id="edited-count"></span></figcaption><div class="stage"><canvas id="edited" width="768" height="768" aria-label="선택한 프레임의 현재 재생"></canvas><p class="stage-error" id="edited-error" hidden></p></div><p id="edited-frame" class="frame-caption"></p></figure>
-        <p class="scope">같은 배율·같은 재생 시계로 비교합니다. 짧은 쪽은 마지막 프레임에서 멈춥니다. 프레임 이미지는 실제 촬영본이며 원본 3D 모델을 바꾸지 않습니다.</p>
+        <p class="scope">같은 배율·같은 재생 시계로 비교합니다. 짧은 쪽은 마지막 프레임에서 멈춥니다. 프레임 이미지는 실제 촬영본 또는 도트 원본 화소이며, 검수안은 원본 모델이나 그림을 바꾸지 않습니다.</p>
       </section>
       <section class="editor" aria-label="프레임 선택과 검토">
         <div class="transport">
